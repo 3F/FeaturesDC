@@ -1,0 +1,205 @@
+= Compiling DC++
+
+
+1.	Application and Dependency versions needed
+
+		Some tools can be found on <http://sourceforge.net/projects/dcplusplus/files/Dev/>,
+		although I recommend getting them directly from their hosts.
+
+		* A modern C++ compiler. I am currently using these 2 packages by the MinGW-w64 project:
+		- 64-bit: <http://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win64/Personal%20Builds/mingw-builds/4.8.1/threads-win32/seh/>
+		- 32-bit: <http://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win32/Personal%20Builds/mingw-builds/4.8.1/threads-win32/dwarf/>
+
+		Make sure that the compiler's "bin" directory is in your PATH environment variable.
+
+		Have a look at section 2 for additional steps to configure the compiler.
+		Have a look at section 4 for alternative compilers.
+
+		* Python - 2.5.x
+		<http://www.python.org>
+
+		Note: Python 3.x is incompatible with SCons as of writing this.
+		Make sure that Python is in your PATH environment variable.
+
+		* SCons - 0.98.5 but using the most recent version is recommended
+		<http://www.scons.org/download.php>
+
+		Note: SCons relies on Python so you need to have Python installed first.
+		Make sure that SCons is in your PATH environment variable.
+
+		* Perl - 5.12.0.1 (from MSYS, Cygwin or ActivePerl; only needed to build help files)
+		<http://www.perl.org/get.html>
+
+		Make sure that Perl is in your PATH environment variable.
+
+		* gettext runtime & tools - 0.17 or later
+		<http://ftp.gnome.org/pub/gnome/binaries/win32/dependencies/>
+
+		Make sure that the gettext tools are in your PATH environment variable.
+
+		* Html Help Workshop (only needed to build help files)
+		<http://msdn.microsoft.com/en-us/library/ms669985%28VS.85%29.aspx>
+
+		Make sure that hhc.exe is in your PATH environment variable.
+
+		* asciidoc (only needed to build help files)
+		<http://www.methods.co.nz/asciidoc/>
+
+		Make sure that asciidoc is in your PATH environment variable.
+
+		* Unicode NSIS (only needed to build the installer)
+		<http://code.google.com/p/unsis/>
+
+		Make sure that makensis.exe is in your PATH environment variable.
+		Make sure that you are using the Unicode version of the installer builder.
+
+		* zip (from MSYS or Cygwin; only needed to build the official distro)
+
+		Make sure that zip is in your PATH environment variable.
+
+
+2. Specific configuration of the compiler
+
+	a. HTML Help support (only for MinGW)
+
+		To build a version with HTML Help support, copy the following files from a Windows SDK
+		(Windows SDK path -> DC++ source code path):
+		Include/shared/winapifamily.h -> mingw/include/winapifamily.h
+		Include/um/HtmlHelp.h -> mingw/include/htmlhelp.h
+		Lib/win8/um/x86/Htmlhelp.Lib -> mingw/lib/htmlhelp.lib
+		Lib/win8/um/x64/Htmlhelp.Lib -> mingw/lib/x64/htmlhelp.lib
+
+		The latest Windows SDK is currently at
+		<http://msdn.microsoft.com/en-US/windows/desktop/hh852363>; it installs into
+		"C:\Program Files (x86)\Windows Kits\8.0".
+
+	b. OpenSSL (only for Visual Studio)
+
+		Download OpenSSL from www.openssl.org and compile it. You should get libraries called
+		libeay32.lib and ssleay32.lib; copy them in openssl/lib.
+
+		To compile DC++ in debug mode, OpenSSL libraries have to be compiled in debug mode too
+		(read their instructions file; it's a matter of adding "debug" in the do_* file you use).
+		Rename debug libraries to libeay32d.lib and ssleay32d.lib; put them in openssl/lib.
+
+		You may also ask around in the DCDev hub; someone might have already built a package.
+
+
+3. Starting the build process
+
+	Open a command prompt and type "scons" followed by some options:
+
+		"tools=mingw" - Use mingw for building (default)
+		"tools=default" - Use msvc for building (yes, the option value is strange)
+		"mode=debug" - Compile a debug build (default)
+		"mode=release" - Compile an optimized release build
+		"arch=x64" - Compile a 64-bit build
+
+		To see more options, type "scons -h".
+
+		Tip: You can create a file custom.py and put your options in there.
+
+		You can choose which targets to build; eg:
+		  scons build/debug-mingw/dwt
+		will only build DWT with MinGW in debug mode. By default, when no target is specified, SCons builds all targets.
+		For more possible arguments, consult the SCons manual.
+
+		If you have problems, use google. It works for me.
+
+
+4. Alternative compilers
+
+	a. Various versions of MinGW (GCC 4.8 or later):
+	<http://sourceforge.net/projects/mingw-w64/files/>
+	<http://sourceforge.net/projects/mingw/files/>
+
+		We recommend using compilers from the MinGW-w64 project. All you have to do to use one is
+		download it and extract it.
+		Prefer DWARF versions (usually marked with a "-dw") of 32-bit compilers; SJLJ ones should
+		be avoided for performance reasons.
+
+		I am currently using these 2 packages by the MinGW-w64 project:
+		- 64-bit: <http://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win64/Personal%20Builds/mingw-builds/4.8.1/threads-win32/seh/>
+		- 32-bit: <http://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win32/Personal%20Builds/mingw-builds/4.8.1/threads-win32/dwarf/>
+
+		To install compilers from regular MinGW (not MinGW-w64), the easiest way is to use
+		mingw-get. Extract it to C:\MinGW and run:
+			mingw-get install gcc g++
+		A graphical installer around mingw-get is also available to facilitate the above.
+		Note that building DC++ with MinGW (not MinGW-w64) is not often tested and may lead to
+		stability issues.
+
+		Make sure that MinGW\bin is in your PATH environment variable.
+
+		Alternatively, if you have Cygwin, a MinGW compiler can be installed as part of Cygwin:
+		select it in the "Devel" category when running the Cygwin installer.
+		To make DC++ use it, add "prefix=i686-pc-mingw32-" to the scons arguments or create a
+		custom.py file containing:
+			prefix='i686-pc-mingw32-'
+		Make sure that Cygwin\bin is in your PATH environment variable.
+		Note that building with MinGW compilers provided by Cygwin is not often tested.
+
+	b. Microsoft Visual Studio 2012:
+	<http://msdn.microsoft.com/en-us/visualc/default.aspx>
+
+		Make sure VS is up-to-date; in particular, you will need the Nov 2012 CTP from
+		<http://www.microsoft.com/en-us/download/details.aspx?id=35515>. Use the patch in
+		msvc/nov2012ctp.patch to patch your VC/vcvarsall.bat file to make use of it (if you
+		generate project files and compile from the VS GUI, that won't be necessary).
+
+		To generate project files for MSVC, run "scons" with "msvcproj=1" and "tools=default".
+		The resulting solution file (DCPlusPlus.sln) will be in msvc/[mode-arch]/.
+
+
+5.  Other information and submitting patches
+
+		a. With doxygen, graphviz and some luck, you can use the supplied doxygen configuration
+		file to generate some nice docs. Just check that the paths in the doxyfile are correct.
+
+		b. In the event you experience crashing you can check the howto guide for debugging
+		at <https://answers.launchpad.net/dcplusplus/+faq/337>
+
+		Note that DCPlusPlus.exe is stripped by default when it has been built with MinGW;
+		debugging symbols instead reside in DCPlusPlus.pdb. To get GDB to swallow it, start it with
+		the following command:
+			gdb -e DCPlusPlus.exe -s DCPlusPlus.pdb
+
+		c. Linux / Unix:
+
+			Look at <http://launchpad.net/linuxdcpp> for the *nix port of DC++ - they'll gladly accept any help. 	
+
+		d. Submitting patches
+
+			If you think you've done something that more people could use, you can always submit a
+			patch for inclusion in the original distribution. I will then consider whether I like
+			the patch or not based on things that might seem to be completely random, which just
+			might be the case. Popular reasons for rejecting a patch include, but are not limited
+			to, ugly code, abusable features, features that I don't like that bloat the application
+			and incompatibility with other modifications I've already done.
+
+			To increase the chances of your patch being accepted, do it like this:
+			1) Check out the latest code from BZR (see <https://code.launchpad.net/dcplusplus> for instructions)
+			2) Make your modification. If you make other modifications apart from the one you want to submit, do them
+			   on a separate copy of the DC++ source code and then copy them to this folder.
+			3) In the source root folder (the one with this file in it) do "bzr diff > my-patch.diff". In alternative,
+			   commit to your local branch and send a merge instruction using bzr send. See a bzr howto for detailed instructions.
+			4) Open a bug at https://bugs.launchpad.net/dcplusplus and attach your patch. If this doesn't suit you, 
+			   send the patch along with a description to the dcplusplus-devel mailing list (more information here: 
+			   <http://sourceforge.net/mail/?group_id=40287>). Please make sure to include a copyright handover notice (see below).
+
+
+		e. Licensing issues with submitted patches	
+
+			In order to avoid future licensing issues, I ask you to give me copyright over any submitted code. 
+			If you don't like this policy, you are free to start your own distribution (as
+			many have done), and if you're lucky it might become more popular than the original =). Please
+			state explicitly when submitting the patch that you give me copyright over the code if the submission is larger 
+			than trivial.
+
+		f. Developing plugins
+
+			The DC plugin SDK is at <https://launchpad.net/dc-plugin-sdk>.
+
+			See dcpp/Plugin* files for implementation details.
+
+			The "Plugin format (dcext).txt" document describes the way plugins are packaged.
