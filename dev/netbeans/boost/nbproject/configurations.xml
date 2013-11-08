@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="90">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="f1" displayName="atomic" projectFiles="true">
+      <itemPath>../../../boost/libs/atomic/src/lockpool.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="f2" displayName="filesystem" projectFiles="true">
+      <itemPath>../../../boost/libs/filesystem/src/codecvt_error_category.cpp</itemPath>
+      <itemPath>../../../boost/libs/filesystem/src/operations.cpp</itemPath>
+      <itemPath>../../../boost/libs/filesystem/src/path.cpp</itemPath>
+      <itemPath>../../../boost/libs/filesystem/src/path_traits.cpp</itemPath>
+      <itemPath>../../../boost/libs/filesystem/src/portability.cpp</itemPath>
+      <itemPath>../../../boost/libs/filesystem/src/unique_path.cpp</itemPath>
+      <itemPath>../../../boost/libs/filesystem/src/utf8_codecvt_facet.cpp</itemPath>
+      <itemPath>../../../boost/libs/filesystem/src/windows_file_codecvt.cpp</itemPath>
+      <itemPath>../../../boost/libs/filesystem/src/windows_file_codecvt.hpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="f3" displayName="regex" projectFiles="true">
+      <itemPath>../../../boost/libs/regex/src/c_regex_traits.cpp</itemPath>
+      <itemPath>../../../boost/libs/regex/src/cpp_regex_traits.cpp</itemPath>
+      <itemPath>../../../boost/libs/regex/src/cregex.cpp</itemPath>
+      <itemPath>../../../boost/libs/regex/src/fileiter.cpp</itemPath>
+      <itemPath>../../../boost/libs/regex/src/icu.cpp</itemPath>
+      <itemPath>../../../boost/libs/regex/src/instances.cpp</itemPath>
+      <itemPath>../../../boost/libs/regex/src/internals.hpp</itemPath>
+      <itemPath>../../../boost/libs/regex/src/posix_api.cpp</itemPath>
+      <itemPath>../../../boost/libs/regex/src/regex.cpp</itemPath>
+      <itemPath>../../../boost/libs/regex/src/regex_debug.cpp</itemPath>
+      <itemPath>../../../boost/libs/regex/src/regex_raw_buffer.cpp</itemPath>
+      <itemPath>../../../boost/libs/regex/src/regex_traits_defaults.cpp</itemPath>
+      <itemPath>../../../boost/libs/regex/src/static_mutex.cpp</itemPath>
+      <itemPath>../../../boost/libs/regex/src/usinstances.cpp</itemPath>
+      <itemPath>../../../boost/libs/regex/src/w32_regex_traits.cpp</itemPath>
+      <itemPath>../../../boost/libs/regex/src/wc_regex_traits.cpp</itemPath>
+      <itemPath>../../../boost/libs/regex/src/wide_posix_api.cpp</itemPath>
+      <itemPath>../../../boost/libs/regex/src/winstances.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="f4" displayName="system" projectFiles="true">
+      <itemPath>../../../boost/libs/system/src/error_code.cpp</itemPath>
+      <itemPath>../../../boost/libs/system/src/local_free_on_destruction.hpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>../../../boost</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug_x32_-_i686_generic" type="3">
+      <toolsSet>
+        <compilerSet>MinGW_w64_-_x32-dwarf_-_4.8.1-rev5|MinGW</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <standard>8</standard>
+          <incDir>
+            <pElem>../../../</pElem>
+            <pElem>../../../mingw/preload</pElem>
+            <pElem>../../../mingw/include</pElem>
+            <pElem>../../../boost</pElem>
+          </incDir>
+          <commandLine>-march=i686 -mtune=generic -std=gnu++11 -pipe -mthreads -mwindows -Wall -Wextra -Wno-unused-local-typedefs -Wno-unused-parameter -Wno-unused-value -Wno-missing-field-initializers -Wno-address -Wno-unknown-pragmas -Wno-format -fexceptions -Og</commandLine>
+          <preprocessorList>
+            <Elem>BOOST_ALL_NO_LIB</Elem>
+            <Elem>BOOST_USE_WINDOWS_H</Elem>
+            <Elem>CASESENSITIVITYDEFAULT_YES</Elem>
+            <Elem>NOMINMAX</Elem>
+            <Elem>NO_VIZ</Elem>
+            <Elem>STRICT</Elem>
+            <Elem>UNICODE</Elem>
+            <Elem>WIN32_LEAN_AND_MEAN</Elem>
+            <Elem>WINVER=0x502</Elem>
+            <Elem>ZLIB_WINAPI</Elem>
+            <Elem>_DEBUG</Elem>
+            <Elem>_REENTRANT</Elem>
+            <Elem>_UNICODE</Elem>
+            <Elem>_WIN32_IE=0x600</Elem>
+            <Elem>_WIN32_WINNT=0x502</Elem>
+          </preprocessorList>
+        </ccTool>
+        <archiverTool>
+          <output>${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/libboost.a</output>
+        </archiverTool>
+      </compileType>
+      <item path="../../../boost/libs/atomic/src/lockpool.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../boost/libs/filesystem/src/codecvt_error_category.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../boost/libs/filesystem/src/operations.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../boost/libs/filesystem/src/path.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../boost/libs/filesystem/src/path_traits.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../boost/libs/filesystem/src/portability.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../boost/libs/filesystem/src/unique_path.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../boost/libs/filesystem/src/utf8_codecvt_facet.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../boost/libs/filesystem/src/windows_file_codecvt.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../boost/libs/filesystem/src/windows_file_codecvt.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../boost/libs/regex/src/c_regex_traits.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../boost/libs/regex/src/cpp_regex_traits.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../boost/libs/regex/src/cregex.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../boost/libs/regex/src/fileiter.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../boost/libs/regex/src/icu.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../boost/libs/regex/src/instances.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../boost/libs/regex/src/internals.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../boost/libs/regex/src/posix_api.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../boost/libs/regex/src/regex.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../boost/libs/regex/src/regex_debug.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../boost/libs/regex/src/regex_raw_buffer.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../boost/libs/regex/src/regex_traits_defaults.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../boost/libs/regex/src/static_mutex.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../boost/libs/regex/src/usinstances.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../boost/libs/regex/src/w32_regex_traits.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../boost/libs/regex/src/wc_regex_traits.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../boost/libs/regex/src/wide_posix_api.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../boost/libs/regex/src/winstances.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../boost/libs/system/src/error_code.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../boost/libs/system/src/local_free_on_destruction.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release_x32_-_i686_generic" type="3">
+      <toolsSet>
+        <compilerSet>MinGW_w64_-_x32-dwarf_-_4.8.1-rev5|MinGW</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+          <standard>8</standard>
+          <incDir>
+            <pElem>../../../</pElem>
+            <pElem>../../../mingw/preload</pElem>
+            <pElem>../../../mingw/include</pElem>
+            <pElem>../../../boost</pElem>
+          </incDir>
+          <commandLine>-std=gnu++11 -pipe -march=i686 -mtune=generic -mthreads -mwindows -O3 -fno-ipa-cp-clone -g -Wall -Wextra -Wno-unused-local-typedefs -Wno-unused-parameter -Wno-unused-value -Wno-missing-field-initializers -Wno-address -Wno-unknown-pragmas -Wno-format -fexceptions</commandLine>
+          <preprocessorList>
+            <Elem>BOOST_ALL_NO_LIB</Elem>
+            <Elem>BOOST_USE_WINDOWS_H</Elem>
+            <Elem>CASESENSITIVITYDEFAULT_YES</Elem>
+            <Elem>NDEBUG</Elem>
+            <Elem>NOMINMAX</Elem>
+            <Elem>NO_VIZ</Elem>
+            <Elem>STRICT</Elem>
+            <Elem>UNICODE</Elem>
+            <Elem>WIN32_LEAN_AND_MEAN</Elem>
+            <Elem>WINVER=0x502</Elem>
+            <Elem>ZLIB_WINAPI</Elem>
+            <Elem>_REENTRANT</Elem>
+            <Elem>_UNICODE</Elem>
+            <Elem>_WIN32_IE=0x600</Elem>
+            <Elem>_WIN32_WINNT=0x502</Elem>
+          </preprocessorList>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+        <archiverTool>
+          <output>${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/libboost.a</output>
+        </archiverTool>
+      </compileType>
+      <item path="../../../boost/libs/atomic/src/lockpool.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../boost/libs/filesystem/src/codecvt_error_category.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../boost/libs/filesystem/src/operations.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../boost/libs/filesystem/src/path.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../boost/libs/filesystem/src/path_traits.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../boost/libs/filesystem/src/portability.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../boost/libs/filesystem/src/unique_path.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../boost/libs/filesystem/src/utf8_codecvt_facet.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../boost/libs/filesystem/src/windows_file_codecvt.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../boost/libs/filesystem/src/windows_file_codecvt.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../boost/libs/regex/src/c_regex_traits.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../boost/libs/regex/src/cpp_regex_traits.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../boost/libs/regex/src/cregex.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../boost/libs/regex/src/fileiter.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../boost/libs/regex/src/icu.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../boost/libs/regex/src/instances.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../boost/libs/regex/src/internals.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../boost/libs/regex/src/posix_api.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../boost/libs/regex/src/regex.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../boost/libs/regex/src/regex_debug.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../boost/libs/regex/src/regex_raw_buffer.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../boost/libs/regex/src/regex_traits_defaults.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../boost/libs/regex/src/static_mutex.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../boost/libs/regex/src/usinstances.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../boost/libs/regex/src/w32_regex_traits.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../boost/libs/regex/src/wc_regex_traits.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../boost/libs/regex/src/wide_posix_api.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../boost/libs/regex/src/winstances.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../boost/libs/system/src/error_code.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../boost/libs/system/src/local_free_on_destruction.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="90">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>../../../intl/config-gcc.h</itemPath>
+      <itemPath>../../../intl/config-msvc.h</itemPath>
+      <itemPath>../../../intl/config.h</itemPath>
+      <itemPath>../../../intl/eval-plural.h</itemPath>
+      <itemPath>../../../intl/gettextP.h</itemPath>
+      <itemPath>../../../intl/gmo.h</itemPath>
+      <itemPath>../../../intl/hash-string.h</itemPath>
+      <itemPath>../../../intl/libgnuintl.h</itemPath>
+      <itemPath>../../../intl/libintl.h</itemPath>
+      <itemPath>../../../intl/loadinfo.h</itemPath>
+      <itemPath>../../../intl/localcharset.h</itemPath>
+      <itemPath>../../../intl/lock.h</itemPath>
+      <itemPath>../../../intl/plural-exp.h</itemPath>
+      <itemPath>../../../intl/printf-args.h</itemPath>
+      <itemPath>../../../intl/printf-parse.h</itemPath>
+      <itemPath>../../../intl/relocatable.h</itemPath>
+      <itemPath>../../../intl/tsearch.h</itemPath>
+      <itemPath>../../../intl/vasnprintf.h</itemPath>
+      <itemPath>../../../intl/vasnwprintf.h</itemPath>
+      <itemPath>../../../intl/wprintf-parse.h</itemPath>
+      <itemPath>../../../intl/xsize.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>../../../intl/bindtextdom.c</itemPath>
+      <itemPath>../../../intl/dcgettext.c</itemPath>
+      <itemPath>../../../intl/dcigettext.c</itemPath>
+      <itemPath>../../../intl/dcngettext.c</itemPath>
+      <itemPath>../../../intl/dgettext.c</itemPath>
+      <itemPath>../../../intl/dngettext.c</itemPath>
+      <itemPath>../../../intl/explodename.c</itemPath>
+      <itemPath>../../../intl/finddomain.c</itemPath>
+      <itemPath>../../../intl/gettext.c</itemPath>
+      <itemPath>../../../intl/hash-string.c</itemPath>
+      <itemPath>../../../intl/intl-compat.c</itemPath>
+      <itemPath>../../../intl/l10nflist.c</itemPath>
+      <itemPath>../../../intl/langprefs.c</itemPath>
+      <itemPath>../../../intl/loadmsgcat.c</itemPath>
+      <itemPath>../../../intl/localcharset.c</itemPath>
+      <itemPath>../../../intl/localealias.c</itemPath>
+      <itemPath>../../../intl/localename.c</itemPath>
+      <itemPath>../../../intl/lock.c</itemPath>
+      <itemPath>../../../intl/log.c</itemPath>
+      <itemPath>../../../intl/ngettext.c</itemPath>
+      <itemPath>../../../intl/plural-exp.c</itemPath>
+      <itemPath>../../../intl/plural.c</itemPath>
+      <itemPath>../../../intl/printf-args.c</itemPath>
+      <itemPath>../../../intl/printf-parse.c</itemPath>
+      <itemPath>../../../intl/printf.c</itemPath>
+      <itemPath>../../../intl/relocatable.c</itemPath>
+      <itemPath>../../../intl/textdomain.c</itemPath>
+      <itemPath>../../../intl/tsearch.c</itemPath>
+      <itemPath>../../../intl/vasnprintf.c</itemPath>
+      <itemPath>../../../intl/version.c</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>../../../intl</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug_x32_-_i686_generic" type="3">
+      <toolsSet>
+        <compilerSet>MinGW_w64_-_x32-dwarf_-_4.8.1-rev5|MinGW</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <incDir>
+            <pElem>../../../</pElem>
+            <pElem>../../../mingw/preload</pElem>
+            <pElem>../../../mingw/include</pElem>
+            <pElem>../../../intl</pElem>
+          </incDir>
+          <commandLine>-march=i686 -mtune=generic -pipe -mthreads -mwindows -Wall -Wextra -Wno-unused-local-typedefs -Wno-unused-parameter -Wno-unused-value -Wno-missing-field-initializers -Wno-address -Wno-unknown-pragmas -Wno-format -fexceptions -Og</commandLine>
+          <preprocessorList>
+            <Elem>BOOST_ALL_NO_LIB</Elem>
+            <Elem>BOOST_USE_WINDOWS_H</Elem>
+            <Elem>CASESENSITIVITYDEFAULT_YES</Elem>
+            <Elem>ENABLE_RELOCATABLE=1</Elem>
+            <Elem>HAVE_CONFIG_H</Elem>
+            <Elem>INSTALLDIR="../../../intl"</Elem>
+            <Elem>IN_LIBINTL</Elem>
+            <Elem>LIBDIR="../../../intl"</Elem>
+            <Elem>LOCALEDIR="../../../intl"</Elem>
+            <Elem>LOCALE_ALIAS_PATH="../../../intl"</Elem>
+            <Elem>NOMINMAX</Elem>
+            <Elem>NO_VIZ</Elem>
+            <Elem>NO_XMALLOC</Elem>
+            <Elem>STRICT</Elem>
+            <Elem>UNICODE</Elem>
+            <Elem>WIN32_LEAN_AND_MEAN</Elem>
+            <Elem>WINVER=0x502</Elem>
+            <Elem>ZLIB_WINAPI</Elem>
+            <Elem>_DEBUG</Elem>
+            <Elem>_REENTRANT</Elem>
+            <Elem>_UNICODE</Elem>
+            <Elem>_WIN32_IE=0x600</Elem>
+            <Elem>_WIN32_WINNT=0x502</Elem>
+            <Elem>relocate=libintl_relocate</Elem>
+            <Elem>set_relocation_prefix=libintl_set_relocation_prefix</Elem>
+          </preprocessorList>
+        </cTool>
+        <archiverTool>
+          <output>${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/libintl.a</output>
+        </archiverTool>
+      </compileType>
+      <item path="../../../intl/bindtextdom.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../../../intl/config-gcc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../intl/config-msvc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../intl/config.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../intl/dcgettext.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../../../intl/dcigettext.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../../../intl/dcngettext.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../../../intl/dgettext.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../../../intl/dngettext.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../../../intl/eval-plural.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../intl/explodename.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../../../intl/finddomain.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../../../intl/gettext.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../../../intl/gettextP.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../intl/gmo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../intl/hash-string.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../../../intl/hash-string.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../intl/intl-compat.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../../../intl/l10nflist.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../../../intl/langprefs.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../../../intl/libgnuintl.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../intl/libintl.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../intl/loadinfo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../intl/loadmsgcat.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../../../intl/localcharset.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../../../intl/localcharset.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../intl/localealias.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../../../intl/localename.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../../../intl/lock.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../../../intl/lock.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../intl/log.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../../../intl/ngettext.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../../../intl/plural-exp.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../../../intl/plural-exp.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../intl/plural.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../../../intl/printf-args.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../../../intl/printf-args.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../intl/printf-parse.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../../../intl/printf-parse.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../intl/printf.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../../../intl/relocatable.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../../../intl/relocatable.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../intl/textdomain.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../../../intl/tsearch.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../../../intl/tsearch.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../intl/vasnprintf.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../../../intl/vasnprintf.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../intl/vasnwprintf.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../intl/version.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../../../intl/wprintf-parse.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../intl/xsize.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release_x32_-_i686_generic" type="3">
+      <toolsSet>
+        <compilerSet>MinGW_w64_-_x32-dwarf_-_4.8.1-rev5|MinGW</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+          <incDir>
+            <pElem>../../../</pElem>
+            <pElem>../../../mingw/preload</pElem>
+            <pElem>../../../mingw/include</pElem>
+            <pElem>../../../intl</pElem>
+          </incDir>
+          <commandLine>-pipe -march=i686 -mtune=generic -mthreads -mwindows -O3 -fno-ipa-cp-clone -g -Wall -Wextra -Wno-unused-local-typedefs -Wno-unused-parameter -Wno-unused-value -Wno-missing-field-initializers -Wno-address -Wno-unknown-pragmas -Wno-format -fexceptions</commandLine>
+          <preprocessorList>
+            <Elem>BOOST_ALL_NO_LIB</Elem>
+            <Elem>BOOST_USE_WINDOWS_H</Elem>
+            <Elem>CASESENSITIVITYDEFAULT_YES</Elem>
+            <Elem>ENABLE_RELOCATABLE=1</Elem>
+            <Elem>HAVE_CONFIG_H</Elem>
+            <Elem>INSTALLDIR="../../../intl"</Elem>
+            <Elem>IN_LIBINTL</Elem>
+            <Elem>LIBDIR="../../../intl"</Elem>
+            <Elem>LOCALEDIR="../../../intl"</Elem>
+            <Elem>LOCALE_ALIAS_PATH="../../../intl"</Elem>
+            <Elem>NDEBUG</Elem>
+            <Elem>NOMINMAX</Elem>
+            <Elem>NO_VIZ</Elem>
+            <Elem>NO_XMALLOC</Elem>
+            <Elem>STRICT</Elem>
+            <Elem>UNICODE</Elem>
+            <Elem>WIN32_LEAN_AND_MEAN</Elem>
+            <Elem>WINVER=0x502</Elem>
+            <Elem>ZLIB_WINAPI</Elem>
+            <Elem>_REENTRANT</Elem>
+            <Elem>_UNICODE</Elem>
+            <Elem>_WIN32_IE=0x600</Elem>
+            <Elem>_WIN32_WINNT=0x502</Elem>
+            <Elem>relocate=libintl_relocate</Elem>
+            <Elem>set_relocation_prefix=libintl_set_relocation_prefix</Elem>
+          </preprocessorList>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+        <archiverTool>
+          <output>${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/libintl.a</output>
+        </archiverTool>
+      </compileType>
+      <item path="../../../intl/bindtextdom.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../../../intl/config-gcc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../intl/config-msvc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../intl/config.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../intl/dcgettext.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../../../intl/dcigettext.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../../../intl/dcngettext.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../../../intl/dgettext.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../../../intl/dngettext.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../../../intl/eval-plural.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../intl/explodename.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../../../intl/finddomain.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../../../intl/gettext.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../../../intl/gettextP.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../intl/gmo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../intl/hash-string.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../../../intl/hash-string.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../intl/intl-compat.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../../../intl/l10nflist.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../../../intl/langprefs.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../../../intl/libgnuintl.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../intl/libintl.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../intl/loadinfo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../intl/loadmsgcat.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../../../intl/localcharset.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../../../intl/localcharset.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../intl/localealias.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../../../intl/localename.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../../../intl/lock.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../../../intl/lock.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../intl/log.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../../../intl/ngettext.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../../../intl/plural-exp.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../../../intl/plural-exp.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../intl/plural.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../../../intl/printf-args.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../../../intl/printf-args.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../intl/printf-parse.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../../../intl/printf-parse.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../intl/printf.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../../../intl/relocatable.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../../../intl/relocatable.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../intl/textdomain.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../../../intl/tsearch.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../../../intl/tsearch.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../intl/vasnprintf.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../../../intl/vasnprintf.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../intl/vasnwprintf.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../intl/version.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../../../intl/wprintf-parse.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../intl/xsize.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

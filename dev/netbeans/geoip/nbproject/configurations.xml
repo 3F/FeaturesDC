@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="90">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>../../../geoip/GeoIP.h</itemPath>
+      <itemPath>../../../geoip/GeoIPCity.h</itemPath>
+      <itemPath>../../../geoip/GeoIP_internal.h</itemPath>
+      <itemPath>../../../geoip/incl.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>../../../geoip/GeoIP.c</itemPath>
+      <itemPath>../../../geoip/GeoIPCity.c</itemPath>
+      <itemPath>../../../geoip/GeoIP_depreciated.c</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>../../../geoip</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug_x32_-_i686_generic" type="3">
+      <toolsSet>
+        <compilerSet>MinGW_w64_-_x32-dwarf_-_4.8.1-rev5|MinGW</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <incDir>
+            <pElem>../../../</pElem>
+            <pElem>../../../mingw/preload</pElem>
+            <pElem>../../../mingw/include</pElem>
+          </incDir>
+          <commandLine>-march=i686 -mtune=generic -pipe -mthreads -mwindows -Wall -Wextra -Wno-unused-local-typedefs -Wno-unused-parameter -Wno-unused-value -Wno-missing-field-initializers -Wno-address -Wno-unknown-pragmas -Wno-format -fexceptions -Og</commandLine>
+          <preprocessorList>
+            <Elem>BOOST_ALL_NO_LIB</Elem>
+            <Elem>BOOST_USE_WINDOWS_H</Elem>
+            <Elem>CASESENSITIVITYDEFAULT_YES</Elem>
+            <Elem>GEOIPDATADIR="../../../geoip"</Elem>
+            <Elem>HAVE_STDINT_H=1</Elem>
+            <Elem>NOMINMAX</Elem>
+            <Elem>NO_VIZ</Elem>
+            <Elem>PACKAGE_VERSION=0</Elem>
+            <Elem>STRICT</Elem>
+            <Elem>UNICODE</Elem>
+            <Elem>WIN32_LEAN_AND_MEAN</Elem>
+            <Elem>WINVER=0x502</Elem>
+            <Elem>ZLIB_WINAPI</Elem>
+            <Elem>_DEBUG</Elem>
+            <Elem>_REENTRANT</Elem>
+            <Elem>_UNICODE</Elem>
+            <Elem>_WIN32_IE=0x600</Elem>
+            <Elem>_WIN32_WINNT=0x502</Elem>
+          </preprocessorList>
+        </cTool>
+        <archiverTool>
+          <output>${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/libgeoip.a</output>
+        </archiverTool>
+      </compileType>
+      <item path="../../../geoip/GeoIP.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../../../geoip/GeoIP.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../geoip/GeoIPCity.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../../../geoip/GeoIPCity.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../geoip/GeoIP_depreciated.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../../../geoip/GeoIP_internal.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../geoip/incl.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release_x32_-_i686_generic" type="3">
+      <toolsSet>
+        <compilerSet>MinGW_w64_-_x32-dwarf_-_4.8.1-rev5|MinGW</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+          <incDir>
+            <pElem>../../../</pElem>
+            <pElem>../../../mingw/preload</pElem>
+            <pElem>../../../mingw/include</pElem>
+          </incDir>
+          <commandLine>-pipe -march=i686 -mtune=generic -mthreads -mwindows -O3 -fno-ipa-cp-clone -g -Wall -Wextra -Wno-unused-local-typedefs -Wno-unused-parameter -Wno-unused-value -Wno-missing-field-initializers -Wno-address -Wno-unknown-pragmas -Wno-format -fexceptions</commandLine>
+          <preprocessorList>
+            <Elem>BOOST_ALL_NO_LIB</Elem>
+            <Elem>BOOST_USE_WINDOWS_H</Elem>
+            <Elem>CASESENSITIVITYDEFAULT_YES</Elem>
+            <Elem>GEOIPDATADIR="../../../geoip"</Elem>
+            <Elem>HAVE_STDINT_H=1</Elem>
+            <Elem>NDEBUG</Elem>
+            <Elem>NOMINMAX</Elem>
+            <Elem>NO_VIZ</Elem>
+            <Elem>PACKAGE_VERSION=0</Elem>
+            <Elem>STRICT</Elem>
+            <Elem>UNICODE</Elem>
+            <Elem>WIN32_LEAN_AND_MEAN</Elem>
+            <Elem>WINVER=0x502</Elem>
+            <Elem>ZLIB_WINAPI</Elem>
+            <Elem>_REENTRANT</Elem>
+            <Elem>_UNICODE</Elem>
+            <Elem>_WIN32_IE=0x600</Elem>
+            <Elem>_WIN32_WINNT=0x502</Elem>
+          </preprocessorList>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+        <archiverTool>
+          <output>${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/libgeoip.a</output>
+        </archiverTool>
+      </compileType>
+      <item path="../../../geoip/GeoIP.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../../../geoip/GeoIP.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../geoip/GeoIPCity.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../../../geoip/GeoIPCity.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../geoip/GeoIP_depreciated.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../../../geoip/GeoIP_internal.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../geoip/incl.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

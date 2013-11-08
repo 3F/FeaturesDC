@@ -1,0 +1,1457 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="90">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>../../../win32/ADLSProperties.h</itemPath>
+      <itemPath>../../../win32/ADLSearchFrame.h</itemPath>
+      <itemPath>../../../win32/AboutDlg.h</itemPath>
+      <itemPath>../../../win32/AdvancedPage.h</itemPath>
+      <itemPath>../../../win32/AppearancePage.h</itemPath>
+      <itemPath>../../../win32/AspectChat.h</itemPath>
+      <itemPath>../../../win32/AspectStatus.h</itemPath>
+      <itemPath>../../../win32/AspectUserCommand.h</itemPath>
+      <itemPath>../../../win32/BandwidthLimitPage.h</itemPath>
+      <itemPath>../../../win32/CertificatesPage.h</itemPath>
+      <itemPath>../../../win32/CommandDlg.h</itemPath>
+      <itemPath>../../../win32/ConnectivityManualPage.h</itemPath>
+      <itemPath>../../../win32/ConnectivityPage.h</itemPath>
+      <itemPath>../../../win32/CrashLogger.h</itemPath>
+      <itemPath>../../../win32/DirectoryListingFrame.h</itemPath>
+      <itemPath>../../../win32/DownloadPage.h</itemPath>
+      <itemPath>../../../win32/ExpertsPage.h</itemPath>
+      <itemPath>../../../win32/FavHubGroupsDlg.h</itemPath>
+      <itemPath>../../../win32/FavHubProperties.h</itemPath>
+      <itemPath>../../../win32/FavHubsFrame.h</itemPath>
+      <itemPath>../../../win32/FavoriteDirsPage.h</itemPath>
+      <itemPath>../../../win32/FinishedDLFrame.h</itemPath>
+      <itemPath>../../../win32/FinishedFrameBase.h</itemPath>
+      <itemPath>../../../win32/FinishedULFrame.h</itemPath>
+      <itemPath>../../../win32/GeneralPage.h</itemPath>
+      <itemPath>../../../win32/GridDialog.h</itemPath>
+      <itemPath>../../../win32/HashProgressDlg.h</itemPath>
+      <itemPath>../../../win32/HistoryPage.h</itemPath>
+      <itemPath>../../../win32/HoldRedraw.h</itemPath>
+      <itemPath>../../../win32/HtmlToRtf.h</itemPath>
+      <itemPath>../../../win32/HubFrame.h</itemPath>
+      <itemPath>../../../win32/HubListsDlg.h</itemPath>
+      <itemPath>../../../win32/IRecent.h</itemPath>
+      <itemPath>../../../win32/ListFilter.h</itemPath>
+      <itemPath>../../../win32/LogPage.h</itemPath>
+      <itemPath>../../../win32/MDIChildFrame.h</itemPath>
+      <itemPath>../../../win32/MagnetDlg.h</itemPath>
+      <itemPath>../../../win32/MainWindow.h</itemPath>
+      <itemPath>../../../win32/NotepadFrame.h</itemPath>
+      <itemPath>../../../win32/NotificationsPage.h</itemPath>
+      <itemPath>../../../win32/ParamDlg.h</itemPath>
+      <itemPath>../../../win32/PluginApiWin.h</itemPath>
+      <itemPath>../../../win32/PluginInfoDlg.h</itemPath>
+      <itemPath>../../../win32/PluginPage.h</itemPath>
+      <itemPath>../../../win32/PrivateFrame.h</itemPath>
+      <itemPath>../../../win32/PropPage.h</itemPath>
+      <itemPath>../../../win32/ProxyPage.h</itemPath>
+      <itemPath>../../../win32/PublicHubsFrame.h</itemPath>
+      <itemPath>../../../win32/QueueFrame.h</itemPath>
+      <itemPath>../../../win32/QueuePage.h</itemPath>
+      <itemPath>../../../win32/RichTextBox.h</itemPath>
+      <itemPath>../../../win32/SearchFrame.h</itemPath>
+      <itemPath>../../../win32/SearchTypeDlg.h</itemPath>
+      <itemPath>../../../win32/SearchTypesPage.h</itemPath>
+      <itemPath>../../../win32/SettingsDialog.h</itemPath>
+      <itemPath>../../../win32/ShellMenu.h</itemPath>
+      <itemPath>../../../win32/SingleInstance.h</itemPath>
+      <itemPath>../../../win32/SplashWindow.h</itemPath>
+      <itemPath>../../../win32/StaticFrame.h</itemPath>
+      <itemPath>../../../win32/StatsFrame.h</itemPath>
+      <itemPath>../../../win32/StringListDlg.h</itemPath>
+      <itemPath>../../../win32/StylesPage.h</itemPath>
+      <itemPath>../../../win32/SystemFrame.h</itemPath>
+      <itemPath>../../../win32/TabsPage.h</itemPath>
+      <itemPath>../../../win32/TextFrame.h</itemPath>
+      <itemPath>../../../win32/TransferView.h</itemPath>
+      <itemPath>../../../win32/TypedTable.h</itemPath>
+      <itemPath>../../../win32/TypedTree.h</itemPath>
+      <itemPath>../../../win32/UCPage.h</itemPath>
+      <itemPath>../../../win32/UploadPage.h</itemPath>
+      <itemPath>../../../win32/UserInfoBase.h</itemPath>
+      <itemPath>../../../win32/UserMatchDlg.h</itemPath>
+      <itemPath>../../../win32/UserMatchPage.h</itemPath>
+      <itemPath>../../../win32/UsersFrame.h</itemPath>
+      <itemPath>../../../win32/WinUtil.h</itemPath>
+      <itemPath>../../../win32/WindowsPage.h</itemPath>
+      <itemPath>../../../win32/compiler.h</itemPath>
+      <itemPath>../../../win32/dwtTexts.h</itemPath>
+      <itemPath>../../../win32/forward.h</itemPath>
+      <itemPath>../../../win32/resource.h</itemPath>
+      <itemPath>../../../win32/stdafx.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+      <logicalFolder name="po" displayName="po" projectFiles="true">
+        <itemPath>../../../win32/po/ar.po</itemPath>
+        <itemPath>../../../win32/po/bg.po</itemPath>
+        <itemPath>../../../win32/po/bs.po</itemPath>
+        <itemPath>../../../win32/po/ca.po</itemPath>
+        <itemPath>../../../win32/po/cs.po</itemPath>
+        <itemPath>../../../win32/po/da.po</itemPath>
+        <itemPath>../../../win32/po/dcpp-win32.pot</itemPath>
+        <itemPath>../../../win32/po/de.po</itemPath>
+        <itemPath>../../../win32/po/el.po</itemPath>
+        <itemPath>../../../win32/po/en_AU.po</itemPath>
+        <itemPath>../../../win32/po/en_GB.po</itemPath>
+        <itemPath>../../../win32/po/es.po</itemPath>
+        <itemPath>../../../win32/po/et.po</itemPath>
+        <itemPath>../../../win32/po/fi.po</itemPath>
+        <itemPath>../../../win32/po/fr.po</itemPath>
+        <itemPath>../../../win32/po/gl.po</itemPath>
+        <itemPath>../../../win32/po/he.po</itemPath>
+        <itemPath>../../../win32/po/hi.po</itemPath>
+        <itemPath>../../../win32/po/hr.po</itemPath>
+        <itemPath>../../../win32/po/hu.po</itemPath>
+        <itemPath>../../../win32/po/id.po</itemPath>
+        <itemPath>../../../win32/po/is.po</itemPath>
+        <itemPath>../../../win32/po/it.po</itemPath>
+        <itemPath>../../../win32/po/ja.po</itemPath>
+        <itemPath>../../../win32/po/km.po</itemPath>
+        <itemPath>../../../win32/po/ko.po</itemPath>
+        <itemPath>../../../win32/po/lt.po</itemPath>
+        <itemPath>../../../win32/po/mk.po</itemPath>
+        <itemPath>../../../win32/po/ml.po</itemPath>
+        <itemPath>../../../win32/po/nb.po</itemPath>
+        <itemPath>../../../win32/po/nl.po</itemPath>
+        <itemPath>../../../win32/po/nn.po</itemPath>
+        <itemPath>../../../win32/po/oc.po</itemPath>
+        <itemPath>../../../win32/po/pl.po</itemPath>
+        <itemPath>../../../win32/po/pt.po</itemPath>
+        <itemPath>../../../win32/po/pt_BR.po</itemPath>
+        <itemPath>../../../win32/po/ro.po</itemPath>
+        <itemPath>../../../win32/po/ru.po</itemPath>
+        <itemPath>../../../win32/po/sk.po</itemPath>
+        <itemPath>../../../win32/po/sl.po</itemPath>
+        <itemPath>../../../win32/po/sq.po</itemPath>
+        <itemPath>../../../win32/po/sr.po</itemPath>
+        <itemPath>../../../win32/po/sv.po</itemPath>
+        <itemPath>../../../win32/po/tr.po</itemPath>
+        <itemPath>../../../win32/po/ur.po</itemPath>
+        <itemPath>../../../win32/po/zh_CN.po</itemPath>
+        <itemPath>../../../win32/po/zh_TW.po</itemPath>
+      </logicalFolder>
+      <itemPath>../../../win32/DCPlusPlus.rc</itemPath>
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>../../../win32/ADLSProperties.cpp</itemPath>
+      <itemPath>../../../win32/ADLSearchFrame.cpp</itemPath>
+      <itemPath>../../../win32/AboutDlg.cpp</itemPath>
+      <itemPath>../../../win32/AdvancedPage.cpp</itemPath>
+      <itemPath>../../../win32/AppearancePage.cpp</itemPath>
+      <itemPath>../../../win32/BandwidthLimitPage.cpp</itemPath>
+      <itemPath>../../../win32/CertificatesPage.cpp</itemPath>
+      <itemPath>../../../win32/CommandDlg.cpp</itemPath>
+      <itemPath>../../../win32/ConnectivityManualPage.cpp</itemPath>
+      <itemPath>../../../win32/ConnectivityPage.cpp</itemPath>
+      <itemPath>../../../win32/CrashLogger.cpp</itemPath>
+      <itemPath>../../../win32/DirectoryListingFrame.cpp</itemPath>
+      <itemPath>../../../win32/DownloadPage.cpp</itemPath>
+      <itemPath>../../../win32/ExpertsPage.cpp</itemPath>
+      <itemPath>../../../win32/FavHubGroupsDlg.cpp</itemPath>
+      <itemPath>../../../win32/FavHubProperties.cpp</itemPath>
+      <itemPath>../../../win32/FavHubsFrame.cpp</itemPath>
+      <itemPath>../../../win32/FavoriteDirsPage.cpp</itemPath>
+      <itemPath>../../../win32/FinishedDLFrame.cpp</itemPath>
+      <itemPath>../../../win32/FinishedULFrame.cpp</itemPath>
+      <itemPath>../../../win32/GeneralPage.cpp</itemPath>
+      <itemPath>../../../win32/GridDialog.cpp</itemPath>
+      <itemPath>../../../win32/HashProgressDlg.cpp</itemPath>
+      <itemPath>../../../win32/HistoryPage.cpp</itemPath>
+      <itemPath>../../../win32/HtmlToRtf.cpp</itemPath>
+      <itemPath>../../../win32/HubFrame.cpp</itemPath>
+      <itemPath>../../../win32/HubListsDlg.cpp</itemPath>
+      <itemPath>../../../win32/ListFilter.cpp</itemPath>
+      <itemPath>../../../win32/LogPage.cpp</itemPath>
+      <itemPath>../../../win32/MagnetDlg.cpp</itemPath>
+      <itemPath>../../../win32/MainWindow.cpp</itemPath>
+      <itemPath>../../../win32/NotepadFrame.cpp</itemPath>
+      <itemPath>../../../win32/NotificationsPage.cpp</itemPath>
+      <itemPath>../../../win32/ParamDlg.cpp</itemPath>
+      <itemPath>../../../win32/PluginApiWin.cpp</itemPath>
+      <itemPath>../../../win32/PluginInfoDlg.cpp</itemPath>
+      <itemPath>../../../win32/PluginPage.cpp</itemPath>
+      <itemPath>../../../win32/PrivateFrame.cpp</itemPath>
+      <itemPath>../../../win32/PropPage.cpp</itemPath>
+      <itemPath>../../../win32/ProxyPage.cpp</itemPath>
+      <itemPath>../../../win32/PublicHubsFrame.cpp</itemPath>
+      <itemPath>../../../win32/QueueFrame.cpp</itemPath>
+      <itemPath>../../../win32/QueuePage.cpp</itemPath>
+      <itemPath>../../../win32/RichTextBox.cpp</itemPath>
+      <itemPath>../../../win32/SearchFrame.cpp</itemPath>
+      <itemPath>../../../win32/SearchTypeDlg.cpp</itemPath>
+      <itemPath>../../../win32/SearchTypesPage.cpp</itemPath>
+      <itemPath>../../../win32/SettingsDialog.cpp</itemPath>
+      <itemPath>../../../win32/ShellMenu.cpp</itemPath>
+      <itemPath>../../../win32/SplashWindow.cpp</itemPath>
+      <itemPath>../../../win32/StatsFrame.cpp</itemPath>
+      <itemPath>../../../win32/StringListDlg.cpp</itemPath>
+      <itemPath>../../../win32/StylesPage.cpp</itemPath>
+      <itemPath>../../../win32/SystemFrame.cpp</itemPath>
+      <itemPath>../../../win32/TabsPage.cpp</itemPath>
+      <itemPath>../../../win32/TextFrame.cpp</itemPath>
+      <itemPath>../../../win32/TransferView.cpp</itemPath>
+      <itemPath>../../../win32/UCPage.cpp</itemPath>
+      <itemPath>../../../win32/UploadPage.cpp</itemPath>
+      <itemPath>../../../win32/UserInfoBase.cpp</itemPath>
+      <itemPath>../../../win32/UserMatchDlg.cpp</itemPath>
+      <itemPath>../../../win32/UserMatchPage.cpp</itemPath>
+      <itemPath>../../../win32/UsersFrame.cpp</itemPath>
+      <itemPath>../../../win32/WinUtil.cpp</itemPath>
+      <itemPath>../../../win32/WindowsPage.cpp</itemPath>
+      <itemPath>../../../win32/dwtTexts.cpp</itemPath>
+      <itemPath>../../../win32/main.cpp</itemPath>
+      <itemPath>../../../win32/stdafx.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>../../../win32</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug_x32_-_i686_generic" type="1">
+      <toolsSet>
+        <compilerSet>MinGW_w64_-_x32-dwarf_-_4.8.1-rev5|MinGW</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <standard>8</standard>
+          <incDir>
+            <pElem>../../../</pElem>
+            <pElem>../../../mingw/preload</pElem>
+            <pElem>../../../mingw/include</pElem>
+            <pElem>../../../boost</pElem>
+            <pElem>../../../dwarf</pElem>
+            <pElem>../../../bzip2</pElem>
+            <pElem>../../../geoip</pElem>
+            <pElem>../../../zlib</pElem>
+            <pElem>../../../intl</pElem>
+            <pElem>../../../openssl/include</pElem>
+            <pElem>../../../dwt/include</pElem>
+          </incDir>
+          <commandLine>-march=i686 -mtune=generic -std=gnu++11 -pipe -mthreads -mwindows -Wall -Wextra -Wno-unused-local-typedefs -Wno-unused-parameter -Wno-unused-value -Wno-missing-field-initializers -Wno-address -Wno-unknown-pragmas -Wno-format -fexceptions -Og</commandLine>
+          <preprocessorList>
+            <Elem>BOOST_ALL_NO_LIB</Elem>
+            <Elem>BOOST_USE_WINDOWS_H</Elem>
+            <Elem>CASESENSITIVITYDEFAULT_YES</Elem>
+            <Elem>NOMINMAX</Elem>
+            <Elem>NO_VIZ</Elem>
+            <Elem>STRICT</Elem>
+            <Elem>UNICODE</Elem>
+            <Elem>WIN32_LEAN_AND_MEAN</Elem>
+            <Elem>WINVER=0x502</Elem>
+            <Elem>ZLIB_WINAPI</Elem>
+            <Elem>_DEBUG</Elem>
+            <Elem>_REENTRANT</Elem>
+            <Elem>_UNICODE</Elem>
+            <Elem>_WIN32_IE=0x600</Elem>
+            <Elem>_WIN32_WINNT=0x502</Elem>
+          </preprocessorList>
+        </ccTool>
+        <linkerTool>
+          <output>../../../../build/_bin_/${CND_CONF}/DCPlusPlus.exe</output>
+          <additionalDep>${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}/DCPlusPlus.rc.o</additionalDep>
+          <linkerLibItems>
+            <linkerOptionItem>-static</linkerOptionItem>
+            <linkerLibProjectItem>
+              <makeArtifact PL="../dcpp"
+                            CT="3"
+                            CN="Debug_x32_-_i686_generic"
+                            AC="true"
+                            BL="true"
+                            WD="../dcpp"
+                            BC="${MAKE}  -f Makefile CONF=Debug_x32_-_i686_generic"
+                            CC="${MAKE}  -f Makefile CONF=Debug_x32_-_i686_generic clean"
+                            OP="../../../../build/dcpp/${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/libdcpp.a">
+              </makeArtifact>
+            </linkerLibProjectItem>
+            <linkerLibProjectItem>
+              <makeArtifact PL="../dwarf"
+                            CT="3"
+                            CN="Debug_x32_-_i686_generic"
+                            AC="true"
+                            BL="true"
+                            WD="../dwarf"
+                            BC="${MAKE}  -f Makefile CONF=Debug_x32_-_i686_generic"
+                            CC="${MAKE}  -f Makefile CONF=Debug_x32_-_i686_generic clean"
+                            OP="../../../../build/dwarf/${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/libdwarf.a">
+              </makeArtifact>
+            </linkerLibProjectItem>
+            <linkerLibProjectItem>
+              <makeArtifact PL="../zlib"
+                            CT="3"
+                            CN="Debug_x32_-_i686_generic"
+                            AC="true"
+                            BL="true"
+                            WD="../zlib"
+                            BC="${MAKE}  -f Makefile CONF=Debug_x32_-_i686_generic"
+                            CC="${MAKE}  -f Makefile CONF=Debug_x32_-_i686_generic clean"
+                            OP="../../../../build/zlib/${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/libzlib.a">
+              </makeArtifact>
+            </linkerLibProjectItem>
+            <linkerLibProjectItem>
+              <makeArtifact PL="../boost"
+                            CT="3"
+                            CN="Debug_x32_-_i686_generic"
+                            AC="true"
+                            BL="true"
+                            WD="../boost"
+                            BC="${MAKE}  -f Makefile CONF=Debug_x32_-_i686_generic"
+                            CC="${MAKE}  -f Makefile CONF=Debug_x32_-_i686_generic clean"
+                            OP="../../../../build/boost/${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/libboost.a">
+              </makeArtifact>
+            </linkerLibProjectItem>
+            <linkerLibProjectItem>
+              <makeArtifact PL="../bzip2"
+                            CT="3"
+                            CN="Debug_x32_-_i686_generic"
+                            AC="true"
+                            BL="true"
+                            WD="../bzip2"
+                            BC="${MAKE}  -f Makefile CONF=Debug_x32_-_i686_generic"
+                            CC="${MAKE}  -f Makefile CONF=Debug_x32_-_i686_generic clean"
+                            OP="../../../../build/bzip2/${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/libbzip2.a">
+              </makeArtifact>
+            </linkerLibProjectItem>
+            <linkerLibProjectItem>
+              <makeArtifact PL="../geoip"
+                            CT="3"
+                            CN="Debug_x32_-_i686_generic"
+                            AC="true"
+                            BL="true"
+                            WD="../geoip"
+                            BC="${MAKE}  -f Makefile CONF=Debug_x32_-_i686_generic"
+                            CC="${MAKE}  -f Makefile CONF=Debug_x32_-_i686_generic clean"
+                            OP="../../../../build/geoip/${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/libgeoip.a">
+              </makeArtifact>
+            </linkerLibProjectItem>
+            <linkerLibProjectItem>
+              <makeArtifact PL="../miniupnpc"
+                            CT="3"
+                            CN="Debug_x32_-_i686_generic"
+                            AC="true"
+                            BL="true"
+                            WD="../miniupnpc"
+                            BC="${MAKE}  -f Makefile CONF=Debug_x32_-_i686_generic"
+                            CC="${MAKE}  -f Makefile CONF=Debug_x32_-_i686_generic clean"
+                            OP="../../../../build/miniupnpc/${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/libminiupnpc.a">
+              </makeArtifact>
+            </linkerLibProjectItem>
+            <linkerLibProjectItem>
+              <makeArtifact PL="../natpmp"
+                            CT="3"
+                            CN="Debug_x32_-_i686_generic"
+                            AC="true"
+                            BL="true"
+                            WD="../natpmp"
+                            BC="${MAKE}  -f Makefile CONF=Debug_x32_-_i686_generic"
+                            CC="${MAKE}  -f Makefile CONF=Debug_x32_-_i686_generic clean"
+                            OP="../../../../build/natpmp/${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/libnatpmp.a">
+              </makeArtifact>
+            </linkerLibProjectItem>
+            <linkerLibProjectItem>
+              <makeArtifact PL="../dwt"
+                            CT="3"
+                            CN="Debug_x32_-_i686_generic"
+                            AC="true"
+                            BL="true"
+                            WD="../dwt"
+                            BC="${MAKE}  -f Makefile CONF=Debug_x32_-_i686_generic"
+                            CC="${MAKE}  -f Makefile CONF=Debug_x32_-_i686_generic clean"
+                            OP="../../../../build/dwt/${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/libdwt.a">
+              </makeArtifact>
+            </linkerLibProjectItem>
+            <linkerLibProjectItem>
+              <makeArtifact PL="../intl"
+                            CT="3"
+                            CN="Debug_x32_-_i686_generic"
+                            AC="true"
+                            BL="true"
+                            WD="../intl"
+                            BC="${MAKE}  -f Makefile CONF=Debug_x32_-_i686_generic"
+                            CC="${MAKE}  -f Makefile CONF=Debug_x32_-_i686_generic clean"
+                            OP="../../../../build/intl/${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/libintl.a">
+              </makeArtifact>
+            </linkerLibProjectItem>
+            <linkerLibFileItem>../../../openssl/lib/libssl.a</linkerLibFileItem>
+            <linkerLibFileItem>../../../openssl/lib/libcrypto.a</linkerLibFileItem>
+            <linkerOptionItem>${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}/DCPlusPlus.rc.o</linkerOptionItem>
+            <linkerOptionItem>-limagehlp -lgdi32 -liphlpapi -lole32 -lws2_32 -lcomctl32 -lcomdlg32 -loleaut32 -lshlwapi -luuid -luxtheme -lwinmm -lwtsapi32</linkerOptionItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="../../../win32/ADLSProperties.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/ADLSProperties.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/ADLSearchFrame.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/ADLSearchFrame.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/AboutDlg.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/AboutDlg.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/AdvancedPage.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/AdvancedPage.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/AppearancePage.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/AppearancePage.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/AspectChat.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/AspectStatus.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/AspectUserCommand.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/BandwidthLimitPage.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../win32/BandwidthLimitPage.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../win32/CertificatesPage.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../win32/CertificatesPage.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/CommandDlg.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/CommandDlg.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/ConnectivityManualPage.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../win32/ConnectivityManualPage.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../win32/ConnectivityPage.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../win32/ConnectivityPage.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/CrashLogger.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/CrashLogger.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/DCPlusPlus.rc" ex="false" tool="3" flavor2="0">
+        <customTool>
+          <customToolCommandline>windres -Dx86 -D_WIN32_WINNT=0x502 -DWINVER=0x502 -D_WIN32_IE=0x600 -DNOMINMAX -DSTRICT -DWIN32_LEAN_AND_MEAN -DUNICODE -D_UNICODE -DBOOST_ALL_NO_LIB -DBOOST_USE_WINDOWS_H -DCASESENSITIVITYDEFAULT_YES -DZLIB_WINAPI -D_DEBUG -D_REENTRANT -DNO_VIZ --include-dir ../../../ --include-dir ../../../mingw/preload --include-dir ../../../mingw/include --include-dir ../../../boost --include-dir ../../../dwarf --include-dir ../../../bzip2 --include-dir ../../../geoip --include-dir ../../../zlib --include-dir ../../../intl --include-dir ../../../openssl/include --include-dir ../../../dwt/include --include-dir ../../../win32 -i ../../../win32/DCPlusPlus.rc -o ${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}/DCPlusPlus.rc.o</customToolCommandline>
+          <customToolDescription>DCPlusPlus.rc Custom Build Step</customToolDescription>
+          <customToolOutputs>${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}/DCPlusPlus.rc.o</customToolOutputs>
+          <customToolAdditionalDep>../../../win32/resource.h</customToolAdditionalDep>
+        </customTool>
+      </item>
+      <item path="../../../win32/DirectoryListingFrame.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../win32/DirectoryListingFrame.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../win32/DownloadPage.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/DownloadPage.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/ExpertsPage.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/ExpertsPage.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/FavHubGroupsDlg.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/FavHubGroupsDlg.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/FavHubProperties.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../win32/FavHubProperties.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/FavHubsFrame.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/FavHubsFrame.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/FavoriteDirsPage.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../win32/FavoriteDirsPage.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/FinishedDLFrame.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/FinishedDLFrame.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/FinishedFrameBase.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/FinishedULFrame.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/FinishedULFrame.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/GeneralPage.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/GeneralPage.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/GridDialog.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/GridDialog.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/HashProgressDlg.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/HashProgressDlg.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/HistoryPage.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/HistoryPage.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/HoldRedraw.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/HtmlToRtf.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/HtmlToRtf.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/HubFrame.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/HubFrame.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/HubListsDlg.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/HubListsDlg.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/IRecent.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/ListFilter.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/ListFilter.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/LogPage.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/LogPage.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/MDIChildFrame.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/MagnetDlg.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/MagnetDlg.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/MainWindow.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/MainWindow.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/NotepadFrame.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/NotepadFrame.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/NotificationsPage.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../win32/NotificationsPage.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/ParamDlg.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/ParamDlg.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/PluginApiWin.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/PluginApiWin.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/PluginInfoDlg.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/PluginInfoDlg.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/PluginPage.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/PluginPage.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/PrivateFrame.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/PrivateFrame.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/PropPage.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/PropPage.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/ProxyPage.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/ProxyPage.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/PublicHubsFrame.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/PublicHubsFrame.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/QueueFrame.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/QueueFrame.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/QueuePage.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/QueuePage.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/RichTextBox.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/RichTextBox.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/SearchFrame.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/SearchFrame.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/SearchTypeDlg.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/SearchTypeDlg.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/SearchTypesPage.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/SearchTypesPage.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/SettingsDialog.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/SettingsDialog.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/ShellMenu.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/ShellMenu.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/SingleInstance.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/SplashWindow.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/SplashWindow.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/StaticFrame.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/StatsFrame.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/StatsFrame.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/StringListDlg.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/StringListDlg.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/StylesPage.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/StylesPage.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/SystemFrame.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/SystemFrame.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/TabsPage.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/TabsPage.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/TextFrame.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/TextFrame.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/TransferView.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/TransferView.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/TypedTable.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/TypedTree.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/UCPage.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/UCPage.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/UploadPage.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/UploadPage.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/UserInfoBase.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/UserInfoBase.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/UserMatchDlg.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/UserMatchDlg.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/UserMatchPage.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/UserMatchPage.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/UsersFrame.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/UsersFrame.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/WinUtil.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/WinUtil.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/WindowsPage.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/WindowsPage.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/compiler.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/dwtTexts.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/dwtTexts.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/forward.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/po/ar.po" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/po/bg.po" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/po/bs.po" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/po/ca.po" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/po/cs.po" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/po/da.po" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/po/dcpp-win32.pot" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/po/de.po" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/po/el.po" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/po/en_AU.po" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/po/en_GB.po" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/po/es.po" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/po/et.po" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/po/fi.po" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/po/fr.po" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/po/gl.po" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/po/he.po" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/po/hi.po" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/po/hr.po" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/po/hu.po" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/po/id.po" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/po/is.po" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/po/it.po" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/po/ja.po" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/po/km.po" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/po/ko.po" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/po/lt.po" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/po/mk.po" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/po/ml.po" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/po/nb.po" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/po/nl.po" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/po/nn.po" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/po/oc.po" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/po/pl.po" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/po/pt.po" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/po/pt_BR.po" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/po/ro.po" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/po/ru.po" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/po/sk.po" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/po/sl.po" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/po/sq.po" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/po/sr.po" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/po/sv.po" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/po/tr.po" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/po/ur.po" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/po/zh_CN.po" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/po/zh_TW.po" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/resource.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/stdafx.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/stdafx.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release_x32_-_i686_generic" type="1">
+      <toolsSet>
+        <compilerSet>MinGW_w64_-_x32-dwarf_-_4.8.1-rev5|MinGW</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+          <standard>8</standard>
+          <incDir>
+            <pElem>../../../</pElem>
+            <pElem>../../../mingw/preload</pElem>
+            <pElem>../../../mingw/include</pElem>
+            <pElem>../../../boost</pElem>
+            <pElem>../../../dwarf</pElem>
+            <pElem>../../../bzip2</pElem>
+            <pElem>../../../geoip</pElem>
+            <pElem>../../../zlib</pElem>
+            <pElem>../../../intl</pElem>
+            <pElem>../../../openssl/include</pElem>
+            <pElem>../../../dwt/include</pElem>
+          </incDir>
+          <commandLine>-std=gnu++11 -pipe -march=i686 -mtune=generic -mthreads -mwindows -O3 -fno-ipa-cp-clone -g -Wall -Wextra -Wno-unused-local-typedefs -Wno-unused-parameter -Wno-unused-value -Wno-missing-field-initializers -Wno-address -Wno-unknown-pragmas -Wno-format -fexceptions</commandLine>
+          <preprocessorList>
+            <Elem>BOOST_ALL_NO_LIB</Elem>
+            <Elem>BOOST_USE_WINDOWS_H</Elem>
+            <Elem>CASESENSITIVITYDEFAULT_YES</Elem>
+            <Elem>NDEBUG</Elem>
+            <Elem>NOMINMAX</Elem>
+            <Elem>NO_VIZ</Elem>
+            <Elem>STRICT</Elem>
+            <Elem>UNICODE</Elem>
+            <Elem>WIN32_LEAN_AND_MEAN</Elem>
+            <Elem>WINVER=0x502</Elem>
+            <Elem>ZLIB_WINAPI</Elem>
+            <Elem>_REENTRANT</Elem>
+            <Elem>_UNICODE</Elem>
+            <Elem>_WIN32_IE=0x600</Elem>
+            <Elem>_WIN32_WINNT=0x502</Elem>
+          </preprocessorList>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+        <linkerTool>
+          <output>../../../../build/_bin_/${CND_CONF}/DCPlusPlus.exe</output>
+          <additionalDep>${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}/DCPlusPlus.rc.o</additionalDep>
+          <linkerLibItems>
+            <linkerOptionItem>-static</linkerOptionItem>
+            <linkerLibProjectItem>
+              <makeArtifact PL="../dcpp"
+                            CT="3"
+                            CN="Release_x32_-_i686_generic"
+                            AC="false"
+                            BL="true"
+                            WD="../dcpp"
+                            BC="${MAKE}  -f Makefile CONF=Release_x32_-_i686_generic"
+                            CC="${MAKE}  -f Makefile CONF=Release_x32_-_i686_generic clean"
+                            OP="../../../../build/dcpp/${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/libdcpp.a">
+              </makeArtifact>
+            </linkerLibProjectItem>
+            <linkerLibProjectItem>
+              <makeArtifact PL="../dwarf"
+                            CT="3"
+                            CN="Release_x32_-_i686_generic"
+                            AC="false"
+                            BL="true"
+                            WD="../dwarf"
+                            BC="${MAKE}  -f Makefile CONF=Release_x32_-_i686_generic"
+                            CC="${MAKE}  -f Makefile CONF=Release_x32_-_i686_generic clean"
+                            OP="../../../../build/dwarf/${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/libdwarf.a">
+              </makeArtifact>
+            </linkerLibProjectItem>
+            <linkerLibProjectItem>
+              <makeArtifact PL="../zlib"
+                            CT="3"
+                            CN="Release_x32_-_i686_generic"
+                            AC="false"
+                            BL="true"
+                            WD="../zlib"
+                            BC="${MAKE}  -f Makefile CONF=Release_x32_-_i686_generic"
+                            CC="${MAKE}  -f Makefile CONF=Release_x32_-_i686_generic clean"
+                            OP="../../../../build/zlib/${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/libzlib.a">
+              </makeArtifact>
+            </linkerLibProjectItem>
+            <linkerLibProjectItem>
+              <makeArtifact PL="../boost"
+                            CT="3"
+                            CN="Release_x32_-_i686_generic"
+                            AC="false"
+                            BL="true"
+                            WD="../boost"
+                            BC="${MAKE}  -f Makefile CONF=Release_x32_-_i686_generic"
+                            CC="${MAKE}  -f Makefile CONF=Release_x32_-_i686_generic clean"
+                            OP="../../../../build/boost/${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/libboost.a">
+              </makeArtifact>
+            </linkerLibProjectItem>
+            <linkerLibProjectItem>
+              <makeArtifact PL="../bzip2"
+                            CT="3"
+                            CN="Release_x32_-_i686_generic"
+                            AC="false"
+                            BL="true"
+                            WD="../bzip2"
+                            BC="${MAKE}  -f Makefile CONF=Release_x32_-_i686_generic"
+                            CC="${MAKE}  -f Makefile CONF=Release_x32_-_i686_generic clean"
+                            OP="../../../../build/bzip2/${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/libbzip2.a">
+              </makeArtifact>
+            </linkerLibProjectItem>
+            <linkerLibProjectItem>
+              <makeArtifact PL="../geoip"
+                            CT="3"
+                            CN="Release_x32_-_i686_generic"
+                            AC="false"
+                            BL="true"
+                            WD="../geoip"
+                            BC="${MAKE}  -f Makefile CONF=Release_x32_-_i686_generic"
+                            CC="${MAKE}  -f Makefile CONF=Release_x32_-_i686_generic clean"
+                            OP="../../../../build/geoip/${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/libgeoip.a">
+              </makeArtifact>
+            </linkerLibProjectItem>
+            <linkerLibProjectItem>
+              <makeArtifact PL="../miniupnpc"
+                            CT="3"
+                            CN="Release_x32_-_i686_generic"
+                            AC="false"
+                            BL="true"
+                            WD="../miniupnpc"
+                            BC="${MAKE}  -f Makefile CONF=Release_x32_-_i686_generic"
+                            CC="${MAKE}  -f Makefile CONF=Release_x32_-_i686_generic clean"
+                            OP="../../../../build/miniupnpc/${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/libminiupnpc.a">
+              </makeArtifact>
+            </linkerLibProjectItem>
+            <linkerLibProjectItem>
+              <makeArtifact PL="../natpmp"
+                            CT="3"
+                            CN="Release_x32_-_i686_generic"
+                            AC="false"
+                            BL="true"
+                            WD="../natpmp"
+                            BC="${MAKE}  -f Makefile CONF=Release_x32_-_i686_generic"
+                            CC="${MAKE}  -f Makefile CONF=Release_x32_-_i686_generic clean"
+                            OP="../../../../build/natpmp/${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/libnatpmp.a">
+              </makeArtifact>
+            </linkerLibProjectItem>
+            <linkerLibProjectItem>
+              <makeArtifact PL="../dwt"
+                            CT="3"
+                            CN="Release_x32_-_i686_generic"
+                            AC="false"
+                            BL="true"
+                            WD="../dwt"
+                            BC="${MAKE}  -f Makefile CONF=Release_x32_-_i686_generic"
+                            CC="${MAKE}  -f Makefile CONF=Release_x32_-_i686_generic clean"
+                            OP="../../../../build/dwt/${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/libdwt.a">
+              </makeArtifact>
+            </linkerLibProjectItem>
+            <linkerLibProjectItem>
+              <makeArtifact PL="../intl"
+                            CT="3"
+                            CN="Release_x32_-_i686_generic"
+                            AC="false"
+                            BL="true"
+                            WD="../intl"
+                            BC="${MAKE}  -f Makefile CONF=Release_x32_-_i686_generic"
+                            CC="${MAKE}  -f Makefile CONF=Release_x32_-_i686_generic clean"
+                            OP="../../../../build/intl/${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/libintl.a">
+              </makeArtifact>
+            </linkerLibProjectItem>
+            <linkerLibFileItem>../../../openssl/lib/libssl.a</linkerLibFileItem>
+            <linkerLibFileItem>../../../openssl/lib/libcrypto.a</linkerLibFileItem>
+            <linkerOptionItem>${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}/DCPlusPlus.rc.o</linkerOptionItem>
+            <linkerOptionItem>-limagehlp -lgdi32 -liphlpapi -lole32 -lws2_32 -lcomctl32 -lcomdlg32 -loleaut32 -lshlwapi -luuid -luxtheme -lwinmm -lwtsapi32</linkerOptionItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="../../../win32/ADLSProperties.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/ADLSProperties.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/ADLSearchFrame.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/ADLSearchFrame.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/AboutDlg.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/AboutDlg.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/AdvancedPage.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/AdvancedPage.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/AppearancePage.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/AppearancePage.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/AspectChat.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/AspectStatus.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/AspectUserCommand.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/BandwidthLimitPage.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../win32/BandwidthLimitPage.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../win32/CertificatesPage.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../win32/CertificatesPage.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/CommandDlg.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/CommandDlg.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/ConnectivityManualPage.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../win32/ConnectivityManualPage.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../win32/ConnectivityPage.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../win32/ConnectivityPage.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/CrashLogger.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/CrashLogger.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/DCPlusPlus.rc" ex="false" tool="3" flavor2="0">
+        <customTool>
+          <customToolCommandline>windres -Dx86 -D_WIN32_WINNT=0x502 -DWINVER=0x502 -D_WIN32_IE=0x600 -DNOMINMAX -DSTRICT -DWIN32_LEAN_AND_MEAN -DUNICODE -D_UNICODE -DBOOST_ALL_NO_LIB -DBOOST_USE_WINDOWS_H -DCASESENSITIVITYDEFAULT_YES -DZLIB_WINAPI -DNDEBUG -D_REENTRANT -DNO_VIZ --include-dir ../../../ --include-dir ../../../mingw/preload --include-dir ../../../mingw/include --include-dir ../../../boost --include-dir ../../../dwarf --include-dir ../../../bzip2 --include-dir ../../../geoip --include-dir ../../../zlib --include-dir ../../../intl --include-dir ../../../openssl/include --include-dir ../../../dwt/include --include-dir ../../../win32 -i ../../../win32/DCPlusPlus.rc -o ${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}/DCPlusPlus.rc.o</customToolCommandline>
+          <customToolDescription>DCPlusPlus.rc Custom Build Step</customToolDescription>
+          <customToolOutputs>${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}/DCPlusPlus.rc.o</customToolOutputs>
+          <customToolAdditionalDep>../../../win32/resource.h</customToolAdditionalDep>
+        </customTool>
+      </item>
+      <item path="../../../win32/DirectoryListingFrame.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../win32/DirectoryListingFrame.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../win32/DownloadPage.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/DownloadPage.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/ExpertsPage.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/ExpertsPage.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/FavHubGroupsDlg.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/FavHubGroupsDlg.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/FavHubProperties.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../win32/FavHubProperties.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/FavHubsFrame.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/FavHubsFrame.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/FavoriteDirsPage.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../win32/FavoriteDirsPage.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/FinishedDLFrame.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/FinishedDLFrame.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/FinishedFrameBase.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/FinishedULFrame.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/FinishedULFrame.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/GeneralPage.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/GeneralPage.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/GridDialog.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/GridDialog.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/HashProgressDlg.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/HashProgressDlg.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/HistoryPage.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/HistoryPage.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/HoldRedraw.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/HtmlToRtf.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/HtmlToRtf.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/HubFrame.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/HubFrame.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/HubListsDlg.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/HubListsDlg.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/IRecent.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/ListFilter.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/ListFilter.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/LogPage.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/LogPage.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/MDIChildFrame.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/MagnetDlg.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/MagnetDlg.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/MainWindow.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/MainWindow.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/NotepadFrame.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/NotepadFrame.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/NotificationsPage.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../win32/NotificationsPage.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/ParamDlg.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/ParamDlg.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/PluginApiWin.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/PluginApiWin.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/PluginInfoDlg.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/PluginInfoDlg.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/PluginPage.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/PluginPage.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/PrivateFrame.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/PrivateFrame.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/PropPage.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/PropPage.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/ProxyPage.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/ProxyPage.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/PublicHubsFrame.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/PublicHubsFrame.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/QueueFrame.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/QueueFrame.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/QueuePage.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/QueuePage.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/RichTextBox.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/RichTextBox.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/SearchFrame.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/SearchFrame.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/SearchTypeDlg.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/SearchTypeDlg.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/SearchTypesPage.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/SearchTypesPage.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/SettingsDialog.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/SettingsDialog.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/ShellMenu.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/ShellMenu.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/SingleInstance.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/SplashWindow.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/SplashWindow.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/StaticFrame.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/StatsFrame.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/StatsFrame.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/StringListDlg.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/StringListDlg.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/StylesPage.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/StylesPage.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/SystemFrame.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/SystemFrame.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/TabsPage.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/TabsPage.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/TextFrame.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/TextFrame.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/TransferView.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/TransferView.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/TypedTable.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/TypedTree.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/UCPage.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/UCPage.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/UploadPage.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/UploadPage.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/UserInfoBase.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/UserInfoBase.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/UserMatchDlg.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/UserMatchDlg.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/UserMatchPage.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/UserMatchPage.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/UsersFrame.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/UsersFrame.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/WinUtil.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/WinUtil.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/WindowsPage.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/WindowsPage.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/compiler.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/dwtTexts.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/dwtTexts.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/forward.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/po/ar.po" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/po/bg.po" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/po/bs.po" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/po/ca.po" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/po/cs.po" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/po/da.po" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/po/dcpp-win32.pot" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/po/de.po" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/po/el.po" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/po/en_AU.po" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/po/en_GB.po" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/po/es.po" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/po/et.po" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/po/fi.po" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/po/fr.po" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/po/gl.po" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/po/he.po" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/po/hi.po" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/po/hr.po" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/po/hu.po" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/po/id.po" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/po/is.po" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/po/it.po" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/po/ja.po" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/po/km.po" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/po/ko.po" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/po/lt.po" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/po/mk.po" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/po/ml.po" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/po/nb.po" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/po/nl.po" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/po/nn.po" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/po/oc.po" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/po/pl.po" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/po/pt.po" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/po/pt_BR.po" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/po/ro.po" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/po/ru.po" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/po/sk.po" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/po/sl.po" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/po/sq.po" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/po/sr.po" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/po/sv.po" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/po/tr.po" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/po/ur.po" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/po/zh_CN.po" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/po/zh_TW.po" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/resource.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/stdafx.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/stdafx.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
