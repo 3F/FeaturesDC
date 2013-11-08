@@ -23,6 +23,14 @@
                     <name>Release_x32_-_i686_generic</name>
                     <type>3</type>
                 </confElem>
+                <confElem>
+                    <name>Debug_x64_-_nocona_core2</name>
+                    <type>3</type>
+                </confElem>
+                <confElem>
+                    <name>Release_x64_-_nocona_core2</name>
+                    <type>3</type>
+                </confElem>
             </confList>
             <formatting>
                 <project-formatting-style>false</project-formatting-style>

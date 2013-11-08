@@ -31,7 +31,7 @@ DEFAULTCONF=Debug_x32_-_i686_generic
 CONF=${DEFAULTCONF}
 
 # All Configurations
-ALLCONFS=Debug_x32_-_i686_generic Release_x32_-_i686_generic 
+ALLCONFS=Debug_x32_-_i686_generic Release_x32_-_i686_generic Debug_x64_-_nocona_core2 Release_x64_-_nocona_core2 
 
 
 # build
