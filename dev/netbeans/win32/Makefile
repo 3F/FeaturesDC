@@ -48,6 +48,13 @@
 MKDIR=mkdir
 CP=cp
 CCADMIN=CCadmin
+PATH_TO_BUILD=../../../../build
+
+# bin
+OUTPUT_FILE_NAME=DCPlusPlus
+OUTPUT_FILE_NAME_STRIP=DCPlusPlus_stripped
+OUTPUT_FILE_EXT_E=.exe
+OUTPUT_FILE_EXT_S=.pdb
 
 
 # build
@@ -57,11 +64,14 @@ build: .build-post
 # Add your pre 'build' code here...
 
 .build-post: .build-impl
-# Add your post 'build' code here...
+	strip --only-keep-debug $(PATH_TO_BUILD)/_bin_/${CONF}/$(OUTPUT_FILE_NAME)$(OUTPUT_FILE_EXT_E) -o $(PATH_TO_BUILD)/_bin_/${CONF}/$(OUTPUT_FILE_NAME)$(OUTPUT_FILE_EXT_S)
+	strip $(PATH_TO_BUILD)/_bin_/${CONF}/$(OUTPUT_FILE_NAME)$(OUTPUT_FILE_EXT_E) -o $(PATH_TO_BUILD)/_bin_/${CONF}/$(OUTPUT_FILE_NAME_STRIP)$(OUTPUT_FILE_EXT_E)
 
 
 # clean
 clean: .clean-post
+	rm -f $(PATH_TO_BUILD)/_bin_/${CONF}/$(OUTPUT_FILE_NAME)$(OUTPUT_FILE_EXT_S)
+	rm -f $(PATH_TO_BUILD)/_bin_/${CONF}/$(OUTPUT_FILE_NAME_STRIP)$(OUTPUT_FILE_EXT_E)
 
 .clean-pre:
 # Add your pre 'clean' code here...
@@ -128,5 +138,5 @@ include nbproject/Makefile-impl.mk
 include nbproject/Makefile-variables.mk
 
 # output paths
-CND_DISTDIR=../../../../build/$(PROJECTNAME)/dist
-CND_BUILDDIR=../../../../build/$(PROJECTNAME)/obj
+CND_DISTDIR=$(PATH_TO_BUILD)/$(PROJECTNAME)/dist
+CND_BUILDDIR=$(PATH_TO_BUILD)/$(PROJECTNAME)/obj
