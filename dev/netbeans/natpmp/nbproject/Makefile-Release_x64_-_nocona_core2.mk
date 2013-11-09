@@ -69,17 +69,17 @@ ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/libnatpmp.a: ${OBJECTFILES}
 ${OBJECTDIR}/_ext/1209952993/getgateway.o: ../../../natpmp/getgateway.c 
 	${MKDIR} -p ${OBJECTDIR}/_ext/1209952993
 	${RM} $@.d
-	$(COMPILE.c) -O2 -DBOOST_ALL_NO_LIB -DBOOST_USE_WINDOWS_H -DCASESENSITIVITYDEFAULT_YES -DNDEBUG -DNOMINMAX -DNO_VIZ -DSTATICLIB -DSTRICT -DUNICODE -DWIN32 -DWIN32_LEAN_AND_MEAN -DWINVER=0x502 -DZLIB_WINAPI -D_REENTRANT -D_UNICODE -D_WIN32_IE=0x600 -D_WIN32_WINNT=0x502 -Derrno=\"WSAGetLastError\(\)\" -I../../../ -I../../../mingw/preload -I../../../mingw/include -MMD -MP -MF $@.d -o ${OBJECTDIR}/_ext/1209952993/getgateway.o ../../../natpmp/getgateway.c
+	$(COMPILE.c) -DBOOST_ALL_NO_LIB -DBOOST_USE_WINDOWS_H -DCASESENSITIVITYDEFAULT_YES -DNDEBUG -DNOMINMAX -DNO_VIZ -DSTATICLIB -DSTRICT -DUNICODE -DWIN32 -DWIN32_LEAN_AND_MEAN -DWINVER=0x502 -DZLIB_WINAPI -D_REENTRANT -D_UNICODE -D_WIN32_IE=0x600 -D_WIN32_WINNT=0x502 -Derrno=\"WSAGetLastError\(\)\" -I../../../ -I../../../mingw/preload -I../../../mingw/include -MMD -MP -MF $@.d -o ${OBJECTDIR}/_ext/1209952993/getgateway.o ../../../natpmp/getgateway.c
 
 ${OBJECTDIR}/_ext/1209952993/natpmp.o: ../../../natpmp/natpmp.c 
 	${MKDIR} -p ${OBJECTDIR}/_ext/1209952993
 	${RM} $@.d
-	$(COMPILE.c) -O2 -DBOOST_ALL_NO_LIB -DBOOST_USE_WINDOWS_H -DCASESENSITIVITYDEFAULT_YES -DNDEBUG -DNOMINMAX -DNO_VIZ -DSTATICLIB -DSTRICT -DUNICODE -DWIN32 -DWIN32_LEAN_AND_MEAN -DWINVER=0x502 -DZLIB_WINAPI -D_REENTRANT -D_UNICODE -D_WIN32_IE=0x600 -D_WIN32_WINNT=0x502 -Derrno=\"WSAGetLastError\(\)\" -I../../../ -I../../../mingw/preload -I../../../mingw/include -MMD -MP -MF $@.d -o ${OBJECTDIR}/_ext/1209952993/natpmp.o ../../../natpmp/natpmp.c
+	$(COMPILE.c) -DBOOST_ALL_NO_LIB -DBOOST_USE_WINDOWS_H -DCASESENSITIVITYDEFAULT_YES -DNDEBUG -DNOMINMAX -DNO_VIZ -DSTATICLIB -DSTRICT -DUNICODE -DWIN32 -DWIN32_LEAN_AND_MEAN -DWINVER=0x502 -DZLIB_WINAPI -D_REENTRANT -D_UNICODE -D_WIN32_IE=0x600 -D_WIN32_WINNT=0x502 -Derrno=\"WSAGetLastError\(\)\" -I../../../ -I../../../mingw/preload -I../../../mingw/include -MMD -MP -MF $@.d -o ${OBJECTDIR}/_ext/1209952993/natpmp.o ../../../natpmp/natpmp.c
 
 ${OBJECTDIR}/_ext/1209952993/wingettimeofday.o: ../../../natpmp/wingettimeofday.c 
 	${MKDIR} -p ${OBJECTDIR}/_ext/1209952993
 	${RM} $@.d
-	$(COMPILE.c) -O2 -DBOOST_ALL_NO_LIB -DBOOST_USE_WINDOWS_H -DCASESENSITIVITYDEFAULT_YES -DNDEBUG -DNOMINMAX -DNO_VIZ -DSTATICLIB -DSTRICT -DUNICODE -DWIN32 -DWIN32_LEAN_AND_MEAN -DWINVER=0x502 -DZLIB_WINAPI -D_REENTRANT -D_UNICODE -D_WIN32_IE=0x600 -D_WIN32_WINNT=0x502 -Derrno=\"WSAGetLastError\(\)\" -I../../../ -I../../../mingw/preload -I../../../mingw/include -MMD -MP -MF $@.d -o ${OBJECTDIR}/_ext/1209952993/wingettimeofday.o ../../../natpmp/wingettimeofday.c
+	$(COMPILE.c) -DBOOST_ALL_NO_LIB -DBOOST_USE_WINDOWS_H -DCASESENSITIVITYDEFAULT_YES -DNDEBUG -DNOMINMAX -DNO_VIZ -DSTATICLIB -DSTRICT -DUNICODE -DWIN32 -DWIN32_LEAN_AND_MEAN -DWINVER=0x502 -DZLIB_WINAPI -D_REENTRANT -D_UNICODE -D_WIN32_IE=0x600 -D_WIN32_WINNT=0x502 -Derrno=\"WSAGetLastError\(\)\" -I../../../ -I../../../mingw/preload -I../../../mingw/include -MMD -MP -MF $@.d -o ${OBJECTDIR}/_ext/1209952993/wingettimeofday.o ../../../natpmp/wingettimeofday.c
 
 # Subprojects
 .build-subprojects:

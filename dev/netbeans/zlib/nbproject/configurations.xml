@@ -164,7 +164,7 @@
       </toolsSet>
       <compileType>
         <cTool>
-          <developmentMode>5</developmentMode>
+          <developmentMode>0</developmentMode>
           <incDir>
             <pElem>../../../</pElem>
             <pElem>../../../mingw/preload</pElem>
@@ -372,13 +372,13 @@
       </toolsSet>
       <compileType>
         <cTool>
-          <developmentMode>5</developmentMode>
+          <developmentMode>0</developmentMode>
           <incDir>
             <pElem>../../../</pElem>
             <pElem>../../../mingw/preload</pElem>
             <pElem>../../../mingw/include</pElem>
           </incDir>
-          <commandLine>-pipe -march=i686 -mtune=generic -mthreads -mwindows -O3 -fno-ipa-cp-clone -g -Wall -Wextra -Wno-unused-local-typedefs -Wno-unused-parameter -Wno-unused-value -Wno-missing-field-initializers -Wno-address -Wno-unknown-pragmas -Wno-format -fexceptions</commandLine>
+          <commandLine>-pipe -march=nocona -mtune=core2 -mthreads -mwindows -O3 -fno-ipa-cp-clone -g -Wall -Wextra -Wno-unused-local-typedefs -Wno-unused-parameter -Wno-unused-value -Wno-missing-field-initializers -Wno-address -Wno-unknown-pragmas -Wno-format -fexceptions</commandLine>
           <preprocessorList>
             <Elem>BOOST_ALL_NO_LIB</Elem>
             <Elem>BOOST_USE_WINDOWS_H</Elem>

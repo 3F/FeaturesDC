@@ -37,6 +37,7 @@
       <itemPath>../../../win32/HubFrame.h</itemPath>
       <itemPath>../../../win32/HubListsDlg.h</itemPath>
       <itemPath>../../../win32/IRecent.h</itemPath>
+      <itemPath>../../../win32/ItemsEditDlg.h</itemPath>
       <itemPath>../../../win32/ListFilter.h</itemPath>
       <itemPath>../../../win32/LogPage.h</itemPath>
       <itemPath>../../../win32/MDIChildFrame.h</itemPath>
@@ -73,6 +74,7 @@
       <itemPath>../../../win32/TypedTable.h</itemPath>
       <itemPath>../../../win32/TypedTree.h</itemPath>
       <itemPath>../../../win32/UCPage.h</itemPath>
+      <itemPath>../../../win32/UploadFilteringPage.h</itemPath>
       <itemPath>../../../win32/UploadPage.h</itemPath>
       <itemPath>../../../win32/UserInfoBase.h</itemPath>
       <itemPath>../../../win32/UserMatchDlg.h</itemPath>
@@ -170,6 +172,7 @@
       <itemPath>../../../win32/HtmlToRtf.cpp</itemPath>
       <itemPath>../../../win32/HubFrame.cpp</itemPath>
       <itemPath>../../../win32/HubListsDlg.cpp</itemPath>
+      <itemPath>../../../win32/ItemsEditDlg.cpp</itemPath>
       <itemPath>../../../win32/ListFilter.cpp</itemPath>
       <itemPath>../../../win32/LogPage.cpp</itemPath>
       <itemPath>../../../win32/MagnetDlg.cpp</itemPath>
@@ -201,6 +204,7 @@
       <itemPath>../../../win32/TextFrame.cpp</itemPath>
       <itemPath>../../../win32/TransferView.cpp</itemPath>
       <itemPath>../../../win32/UCPage.cpp</itemPath>
+      <itemPath>../../../win32/UploadFilteringPage.cpp</itemPath>
       <itemPath>../../../win32/UploadPage.cpp</itemPath>
       <itemPath>../../../win32/UserInfoBase.cpp</itemPath>
       <itemPath>../../../win32/UserMatchDlg.cpp</itemPath>
@@ -560,6 +564,10 @@
       </item>
       <item path="../../../win32/IRecent.h" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="../../../win32/ItemsEditDlg.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/ItemsEditDlg.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="../../../win32/ListFilter.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="../../../win32/ListFilter.h" ex="false" tool="3" flavor2="0">
@@ -696,6 +704,16 @@
       <item path="../../../win32/UCPage.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="../../../win32/UCPage.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/UploadFilteringPage.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../win32/UploadFilteringPage.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
       <item path="../../../win32/UploadPage.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -847,7 +865,7 @@
           <developmentMode>5</developmentMode>
         </cTool>
         <ccTool>
-          <developmentMode>5</developmentMode>
+          <developmentMode>0</developmentMode>
           <standard>8</standard>
           <incDir>
             <pElem>../../../</pElem>
@@ -1177,6 +1195,10 @@
       </item>
       <item path="../../../win32/IRecent.h" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="../../../win32/ItemsEditDlg.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/ItemsEditDlg.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="../../../win32/ListFilter.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="../../../win32/ListFilter.h" ex="false" tool="3" flavor2="0">
@@ -1313,6 +1335,16 @@
       <item path="../../../win32/UCPage.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="../../../win32/UCPage.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../win32/UploadFilteringPage.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../win32/UploadFilteringPage.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
       <item path="../../../win32/UploadPage.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -1627,22 +1659,32 @@
         </linkerTool>
       </compileType>
       <item path="../../../win32/ADLSProperties.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/ADLSProperties.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/ADLSearchFrame.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/ADLSearchFrame.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/AboutDlg.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/AboutDlg.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/AdvancedPage.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/AdvancedPage.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/AppearancePage.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/AppearancePage.h" ex="false" tool="3" flavor2="0">
       </item>
@@ -1656,6 +1698,8 @@
             ex="false"
             tool="1"
             flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/BandwidthLimitPage.h"
             ex="false"
@@ -1666,10 +1710,14 @@
             ex="false"
             tool="1"
             flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/CertificatesPage.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/CommandDlg.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/CommandDlg.h" ex="false" tool="3" flavor2="0">
       </item>
@@ -1677,6 +1725,8 @@
             ex="false"
             tool="1"
             flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/ConnectivityManualPage.h"
             ex="false"
@@ -1687,10 +1737,14 @@
             ex="false"
             tool="1"
             flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/ConnectivityPage.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/CrashLogger.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/CrashLogger.h" ex="false" tool="3" flavor2="0">
       </item>
@@ -1706,6 +1760,8 @@
             ex="false"
             tool="1"
             flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/DirectoryListingFrame.h"
             ex="false"
@@ -1713,14 +1769,20 @@
             flavor2="0">
       </item>
       <item path="../../../win32/DownloadPage.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/DownloadPage.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/ExpertsPage.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/ExpertsPage.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/FavHubGroupsDlg.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/FavHubGroupsDlg.h" ex="false" tool="3" flavor2="0">
       </item>
@@ -1728,10 +1790,14 @@
             ex="false"
             tool="1"
             flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/FavHubProperties.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/FavHubsFrame.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/FavHubsFrame.h" ex="false" tool="3" flavor2="0">
       </item>
@@ -1739,70 +1805,104 @@
             ex="false"
             tool="1"
             flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/FavoriteDirsPage.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/FinishedDLFrame.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/FinishedDLFrame.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/FinishedFrameBase.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/FinishedULFrame.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/FinishedULFrame.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/GeneralPage.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/GeneralPage.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/GridDialog.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/GridDialog.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/HashProgressDlg.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/HashProgressDlg.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/HistoryPage.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/HistoryPage.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/HoldRedraw.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/HtmlToRtf.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/HtmlToRtf.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/HubFrame.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/HubFrame.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/HubListsDlg.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/HubListsDlg.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/IRecent.h" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="../../../win32/ItemsEditDlg.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/ItemsEditDlg.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="../../../win32/ListFilter.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/ListFilter.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/LogPage.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/LogPage.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/MDIChildFrame.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/MagnetDlg.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/MagnetDlg.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/MainWindow.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/MainWindow.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/NotepadFrame.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/NotepadFrame.h" ex="false" tool="3" flavor2="0">
       </item>
@@ -1810,106 +1910,156 @@
             ex="false"
             tool="1"
             flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/NotificationsPage.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/ParamDlg.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/ParamDlg.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/PluginApiWin.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/PluginApiWin.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/PluginInfoDlg.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/PluginInfoDlg.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/PluginPage.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/PluginPage.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/PrivateFrame.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/PrivateFrame.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/PropPage.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/PropPage.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/ProxyPage.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/ProxyPage.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/PublicHubsFrame.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/PublicHubsFrame.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/QueueFrame.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/QueueFrame.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/QueuePage.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/QueuePage.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/RichTextBox.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/RichTextBox.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/SearchFrame.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/SearchFrame.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/SearchTypeDlg.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/SearchTypeDlg.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/SearchTypesPage.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/SearchTypesPage.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/SettingsDialog.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/SettingsDialog.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/ShellMenu.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/ShellMenu.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/SingleInstance.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/SplashWindow.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/SplashWindow.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/StaticFrame.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/StatsFrame.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/StatsFrame.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/StringListDlg.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/StringListDlg.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/StylesPage.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/StylesPage.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/SystemFrame.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/SystemFrame.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/TabsPage.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/TabsPage.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/TextFrame.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/TextFrame.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/TransferView.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/TransferView.h" ex="false" tool="3" flavor2="0">
       </item>
@@ -1918,46 +2068,76 @@
       <item path="../../../win32/TypedTree.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/UCPage.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/UCPage.h" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="../../../win32/UploadFilteringPage.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../win32/UploadFilteringPage.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
       <item path="../../../win32/UploadPage.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/UploadPage.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/UserInfoBase.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/UserInfoBase.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/UserMatchDlg.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/UserMatchDlg.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/UserMatchPage.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/UserMatchPage.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/UsersFrame.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/UsersFrame.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/WinUtil.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/WinUtil.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/WindowsPage.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/WindowsPage.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/compiler.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/dwtTexts.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/dwtTexts.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/forward.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/main.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/po/ar.po" ex="false" tool="3" flavor2="0">
       </item>
@@ -2056,6 +2236,8 @@
       <item path="../../../win32/resource.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/stdafx.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/stdafx.h" ex="false" tool="3" flavor2="0">
       </item>
@@ -2071,7 +2253,7 @@
           <developmentMode>5</developmentMode>
         </cTool>
         <ccTool>
-          <developmentMode>5</developmentMode>
+          <developmentMode>0</developmentMode>
           <standard>8</standard>
           <incDir>
             <pElem>../../../</pElem>
@@ -2244,22 +2426,32 @@
         </linkerTool>
       </compileType>
       <item path="../../../win32/ADLSProperties.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/ADLSProperties.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/ADLSearchFrame.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/ADLSearchFrame.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/AboutDlg.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/AboutDlg.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/AdvancedPage.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/AdvancedPage.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/AppearancePage.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/AppearancePage.h" ex="false" tool="3" flavor2="0">
       </item>
@@ -2273,6 +2465,8 @@
             ex="false"
             tool="1"
             flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/BandwidthLimitPage.h"
             ex="false"
@@ -2283,10 +2477,14 @@
             ex="false"
             tool="1"
             flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/CertificatesPage.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/CommandDlg.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/CommandDlg.h" ex="false" tool="3" flavor2="0">
       </item>
@@ -2294,6 +2492,8 @@
             ex="false"
             tool="1"
             flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/ConnectivityManualPage.h"
             ex="false"
@@ -2304,10 +2504,14 @@
             ex="false"
             tool="1"
             flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/ConnectivityPage.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/CrashLogger.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/CrashLogger.h" ex="false" tool="3" flavor2="0">
       </item>
@@ -2323,6 +2527,8 @@
             ex="false"
             tool="1"
             flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/DirectoryListingFrame.h"
             ex="false"
@@ -2330,14 +2536,20 @@
             flavor2="0">
       </item>
       <item path="../../../win32/DownloadPage.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/DownloadPage.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/ExpertsPage.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/ExpertsPage.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/FavHubGroupsDlg.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/FavHubGroupsDlg.h" ex="false" tool="3" flavor2="0">
       </item>
@@ -2345,10 +2557,14 @@
             ex="false"
             tool="1"
             flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/FavHubProperties.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/FavHubsFrame.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/FavHubsFrame.h" ex="false" tool="3" flavor2="0">
       </item>
@@ -2356,70 +2572,104 @@
             ex="false"
             tool="1"
             flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/FavoriteDirsPage.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/FinishedDLFrame.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/FinishedDLFrame.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/FinishedFrameBase.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/FinishedULFrame.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/FinishedULFrame.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/GeneralPage.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/GeneralPage.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/GridDialog.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/GridDialog.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/HashProgressDlg.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/HashProgressDlg.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/HistoryPage.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/HistoryPage.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/HoldRedraw.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/HtmlToRtf.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/HtmlToRtf.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/HubFrame.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/HubFrame.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/HubListsDlg.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/HubListsDlg.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/IRecent.h" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="../../../win32/ItemsEditDlg.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../win32/ItemsEditDlg.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="../../../win32/ListFilter.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/ListFilter.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/LogPage.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/LogPage.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/MDIChildFrame.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/MagnetDlg.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/MagnetDlg.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/MainWindow.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/MainWindow.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/NotepadFrame.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/NotepadFrame.h" ex="false" tool="3" flavor2="0">
       </item>
@@ -2427,106 +2677,156 @@
             ex="false"
             tool="1"
             flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/NotificationsPage.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/ParamDlg.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/ParamDlg.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/PluginApiWin.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/PluginApiWin.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/PluginInfoDlg.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/PluginInfoDlg.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/PluginPage.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/PluginPage.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/PrivateFrame.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/PrivateFrame.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/PropPage.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/PropPage.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/ProxyPage.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/ProxyPage.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/PublicHubsFrame.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/PublicHubsFrame.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/QueueFrame.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/QueueFrame.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/QueuePage.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/QueuePage.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/RichTextBox.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/RichTextBox.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/SearchFrame.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/SearchFrame.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/SearchTypeDlg.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/SearchTypeDlg.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/SearchTypesPage.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/SearchTypesPage.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/SettingsDialog.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/SettingsDialog.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/ShellMenu.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/ShellMenu.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/SingleInstance.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/SplashWindow.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/SplashWindow.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/StaticFrame.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/StatsFrame.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/StatsFrame.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/StringListDlg.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/StringListDlg.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/StylesPage.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/StylesPage.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/SystemFrame.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/SystemFrame.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/TabsPage.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/TabsPage.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/TextFrame.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/TextFrame.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/TransferView.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/TransferView.h" ex="false" tool="3" flavor2="0">
       </item>
@@ -2535,46 +2835,76 @@
       <item path="../../../win32/TypedTree.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/UCPage.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/UCPage.h" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="../../../win32/UploadFilteringPage.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../win32/UploadFilteringPage.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
       <item path="../../../win32/UploadPage.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/UploadPage.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/UserInfoBase.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/UserInfoBase.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/UserMatchDlg.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/UserMatchDlg.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/UserMatchPage.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/UserMatchPage.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/UsersFrame.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/UsersFrame.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/WinUtil.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/WinUtil.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/WindowsPage.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/WindowsPage.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/compiler.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/dwtTexts.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/dwtTexts.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/forward.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/main.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/po/ar.po" ex="false" tool="3" flavor2="0">
       </item>
@@ -2673,6 +3003,8 @@
       <item path="../../../win32/resource.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../win32/stdafx.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../win32/stdafx.h" ex="false" tool="3" flavor2="0">
       </item>

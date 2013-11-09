@@ -95,7 +95,7 @@
       </toolsSet>
       <compileType>
         <cTool>
-          <developmentMode>5</developmentMode>
+          <developmentMode>0</developmentMode>
           <incDir>
             <pElem>../../../</pElem>
             <pElem>../../../mingw/preload</pElem>
@@ -213,7 +213,7 @@
       </toolsSet>
       <compileType>
         <cTool>
-          <developmentMode>5</developmentMode>
+          <developmentMode>0</developmentMode>
           <incDir>
             <pElem>../../../</pElem>
             <pElem>../../../mingw/preload</pElem>

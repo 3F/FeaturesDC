@@ -62,6 +62,7 @@ OBJECTFILES= \
 	${OBJECTDIR}/_ext/1017404364/HtmlToRtf.o \
 	${OBJECTDIR}/_ext/1017404364/HubFrame.o \
 	${OBJECTDIR}/_ext/1017404364/HubListsDlg.o \
+	${OBJECTDIR}/_ext/1017404364/ItemsEditDlg.o \
 	${OBJECTDIR}/_ext/1017404364/ListFilter.o \
 	${OBJECTDIR}/_ext/1017404364/LogPage.o \
 	${OBJECTDIR}/_ext/1017404364/MagnetDlg.o \
@@ -93,6 +94,7 @@ OBJECTFILES= \
 	${OBJECTDIR}/_ext/1017404364/TextFrame.o \
 	${OBJECTDIR}/_ext/1017404364/TransferView.o \
 	${OBJECTDIR}/_ext/1017404364/UCPage.o \
+	${OBJECTDIR}/_ext/1017404364/UploadFilteringPage.o \
 	${OBJECTDIR}/_ext/1017404364/UploadPage.o \
 	${OBJECTDIR}/_ext/1017404364/UserInfoBase.o \
 	${OBJECTDIR}/_ext/1017404364/UserMatchDlg.o \
@@ -295,6 +297,11 @@ ${OBJECTDIR}/_ext/1017404364/HubListsDlg.o: ../../../win32/HubListsDlg.cpp
 	${RM} $@.d
 	$(COMPILE.cc) -g -DBOOST_ALL_NO_LIB -DBOOST_USE_WINDOWS_H -DCASESENSITIVITYDEFAULT_YES -DNOMINMAX -DNO_VIZ -DSTRICT -DUNICODE -DWIN32_LEAN_AND_MEAN -DWINVER=0x502 -DZLIB_WINAPI -D_DEBUG -D_REENTRANT -D_UNICODE -D_WIN32_IE=0x600 -D_WIN32_WINNT=0x502 -I../../../ -I../../../mingw/preload -I../../../mingw/include -I../../../boost -I../../../dwarf -I../../../bzip2 -I../../../geoip -I../../../zlib -I../../../intl -I../../../openssl/include -I../../../dwt/include -std=c++11 -MMD -MP -MF $@.d -o ${OBJECTDIR}/_ext/1017404364/HubListsDlg.o ../../../win32/HubListsDlg.cpp
 
+${OBJECTDIR}/_ext/1017404364/ItemsEditDlg.o: ../../../win32/ItemsEditDlg.cpp 
+	${MKDIR} -p ${OBJECTDIR}/_ext/1017404364
+	${RM} $@.d
+	$(COMPILE.cc) -g -DBOOST_ALL_NO_LIB -DBOOST_USE_WINDOWS_H -DCASESENSITIVITYDEFAULT_YES -DNOMINMAX -DNO_VIZ -DSTRICT -DUNICODE -DWIN32_LEAN_AND_MEAN -DWINVER=0x502 -DZLIB_WINAPI -D_DEBUG -D_REENTRANT -D_UNICODE -D_WIN32_IE=0x600 -D_WIN32_WINNT=0x502 -I../../../ -I../../../mingw/preload -I../../../mingw/include -I../../../boost -I../../../dwarf -I../../../bzip2 -I../../../geoip -I../../../zlib -I../../../intl -I../../../openssl/include -I../../../dwt/include -std=c++11 -MMD -MP -MF $@.d -o ${OBJECTDIR}/_ext/1017404364/ItemsEditDlg.o ../../../win32/ItemsEditDlg.cpp
+
 ${OBJECTDIR}/_ext/1017404364/ListFilter.o: ../../../win32/ListFilter.cpp 
 	${MKDIR} -p ${OBJECTDIR}/_ext/1017404364
 	${RM} $@.d
@@ -449,6 +456,11 @@ ${OBJECTDIR}/_ext/1017404364/UCPage.o: ../../../win32/UCPage.cpp
 	${MKDIR} -p ${OBJECTDIR}/_ext/1017404364
 	${RM} $@.d
 	$(COMPILE.cc) -g -DBOOST_ALL_NO_LIB -DBOOST_USE_WINDOWS_H -DCASESENSITIVITYDEFAULT_YES -DNOMINMAX -DNO_VIZ -DSTRICT -DUNICODE -DWIN32_LEAN_AND_MEAN -DWINVER=0x502 -DZLIB_WINAPI -D_DEBUG -D_REENTRANT -D_UNICODE -D_WIN32_IE=0x600 -D_WIN32_WINNT=0x502 -I../../../ -I../../../mingw/preload -I../../../mingw/include -I../../../boost -I../../../dwarf -I../../../bzip2 -I../../../geoip -I../../../zlib -I../../../intl -I../../../openssl/include -I../../../dwt/include -std=c++11 -MMD -MP -MF $@.d -o ${OBJECTDIR}/_ext/1017404364/UCPage.o ../../../win32/UCPage.cpp
+
+${OBJECTDIR}/_ext/1017404364/UploadFilteringPage.o: ../../../win32/UploadFilteringPage.cpp 
+	${MKDIR} -p ${OBJECTDIR}/_ext/1017404364
+	${RM} $@.d
+	$(COMPILE.cc) -g -DBOOST_ALL_NO_LIB -DBOOST_USE_WINDOWS_H -DCASESENSITIVITYDEFAULT_YES -DNOMINMAX -DNO_VIZ -DSTRICT -DUNICODE -DWIN32_LEAN_AND_MEAN -DWINVER=0x502 -DZLIB_WINAPI -D_DEBUG -D_REENTRANT -D_UNICODE -D_WIN32_IE=0x600 -D_WIN32_WINNT=0x502 -I../../../ -I../../../mingw/preload -I../../../mingw/include -I../../../boost -I../../../dwarf -I../../../bzip2 -I../../../geoip -I../../../zlib -I../../../intl -I../../../openssl/include -I../../../dwt/include -std=c++11 -MMD -MP -MF $@.d -o ${OBJECTDIR}/_ext/1017404364/UploadFilteringPage.o ../../../win32/UploadFilteringPage.cpp
 
 ${OBJECTDIR}/_ext/1017404364/UploadPage.o: ../../../win32/UploadPage.cpp 
 	${MKDIR} -p ${OBJECTDIR}/_ext/1017404364

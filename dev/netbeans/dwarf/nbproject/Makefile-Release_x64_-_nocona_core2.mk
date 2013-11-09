@@ -81,77 +81,77 @@ ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/libdwarf.a: ${OBJECTFILES}
 ${OBJECTDIR}/_ext/1000264051/dwarf_alloc.o: ../../../dwarf/dwarf_alloc.c 
 	${MKDIR} -p ${OBJECTDIR}/_ext/1000264051
 	${RM} $@.d
-	$(COMPILE.c) -O2 -DBOOST_ALL_NO_LIB -DBOOST_USE_WINDOWS_H -DCASESENSITIVITYDEFAULT_YES -DNDEBUG -DNOMINMAX -DNO_VIZ -DSHT_RELA=4 -DSTRICT -DUNICODE -DWIN32 -DWIN32_LEAN_AND_MEAN -DWINVER=0x502 -DZLIB_WINAPI -D_REENTRANT -D_UNICODE -D_WIN32_IE=0x600 -D_WIN32_WINNT=0x502 -I../../../ -I../../../mingw/preload -I../../../mingw/include -I../../../dwarf -MMD -MP -MF $@.d -o ${OBJECTDIR}/_ext/1000264051/dwarf_alloc.o ../../../dwarf/dwarf_alloc.c
+	$(COMPILE.c) -DBOOST_ALL_NO_LIB -DBOOST_USE_WINDOWS_H -DCASESENSITIVITYDEFAULT_YES -DNDEBUG -DNOMINMAX -DNO_VIZ -DSHT_RELA=4 -DSTRICT -DUNICODE -DWIN32 -DWIN32_LEAN_AND_MEAN -DWINVER=0x502 -DZLIB_WINAPI -D_REENTRANT -D_UNICODE -D_WIN32_IE=0x600 -D_WIN32_WINNT=0x502 -I../../../ -I../../../mingw/preload -I../../../mingw/include -I../../../dwarf -MMD -MP -MF $@.d -o ${OBJECTDIR}/_ext/1000264051/dwarf_alloc.o ../../../dwarf/dwarf_alloc.c
 
 ${OBJECTDIR}/_ext/1000264051/dwarf_arange.o: ../../../dwarf/dwarf_arange.c 
 	${MKDIR} -p ${OBJECTDIR}/_ext/1000264051
 	${RM} $@.d
-	$(COMPILE.c) -O2 -DBOOST_ALL_NO_LIB -DBOOST_USE_WINDOWS_H -DCASESENSITIVITYDEFAULT_YES -DNDEBUG -DNOMINMAX -DNO_VIZ -DSHT_RELA=4 -DSTRICT -DUNICODE -DWIN32 -DWIN32_LEAN_AND_MEAN -DWINVER=0x502 -DZLIB_WINAPI -D_REENTRANT -D_UNICODE -D_WIN32_IE=0x600 -D_WIN32_WINNT=0x502 -I../../../ -I../../../mingw/preload -I../../../mingw/include -I../../../dwarf -MMD -MP -MF $@.d -o ${OBJECTDIR}/_ext/1000264051/dwarf_arange.o ../../../dwarf/dwarf_arange.c
+	$(COMPILE.c) -DBOOST_ALL_NO_LIB -DBOOST_USE_WINDOWS_H -DCASESENSITIVITYDEFAULT_YES -DNDEBUG -DNOMINMAX -DNO_VIZ -DSHT_RELA=4 -DSTRICT -DUNICODE -DWIN32 -DWIN32_LEAN_AND_MEAN -DWINVER=0x502 -DZLIB_WINAPI -D_REENTRANT -D_UNICODE -D_WIN32_IE=0x600 -D_WIN32_WINNT=0x502 -I../../../ -I../../../mingw/preload -I../../../mingw/include -I../../../dwarf -MMD -MP -MF $@.d -o ${OBJECTDIR}/_ext/1000264051/dwarf_arange.o ../../../dwarf/dwarf_arange.c
 
 ${OBJECTDIR}/_ext/1000264051/dwarf_die_deliv.o: ../../../dwarf/dwarf_die_deliv.c 
 	${MKDIR} -p ${OBJECTDIR}/_ext/1000264051
 	${RM} $@.d
-	$(COMPILE.c) -O2 -DBOOST_ALL_NO_LIB -DBOOST_USE_WINDOWS_H -DCASESENSITIVITYDEFAULT_YES -DNDEBUG -DNOMINMAX -DNO_VIZ -DSHT_RELA=4 -DSTRICT -DUNICODE -DWIN32 -DWIN32_LEAN_AND_MEAN -DWINVER=0x502 -DZLIB_WINAPI -D_REENTRANT -D_UNICODE -D_WIN32_IE=0x600 -D_WIN32_WINNT=0x502 -I../../../ -I../../../mingw/preload -I../../../mingw/include -I../../../dwarf -MMD -MP -MF $@.d -o ${OBJECTDIR}/_ext/1000264051/dwarf_die_deliv.o ../../../dwarf/dwarf_die_deliv.c
+	$(COMPILE.c) -DBOOST_ALL_NO_LIB -DBOOST_USE_WINDOWS_H -DCASESENSITIVITYDEFAULT_YES -DNDEBUG -DNOMINMAX -DNO_VIZ -DSHT_RELA=4 -DSTRICT -DUNICODE -DWIN32 -DWIN32_LEAN_AND_MEAN -DWINVER=0x502 -DZLIB_WINAPI -D_REENTRANT -D_UNICODE -D_WIN32_IE=0x600 -D_WIN32_WINNT=0x502 -I../../../ -I../../../mingw/preload -I../../../mingw/include -I../../../dwarf -MMD -MP -MF $@.d -o ${OBJECTDIR}/_ext/1000264051/dwarf_die_deliv.o ../../../dwarf/dwarf_die_deliv.c
 
 ${OBJECTDIR}/_ext/1000264051/dwarf_error.o: ../../../dwarf/dwarf_error.c 
 	${MKDIR} -p ${OBJECTDIR}/_ext/1000264051
 	${RM} $@.d
-	$(COMPILE.c) -O2 -DBOOST_ALL_NO_LIB -DBOOST_USE_WINDOWS_H -DCASESENSITIVITYDEFAULT_YES -DNDEBUG -DNOMINMAX -DNO_VIZ -DSHT_RELA=4 -DSTRICT -DUNICODE -DWIN32 -DWIN32_LEAN_AND_MEAN -DWINVER=0x502 -DZLIB_WINAPI -D_REENTRANT -D_UNICODE -D_WIN32_IE=0x600 -D_WIN32_WINNT=0x502 -I../../../ -I../../../mingw/preload -I../../../mingw/include -I../../../dwarf -MMD -MP -MF $@.d -o ${OBJECTDIR}/_ext/1000264051/dwarf_error.o ../../../dwarf/dwarf_error.c
+	$(COMPILE.c) -DBOOST_ALL_NO_LIB -DBOOST_USE_WINDOWS_H -DCASESENSITIVITYDEFAULT_YES -DNDEBUG -DNOMINMAX -DNO_VIZ -DSHT_RELA=4 -DSTRICT -DUNICODE -DWIN32 -DWIN32_LEAN_AND_MEAN -DWINVER=0x502 -DZLIB_WINAPI -D_REENTRANT -D_UNICODE -D_WIN32_IE=0x600 -D_WIN32_WINNT=0x502 -I../../../ -I../../../mingw/preload -I../../../mingw/include -I../../../dwarf -MMD -MP -MF $@.d -o ${OBJECTDIR}/_ext/1000264051/dwarf_error.o ../../../dwarf/dwarf_error.c
 
 ${OBJECTDIR}/_ext/1000264051/dwarf_form.o: ../../../dwarf/dwarf_form.c 
 	${MKDIR} -p ${OBJECTDIR}/_ext/1000264051
 	${RM} $@.d
-	$(COMPILE.c) -O2 -DBOOST_ALL_NO_LIB -DBOOST_USE_WINDOWS_H -DCASESENSITIVITYDEFAULT_YES -DNDEBUG -DNOMINMAX -DNO_VIZ -DSHT_RELA=4 -DSTRICT -DUNICODE -DWIN32 -DWIN32_LEAN_AND_MEAN -DWINVER=0x502 -DZLIB_WINAPI -D_REENTRANT -D_UNICODE -D_WIN32_IE=0x600 -D_WIN32_WINNT=0x502 -I../../../ -I../../../mingw/preload -I../../../mingw/include -I../../../dwarf -MMD -MP -MF $@.d -o ${OBJECTDIR}/_ext/1000264051/dwarf_form.o ../../../dwarf/dwarf_form.c
+	$(COMPILE.c) -DBOOST_ALL_NO_LIB -DBOOST_USE_WINDOWS_H -DCASESENSITIVITYDEFAULT_YES -DNDEBUG -DNOMINMAX -DNO_VIZ -DSHT_RELA=4 -DSTRICT -DUNICODE -DWIN32 -DWIN32_LEAN_AND_MEAN -DWINVER=0x502 -DZLIB_WINAPI -D_REENTRANT -D_UNICODE -D_WIN32_IE=0x600 -D_WIN32_WINNT=0x502 -I../../../ -I../../../mingw/preload -I../../../mingw/include -I../../../dwarf -MMD -MP -MF $@.d -o ${OBJECTDIR}/_ext/1000264051/dwarf_form.o ../../../dwarf/dwarf_form.c
 
 ${OBJECTDIR}/_ext/1000264051/dwarf_frame.o: ../../../dwarf/dwarf_frame.c 
 	${MKDIR} -p ${OBJECTDIR}/_ext/1000264051
 	${RM} $@.d
-	$(COMPILE.c) -O2 -DBOOST_ALL_NO_LIB -DBOOST_USE_WINDOWS_H -DCASESENSITIVITYDEFAULT_YES -DNDEBUG -DNOMINMAX -DNO_VIZ -DSHT_RELA=4 -DSTRICT -DUNICODE -DWIN32 -DWIN32_LEAN_AND_MEAN -DWINVER=0x502 -DZLIB_WINAPI -D_REENTRANT -D_UNICODE -D_WIN32_IE=0x600 -D_WIN32_WINNT=0x502 -I../../../ -I../../../mingw/preload -I../../../mingw/include -I../../../dwarf -MMD -MP -MF $@.d -o ${OBJECTDIR}/_ext/1000264051/dwarf_frame.o ../../../dwarf/dwarf_frame.c
+	$(COMPILE.c) -DBOOST_ALL_NO_LIB -DBOOST_USE_WINDOWS_H -DCASESENSITIVITYDEFAULT_YES -DNDEBUG -DNOMINMAX -DNO_VIZ -DSHT_RELA=4 -DSTRICT -DUNICODE -DWIN32 -DWIN32_LEAN_AND_MEAN -DWINVER=0x502 -DZLIB_WINAPI -D_REENTRANT -D_UNICODE -D_WIN32_IE=0x600 -D_WIN32_WINNT=0x502 -I../../../ -I../../../mingw/preload -I../../../mingw/include -I../../../dwarf -MMD -MP -MF $@.d -o ${OBJECTDIR}/_ext/1000264051/dwarf_frame.o ../../../dwarf/dwarf_frame.c
 
 ${OBJECTDIR}/_ext/1000264051/dwarf_frame2.o: ../../../dwarf/dwarf_frame2.c 
 	${MKDIR} -p ${OBJECTDIR}/_ext/1000264051
 	${RM} $@.d
-	$(COMPILE.c) -O2 -DBOOST_ALL_NO_LIB -DBOOST_USE_WINDOWS_H -DCASESENSITIVITYDEFAULT_YES -DNDEBUG -DNOMINMAX -DNO_VIZ -DSHT_RELA=4 -DSTRICT -DUNICODE -DWIN32 -DWIN32_LEAN_AND_MEAN -DWINVER=0x502 -DZLIB_WINAPI -D_REENTRANT -D_UNICODE -D_WIN32_IE=0x600 -D_WIN32_WINNT=0x502 -I../../../ -I../../../mingw/preload -I../../../mingw/include -I../../../dwarf -MMD -MP -MF $@.d -o ${OBJECTDIR}/_ext/1000264051/dwarf_frame2.o ../../../dwarf/dwarf_frame2.c
+	$(COMPILE.c) -DBOOST_ALL_NO_LIB -DBOOST_USE_WINDOWS_H -DCASESENSITIVITYDEFAULT_YES -DNDEBUG -DNOMINMAX -DNO_VIZ -DSHT_RELA=4 -DSTRICT -DUNICODE -DWIN32 -DWIN32_LEAN_AND_MEAN -DWINVER=0x502 -DZLIB_WINAPI -D_REENTRANT -D_UNICODE -D_WIN32_IE=0x600 -D_WIN32_WINNT=0x502 -I../../../ -I../../../mingw/preload -I../../../mingw/include -I../../../dwarf -MMD -MP -MF $@.d -o ${OBJECTDIR}/_ext/1000264051/dwarf_frame2.o ../../../dwarf/dwarf_frame2.c
 
 ${OBJECTDIR}/_ext/1000264051/dwarf_harmless.o: ../../../dwarf/dwarf_harmless.c 
 	${MKDIR} -p ${OBJECTDIR}/_ext/1000264051
 	${RM} $@.d
-	$(COMPILE.c) -O2 -DBOOST_ALL_NO_LIB -DBOOST_USE_WINDOWS_H -DCASESENSITIVITYDEFAULT_YES -DNDEBUG -DNOMINMAX -DNO_VIZ -DSHT_RELA=4 -DSTRICT -DUNICODE -DWIN32 -DWIN32_LEAN_AND_MEAN -DWINVER=0x502 -DZLIB_WINAPI -D_REENTRANT -D_UNICODE -D_WIN32_IE=0x600 -D_WIN32_WINNT=0x502 -I../../../ -I../../../mingw/preload -I../../../mingw/include -I../../../dwarf -MMD -MP -MF $@.d -o ${OBJECTDIR}/_ext/1000264051/dwarf_harmless.o ../../../dwarf/dwarf_harmless.c
+	$(COMPILE.c) -DBOOST_ALL_NO_LIB -DBOOST_USE_WINDOWS_H -DCASESENSITIVITYDEFAULT_YES -DNDEBUG -DNOMINMAX -DNO_VIZ -DSHT_RELA=4 -DSTRICT -DUNICODE -DWIN32 -DWIN32_LEAN_AND_MEAN -DWINVER=0x502 -DZLIB_WINAPI -D_REENTRANT -D_UNICODE -D_WIN32_IE=0x600 -D_WIN32_WINNT=0x502 -I../../../ -I../../../mingw/preload -I../../../mingw/include -I../../../dwarf -MMD -MP -MF $@.d -o ${OBJECTDIR}/_ext/1000264051/dwarf_harmless.o ../../../dwarf/dwarf_harmless.c
 
 ${OBJECTDIR}/_ext/1000264051/dwarf_init_finish.o: ../../../dwarf/dwarf_init_finish.c 
 	${MKDIR} -p ${OBJECTDIR}/_ext/1000264051
 	${RM} $@.d
-	$(COMPILE.c) -O2 -DBOOST_ALL_NO_LIB -DBOOST_USE_WINDOWS_H -DCASESENSITIVITYDEFAULT_YES -DNDEBUG -DNOMINMAX -DNO_VIZ -DSHT_RELA=4 -DSTRICT -DUNICODE -DWIN32 -DWIN32_LEAN_AND_MEAN -DWINVER=0x502 -DZLIB_WINAPI -D_REENTRANT -D_UNICODE -D_WIN32_IE=0x600 -D_WIN32_WINNT=0x502 -I../../../ -I../../../mingw/preload -I../../../mingw/include -I../../../dwarf -MMD -MP -MF $@.d -o ${OBJECTDIR}/_ext/1000264051/dwarf_init_finish.o ../../../dwarf/dwarf_init_finish.c
+	$(COMPILE.c) -DBOOST_ALL_NO_LIB -DBOOST_USE_WINDOWS_H -DCASESENSITIVITYDEFAULT_YES -DNDEBUG -DNOMINMAX -DNO_VIZ -DSHT_RELA=4 -DSTRICT -DUNICODE -DWIN32 -DWIN32_LEAN_AND_MEAN -DWINVER=0x502 -DZLIB_WINAPI -D_REENTRANT -D_UNICODE -D_WIN32_IE=0x600 -D_WIN32_WINNT=0x502 -I../../../ -I../../../mingw/preload -I../../../mingw/include -I../../../dwarf -MMD -MP -MF $@.d -o ${OBJECTDIR}/_ext/1000264051/dwarf_init_finish.o ../../../dwarf/dwarf_init_finish.c
 
 ${OBJECTDIR}/_ext/1000264051/dwarf_leb.o: ../../../dwarf/dwarf_leb.c 
 	${MKDIR} -p ${OBJECTDIR}/_ext/1000264051
 	${RM} $@.d
-	$(COMPILE.c) -O2 -DBOOST_ALL_NO_LIB -DBOOST_USE_WINDOWS_H -DCASESENSITIVITYDEFAULT_YES -DNDEBUG -DNOMINMAX -DNO_VIZ -DSHT_RELA=4 -DSTRICT -DUNICODE -DWIN32 -DWIN32_LEAN_AND_MEAN -DWINVER=0x502 -DZLIB_WINAPI -D_REENTRANT -D_UNICODE -D_WIN32_IE=0x600 -D_WIN32_WINNT=0x502 -I../../../ -I../../../mingw/preload -I../../../mingw/include -I../../../dwarf -MMD -MP -MF $@.d -o ${OBJECTDIR}/_ext/1000264051/dwarf_leb.o ../../../dwarf/dwarf_leb.c
+	$(COMPILE.c) -DBOOST_ALL_NO_LIB -DBOOST_USE_WINDOWS_H -DCASESENSITIVITYDEFAULT_YES -DNDEBUG -DNOMINMAX -DNO_VIZ -DSHT_RELA=4 -DSTRICT -DUNICODE -DWIN32 -DWIN32_LEAN_AND_MEAN -DWINVER=0x502 -DZLIB_WINAPI -D_REENTRANT -D_UNICODE -D_WIN32_IE=0x600 -D_WIN32_WINNT=0x502 -I../../../ -I../../../mingw/preload -I../../../mingw/include -I../../../dwarf -MMD -MP -MF $@.d -o ${OBJECTDIR}/_ext/1000264051/dwarf_leb.o ../../../dwarf/dwarf_leb.c
 
 ${OBJECTDIR}/_ext/1000264051/dwarf_line.o: ../../../dwarf/dwarf_line.c 
 	${MKDIR} -p ${OBJECTDIR}/_ext/1000264051
 	${RM} $@.d
-	$(COMPILE.c) -O2 -DBOOST_ALL_NO_LIB -DBOOST_USE_WINDOWS_H -DCASESENSITIVITYDEFAULT_YES -DNDEBUG -DNOMINMAX -DNO_VIZ -DSHT_RELA=4 -DSTRICT -DUNICODE -DWIN32 -DWIN32_LEAN_AND_MEAN -DWINVER=0x502 -DZLIB_WINAPI -D_REENTRANT -D_UNICODE -D_WIN32_IE=0x600 -D_WIN32_WINNT=0x502 -I../../../ -I../../../mingw/preload -I../../../mingw/include -I../../../dwarf -MMD -MP -MF $@.d -o ${OBJECTDIR}/_ext/1000264051/dwarf_line.o ../../../dwarf/dwarf_line.c
+	$(COMPILE.c) -DBOOST_ALL_NO_LIB -DBOOST_USE_WINDOWS_H -DCASESENSITIVITYDEFAULT_YES -DNDEBUG -DNOMINMAX -DNO_VIZ -DSHT_RELA=4 -DSTRICT -DUNICODE -DWIN32 -DWIN32_LEAN_AND_MEAN -DWINVER=0x502 -DZLIB_WINAPI -D_REENTRANT -D_UNICODE -D_WIN32_IE=0x600 -D_WIN32_WINNT=0x502 -I../../../ -I../../../mingw/preload -I../../../mingw/include -I../../../dwarf -MMD -MP -MF $@.d -o ${OBJECTDIR}/_ext/1000264051/dwarf_line.o ../../../dwarf/dwarf_line.c
 
 ${OBJECTDIR}/_ext/1000264051/dwarf_query.o: ../../../dwarf/dwarf_query.c 
 	${MKDIR} -p ${OBJECTDIR}/_ext/1000264051
 	${RM} $@.d
-	$(COMPILE.c) -O2 -DBOOST_ALL_NO_LIB -DBOOST_USE_WINDOWS_H -DCASESENSITIVITYDEFAULT_YES -DNDEBUG -DNOMINMAX -DNO_VIZ -DSHT_RELA=4 -DSTRICT -DUNICODE -DWIN32 -DWIN32_LEAN_AND_MEAN -DWINVER=0x502 -DZLIB_WINAPI -D_REENTRANT -D_UNICODE -D_WIN32_IE=0x600 -D_WIN32_WINNT=0x502 -I../../../ -I../../../mingw/preload -I../../../mingw/include -I../../../dwarf -MMD -MP -MF $@.d -o ${OBJECTDIR}/_ext/1000264051/dwarf_query.o ../../../dwarf/dwarf_query.c
+	$(COMPILE.c) -DBOOST_ALL_NO_LIB -DBOOST_USE_WINDOWS_H -DCASESENSITIVITYDEFAULT_YES -DNDEBUG -DNOMINMAX -DNO_VIZ -DSHT_RELA=4 -DSTRICT -DUNICODE -DWIN32 -DWIN32_LEAN_AND_MEAN -DWINVER=0x502 -DZLIB_WINAPI -D_REENTRANT -D_UNICODE -D_WIN32_IE=0x600 -D_WIN32_WINNT=0x502 -I../../../ -I../../../mingw/preload -I../../../mingw/include -I../../../dwarf -MMD -MP -MF $@.d -o ${OBJECTDIR}/_ext/1000264051/dwarf_query.o ../../../dwarf/dwarf_query.c
 
 ${OBJECTDIR}/_ext/1000264051/dwarf_stubs.o: ../../../dwarf/dwarf_stubs.c 
 	${MKDIR} -p ${OBJECTDIR}/_ext/1000264051
 	${RM} $@.d
-	$(COMPILE.c) -O2 -DBOOST_ALL_NO_LIB -DBOOST_USE_WINDOWS_H -DCASESENSITIVITYDEFAULT_YES -DNDEBUG -DNOMINMAX -DNO_VIZ -DSHT_RELA=4 -DSTRICT -DUNICODE -DWIN32 -DWIN32_LEAN_AND_MEAN -DWINVER=0x502 -DZLIB_WINAPI -D_REENTRANT -D_UNICODE -D_WIN32_IE=0x600 -D_WIN32_WINNT=0x502 -I../../../ -I../../../mingw/preload -I../../../mingw/include -I../../../dwarf -MMD -MP -MF $@.d -o ${OBJECTDIR}/_ext/1000264051/dwarf_stubs.o ../../../dwarf/dwarf_stubs.c
+	$(COMPILE.c) -DBOOST_ALL_NO_LIB -DBOOST_USE_WINDOWS_H -DCASESENSITIVITYDEFAULT_YES -DNDEBUG -DNOMINMAX -DNO_VIZ -DSHT_RELA=4 -DSTRICT -DUNICODE -DWIN32 -DWIN32_LEAN_AND_MEAN -DWINVER=0x502 -DZLIB_WINAPI -D_REENTRANT -D_UNICODE -D_WIN32_IE=0x600 -D_WIN32_WINNT=0x502 -I../../../ -I../../../mingw/preload -I../../../mingw/include -I../../../dwarf -MMD -MP -MF $@.d -o ${OBJECTDIR}/_ext/1000264051/dwarf_stubs.o ../../../dwarf/dwarf_stubs.c
 
 ${OBJECTDIR}/_ext/1000264051/dwarf_util.o: ../../../dwarf/dwarf_util.c 
 	${MKDIR} -p ${OBJECTDIR}/_ext/1000264051
 	${RM} $@.d
-	$(COMPILE.c) -O2 -DBOOST_ALL_NO_LIB -DBOOST_USE_WINDOWS_H -DCASESENSITIVITYDEFAULT_YES -DNDEBUG -DNOMINMAX -DNO_VIZ -DSHT_RELA=4 -DSTRICT -DUNICODE -DWIN32 -DWIN32_LEAN_AND_MEAN -DWINVER=0x502 -DZLIB_WINAPI -D_REENTRANT -D_UNICODE -D_WIN32_IE=0x600 -D_WIN32_WINNT=0x502 -I../../../ -I../../../mingw/preload -I../../../mingw/include -I../../../dwarf -MMD -MP -MF $@.d -o ${OBJECTDIR}/_ext/1000264051/dwarf_util.o ../../../dwarf/dwarf_util.c
+	$(COMPILE.c) -DBOOST_ALL_NO_LIB -DBOOST_USE_WINDOWS_H -DCASESENSITIVITYDEFAULT_YES -DNDEBUG -DNOMINMAX -DNO_VIZ -DSHT_RELA=4 -DSTRICT -DUNICODE -DWIN32 -DWIN32_LEAN_AND_MEAN -DWINVER=0x502 -DZLIB_WINAPI -D_REENTRANT -D_UNICODE -D_WIN32_IE=0x600 -D_WIN32_WINNT=0x502 -I../../../ -I../../../mingw/preload -I../../../mingw/include -I../../../dwarf -MMD -MP -MF $@.d -o ${OBJECTDIR}/_ext/1000264051/dwarf_util.o ../../../dwarf/dwarf_util.c
 
 ${OBJECTDIR}/_ext/1000264051/pro_encode_nm.o: ../../../dwarf/pro_encode_nm.c 
 	${MKDIR} -p ${OBJECTDIR}/_ext/1000264051
 	${RM} $@.d
-	$(COMPILE.c) -O2 -DBOOST_ALL_NO_LIB -DBOOST_USE_WINDOWS_H -DCASESENSITIVITYDEFAULT_YES -DNDEBUG -DNOMINMAX -DNO_VIZ -DSHT_RELA=4 -DSTRICT -DUNICODE -DWIN32 -DWIN32_LEAN_AND_MEAN -DWINVER=0x502 -DZLIB_WINAPI -D_REENTRANT -D_UNICODE -D_WIN32_IE=0x600 -D_WIN32_WINNT=0x502 -I../../../ -I../../../mingw/preload -I../../../mingw/include -I../../../dwarf -MMD -MP -MF $@.d -o ${OBJECTDIR}/_ext/1000264051/pro_encode_nm.o ../../../dwarf/pro_encode_nm.c
+	$(COMPILE.c) -DBOOST_ALL_NO_LIB -DBOOST_USE_WINDOWS_H -DCASESENSITIVITYDEFAULT_YES -DNDEBUG -DNOMINMAX -DNO_VIZ -DSHT_RELA=4 -DSTRICT -DUNICODE -DWIN32 -DWIN32_LEAN_AND_MEAN -DWINVER=0x502 -DZLIB_WINAPI -D_REENTRANT -D_UNICODE -D_WIN32_IE=0x600 -D_WIN32_WINNT=0x502 -I../../../ -I../../../mingw/preload -I../../../mingw/include -I../../../dwarf -MMD -MP -MF $@.d -o ${OBJECTDIR}/_ext/1000264051/pro_encode_nm.o ../../../dwarf/pro_encode_nm.c
 
 # Subprojects
 .build-subprojects:

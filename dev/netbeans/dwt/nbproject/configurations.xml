@@ -1159,7 +1159,7 @@
           <developmentMode>5</developmentMode>
         </cTool>
         <ccTool>
-          <developmentMode>5</developmentMode>
+          <developmentMode>0</developmentMode>
           <standard>8</standard>
           <incDir>
             <pElem>../../../</pElem>
@@ -2975,7 +2975,7 @@
           <developmentMode>5</developmentMode>
         </cTool>
         <ccTool>
-          <developmentMode>5</developmentMode>
+          <developmentMode>0</developmentMode>
           <standard>8</standard>
           <incDir>
             <pElem>../../../</pElem>
