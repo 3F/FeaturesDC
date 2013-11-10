@@ -21,7 +21,7 @@ FC=gfortran
 AS=as
 
 # Macros
-CND_PLATFORM=MinGW_w64_-_x64-seh_-_4.8.1-rev5-Windows
+CND_PLATFORM=MinGW_w64_-_x64-Windows
 CND_DLIB_EXT=dll
 CND_CONF=Debug_x64_-_nocona_core2
 CND_DISTDIR=dist
@@ -121,7 +121,7 @@ FFLAGS=
 ASFLAGS=
 
 # Link Libraries and Options
-LDLIBSOPTIONS=-static ../dcpp/../../../../build/dcpp/dist/Debug_x64_-_nocona_core2/MinGW_w64_-_x64-seh_-_4.8.1-rev5-Windows/libdcpp.a ../dwarf/../../../../build/dwarf/dist/Debug_x64_-_nocona_core2/MinGW_w64_-_x64-seh_-_4.8.1-rev5-Windows/libdwarf.a ../zlib/../../../../build/zlib/dist/Debug_x64_-_nocona_core2/MinGW_w64_-_x64-seh_-_4.8.1-rev5-Windows/libzlib.a ../boost/../../../../build/boost/dist/Debug_x64_-_nocona_core2/MinGW_w64_-_x64-seh_-_4.8.1-rev5-Windows/libboost.a ../bzip2/../../../../build/bzip2/dist/Debug_x64_-_nocona_core2/MinGW_w64_-_x64-seh_-_4.8.1-rev5-Windows/libbzip2.a ../geoip/../../../../build/geoip/dist/Debug_x64_-_nocona_core2/MinGW_w64_-_x64-seh_-_4.8.1-rev5-Windows/libgeoip.a ../miniupnpc/../../../../build/miniupnpc/dist/Debug_x64_-_nocona_core2/MinGW_w64_-_x64-seh_-_4.8.1-rev5-Windows/libminiupnpc.a ../natpmp/../../../../build/natpmp/dist/Debug_x64_-_nocona_core2/MinGW_w64_-_x64-seh_-_4.8.1-rev5-Windows/libnatpmp.a ../dwt/../../../../build/dwt/dist/Debug_x64_-_nocona_core2/MinGW_w64_-_x64-seh_-_4.8.1-rev5-Windows/libdwt.a ../intl/../../../../build/intl/dist/Debug_x64_-_nocona_core2/MinGW_w64_-_x64-seh_-_4.8.1-rev5-Windows/libintl.a ../../../openssl/lib/x64/libssl.a ../../../openssl/lib/x64/libcrypto.a ${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}/DCPlusPlus.rc.o -limagehlp -lgdi32 -liphlpapi -lole32 -lws2_32 -lcomctl32 -lcomdlg32 -loleaut32 -lshlwapi -luuid -luxtheme -lwinmm -lwtsapi32
+LDLIBSOPTIONS=-static ../dcpp/../../../../build/dcpp/dist/Debug_x64_-_nocona_core2/MinGW_w64_-_x64-Windows/libdcpp.a ../dwarf/../../../../build/dwarf/dist/Debug_x64_-_nocona_core2/MinGW_w64_-_x64-Windows/libdwarf.a ../zlib/../../../../build/zlib/dist/Debug_x64_-_nocona_core2/MinGW_w64_-_x64-Windows/libzlib.a ../boost/../../../../build/boost/dist/Debug_x64_-_nocona_core2/MinGW_w64_-_x64-Windows/libboost.a ../bzip2/../../../../build/bzip2/dist/Debug_x64_-_nocona_core2/MinGW_w64_-_x64-Windows/libbzip2.a ../geoip/../../../../build/geoip/dist/Debug_x64_-_nocona_core2/MinGW_w64_-_x64-Windows/libgeoip.a ../miniupnpc/../../../../build/miniupnpc/dist/Debug_x64_-_nocona_core2/MinGW_w64_-_x64-Windows/libminiupnpc.a ../natpmp/../../../../build/natpmp/dist/Debug_x64_-_nocona_core2/MinGW_w64_-_x64-Windows/libnatpmp.a ../dwt/../../../../build/dwt/dist/Debug_x64_-_nocona_core2/MinGW_w64_-_x64-Windows/libdwt.a ../intl/../../../../build/intl/dist/Debug_x64_-_nocona_core2/MinGW_w64_-_x64-Windows/libintl.a ../../../openssl/lib/x64/libssl.a ../../../openssl/lib/x64/libcrypto.a ${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}/DCPlusPlus.rc.o -limagehlp -lgdi32 -liphlpapi -lole32 -lws2_32 -lcomctl32 -lcomdlg32 -loleaut32 -lshlwapi -luuid -luxtheme -lwinmm -lwtsapi32
 
 # Build Targets
 .build-conf: ${BUILD_SUBPROJECTS}
@@ -129,25 +129,25 @@ LDLIBSOPTIONS=-static ../dcpp/../../../../build/dcpp/dist/Debug_x64_-_nocona_cor
 
 ../../../../build/_bin_/${CND_CONF}/DCPlusPlus.exe: ${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}/DCPlusPlus.rc.o
 
-../../../../build/_bin_/${CND_CONF}/DCPlusPlus.exe: ../dcpp/../../../../build/dcpp/dist/Debug_x64_-_nocona_core2/MinGW_w64_-_x64-seh_-_4.8.1-rev5-Windows/libdcpp.a
+../../../../build/_bin_/${CND_CONF}/DCPlusPlus.exe: ../dcpp/../../../../build/dcpp/dist/Debug_x64_-_nocona_core2/MinGW_w64_-_x64-Windows/libdcpp.a
 
-../../../../build/_bin_/${CND_CONF}/DCPlusPlus.exe: ../dwarf/../../../../build/dwarf/dist/Debug_x64_-_nocona_core2/MinGW_w64_-_x64-seh_-_4.8.1-rev5-Windows/libdwarf.a
+../../../../build/_bin_/${CND_CONF}/DCPlusPlus.exe: ../dwarf/../../../../build/dwarf/dist/Debug_x64_-_nocona_core2/MinGW_w64_-_x64-Windows/libdwarf.a
 
-../../../../build/_bin_/${CND_CONF}/DCPlusPlus.exe: ../zlib/../../../../build/zlib/dist/Debug_x64_-_nocona_core2/MinGW_w64_-_x64-seh_-_4.8.1-rev5-Windows/libzlib.a
+../../../../build/_bin_/${CND_CONF}/DCPlusPlus.exe: ../zlib/../../../../build/zlib/dist/Debug_x64_-_nocona_core2/MinGW_w64_-_x64-Windows/libzlib.a
 
-../../../../build/_bin_/${CND_CONF}/DCPlusPlus.exe: ../boost/../../../../build/boost/dist/Debug_x64_-_nocona_core2/MinGW_w64_-_x64-seh_-_4.8.1-rev5-Windows/libboost.a
+../../../../build/_bin_/${CND_CONF}/DCPlusPlus.exe: ../boost/../../../../build/boost/dist/Debug_x64_-_nocona_core2/MinGW_w64_-_x64-Windows/libboost.a
 
-../../../../build/_bin_/${CND_CONF}/DCPlusPlus.exe: ../bzip2/../../../../build/bzip2/dist/Debug_x64_-_nocona_core2/MinGW_w64_-_x64-seh_-_4.8.1-rev5-Windows/libbzip2.a
+../../../../build/_bin_/${CND_CONF}/DCPlusPlus.exe: ../bzip2/../../../../build/bzip2/dist/Debug_x64_-_nocona_core2/MinGW_w64_-_x64-Windows/libbzip2.a
 
-../../../../build/_bin_/${CND_CONF}/DCPlusPlus.exe: ../geoip/../../../../build/geoip/dist/Debug_x64_-_nocona_core2/MinGW_w64_-_x64-seh_-_4.8.1-rev5-Windows/libgeoip.a
+../../../../build/_bin_/${CND_CONF}/DCPlusPlus.exe: ../geoip/../../../../build/geoip/dist/Debug_x64_-_nocona_core2/MinGW_w64_-_x64-Windows/libgeoip.a
 
-../../../../build/_bin_/${CND_CONF}/DCPlusPlus.exe: ../miniupnpc/../../../../build/miniupnpc/dist/Debug_x64_-_nocona_core2/MinGW_w64_-_x64-seh_-_4.8.1-rev5-Windows/libminiupnpc.a
+../../../../build/_bin_/${CND_CONF}/DCPlusPlus.exe: ../miniupnpc/../../../../build/miniupnpc/dist/Debug_x64_-_nocona_core2/MinGW_w64_-_x64-Windows/libminiupnpc.a
 
-../../../../build/_bin_/${CND_CONF}/DCPlusPlus.exe: ../natpmp/../../../../build/natpmp/dist/Debug_x64_-_nocona_core2/MinGW_w64_-_x64-seh_-_4.8.1-rev5-Windows/libnatpmp.a
+../../../../build/_bin_/${CND_CONF}/DCPlusPlus.exe: ../natpmp/../../../../build/natpmp/dist/Debug_x64_-_nocona_core2/MinGW_w64_-_x64-Windows/libnatpmp.a
 
-../../../../build/_bin_/${CND_CONF}/DCPlusPlus.exe: ../dwt/../../../../build/dwt/dist/Debug_x64_-_nocona_core2/MinGW_w64_-_x64-seh_-_4.8.1-rev5-Windows/libdwt.a
+../../../../build/_bin_/${CND_CONF}/DCPlusPlus.exe: ../dwt/../../../../build/dwt/dist/Debug_x64_-_nocona_core2/MinGW_w64_-_x64-Windows/libdwt.a
 
-../../../../build/_bin_/${CND_CONF}/DCPlusPlus.exe: ../intl/../../../../build/intl/dist/Debug_x64_-_nocona_core2/MinGW_w64_-_x64-seh_-_4.8.1-rev5-Windows/libintl.a
+../../../../build/_bin_/${CND_CONF}/DCPlusPlus.exe: ../intl/../../../../build/intl/dist/Debug_x64_-_nocona_core2/MinGW_w64_-_x64-Windows/libintl.a
 
 ../../../../build/_bin_/${CND_CONF}/DCPlusPlus.exe: ../../../openssl/lib/x64/libssl.a
 
