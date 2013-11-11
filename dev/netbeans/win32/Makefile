@@ -48,6 +48,7 @@
 MKDIR=mkdir
 CP=cp
 CCADMIN=CCadmin
+PATH_TO_ROOT=../../../
 PATH_TO_BUILD=../../../../build
 
 # bin
@@ -61,7 +62,8 @@ OUTPUT_FILE_EXT_S=.pdb
 build: .build-post
 
 .build-pre:
-# Add your pre 'build' code here...
+	# generate help/cshelp.h (windows-batch):
+	cmd //c start "cshelp.bat"
 
 .build-post: .build-impl
 	strip --only-keep-debug $(PATH_TO_BUILD)/_bin_/${CONF}/$(OUTPUT_FILE_NAME)$(OUTPUT_FILE_EXT_E) -o $(PATH_TO_BUILD)/_bin_/${CONF}/$(OUTPUT_FILE_NAME)$(OUTPUT_FILE_EXT_S)

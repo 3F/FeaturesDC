@@ -226,6 +226,7 @@
                    projectFiles="false"
                    kind="IMPORTANT_FILES_FOLDER">
       <itemPath>Makefile</itemPath>
+      <itemPath>cshelp.bat</itemPath>
     </logicalFolder>
   </logicalFolder>
   <sourceRootList>

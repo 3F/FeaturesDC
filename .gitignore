@@ -1,3 +1,4 @@
 /dev/netbeans/*/nbproject/private
 /.bzr
 /*.bzrignore
+/help/cshelp.h
