@@ -227,6 +227,7 @@
                    kind="IMPORTANT_FILES_FOLDER">
       <itemPath>Makefile</itemPath>
       <itemPath>cshelp.bat</itemPath>
+      <itemPath>cshelp.sh</itemPath>
     </logicalFolder>
   </logicalFolder>
   <sourceRootList>

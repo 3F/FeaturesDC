@@ -63,7 +63,9 @@ build: .build-post
 
 .build-pre:
 	# generate help/cshelp.h (windows-batch):
-	cmd //c start "cshelp.bat"
+	#cmd //c start "cshelp.bat"
+	# variant with bash:
+	sh cshelp.sh
 
 .build-post: .build-impl
 	strip --only-keep-debug $(PATH_TO_BUILD)/_bin_/${CONF}/$(OUTPUT_FILE_NAME)$(OUTPUT_FILE_EXT_E) -o $(PATH_TO_BUILD)/_bin_/${CONF}/$(OUTPUT_FILE_NAME)$(OUTPUT_FILE_EXT_S)
