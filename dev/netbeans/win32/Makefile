@@ -57,11 +57,23 @@ OUTPUT_FILE_NAME_STRIP=DCPlusPlus_stripped
 OUTPUT_FILE_EXT_E=.exe
 OUTPUT_FILE_EXT_S=.pdb
 
+# dependencies 
+PATH_DEP_CSHELP=../../../help/cshelp.h
 
 # build
 build: .build-post
 
-.build-pre:
+.build-pre: .check-exist
+	
+.check-exist:
+	@if [ ! -f $(PATH_DEP_CSHELP) ]; then \
+	    echo "generate cshelp.h ..."; \
+	    if [ $(shell echo $(CND_PLATFORM_${CONF}) | sed -r 's/(\S{5}).*/\L\1/') = 'mingw' ] ; then \
+	        sh cshelp.sh; \
+	    else \
+	        cmd //c start "cshelp.bat"; \
+	    fi; \
+	fi;
 
 .build-post: .build-impl
 	strip --only-keep-debug $(PATH_TO_BUILD)/_bin_/${CONF}/$(OUTPUT_FILE_NAME)$(OUTPUT_FILE_EXT_E) -o $(PATH_TO_BUILD)/_bin_/${CONF}/$(OUTPUT_FILE_NAME)$(OUTPUT_FILE_EXT_S)
@@ -77,12 +89,7 @@ clean: .clean-post
 # Add your pre 'clean' code here...
 
 .clean-post: .clean-impl
-	# TODO:
-	# generate help/cshelp.h (windows-batch):
-	#cmd //c start "cshelp.bat"
-	# variant with bash:
-	sh cshelp.sh
-
+	rm -f $(PATH_DEP_CSHELP)	
 
 # clobber
 clobber: .clobber-post
