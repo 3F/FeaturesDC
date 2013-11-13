@@ -62,10 +62,6 @@ OUTPUT_FILE_EXT_S=.pdb
 build: .build-post
 
 .build-pre:
-	# generate help/cshelp.h (windows-batch):
-	#cmd //c start "cshelp.bat"
-	# variant with bash:
-	sh cshelp.sh
 
 .build-post: .build-impl
 	strip --only-keep-debug $(PATH_TO_BUILD)/_bin_/${CONF}/$(OUTPUT_FILE_NAME)$(OUTPUT_FILE_EXT_E) -o $(PATH_TO_BUILD)/_bin_/${CONF}/$(OUTPUT_FILE_NAME)$(OUTPUT_FILE_EXT_S)
@@ -81,7 +77,11 @@ clean: .clean-post
 # Add your pre 'clean' code here...
 
 .clean-post: .clean-impl
-# Add your post 'clean' code here...
+	# TODO:
+	# generate help/cshelp.h (windows-batch):
+	#cmd //c start "cshelp.bat"
+	# variant with bash:
+	sh cshelp.sh
 
 
 # clobber

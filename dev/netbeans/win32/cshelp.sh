@@ -34,7 +34,8 @@ cd $workdir
     output+="#ifndef DCPLUSPLUS_HELP_CSHELP_H$newline"
     output+="#define DCPLUSPLUS_HELP_CSHELP_H$newline"
 
-        for const in $( grep -hoisE "cshelp\s*=\s*([^ ]+)" *.html | sed -r "s#cshelp\s*=\s*['\"]([^'\"]+).*#\1#i")
+        #--only-matching : for const in $( grep -hoisE "cshelp\s*=\s*([^ ]+)" *.html | sed -r "s#cshelp\s*=\s*['\"]([^'\"]+).*#\1#i")
+        for const in $( grep -hisE "cshelp\s*=\s*([^ ]+)" *.html | sed -r "s#.*cshelp\s*=\s*['\"]([^'\"]+).*#\1#i")
         do
             output+="\t#define $const $dnum$newline"
             ((dnum++))
