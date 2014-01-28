@@ -2,3 +2,7 @@
 /.bzr
 /*.bzrignore
 /help/cshelp.h
+
+# NB bug :: should be placed into a nbproject/private folder:
+/dev/netbeans/*/nbproject/*.mk
+/dev/netbeans/*/nbproject/*.bash
