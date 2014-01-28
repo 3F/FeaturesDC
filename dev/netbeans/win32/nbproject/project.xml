@@ -21,7 +21,7 @@
                 <make-dep-project>../dcpp</make-dep-project>
             </make-dep-projects>
             <sourceRootList>
-                <sourceRootElem>../../../win32</sourceRootElem>
+                <sourceRootElem>../../../src/win32</sourceRootElem>
             </sourceRootList>
             <confList>
                 <confElem>

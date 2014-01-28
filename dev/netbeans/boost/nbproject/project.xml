@@ -10,7 +10,7 @@
             <sourceEncoding>UTF-8</sourceEncoding>
             <make-dep-projects/>
             <sourceRootList>
-                <sourceRootElem>../../../boost</sourceRootElem>
+                <sourceRootElem>../../../src/boost</sourceRootElem>
             </sourceRootList>
             <confList>
                 <confElem>

@@ -4,39 +4,39 @@
     <logicalFolder name="HeaderFiles"
                    displayName="Header Files"
                    projectFiles="true">
-      <itemPath>../../../miniupnpc/bsdqueue.h</itemPath>
-      <itemPath>../../../miniupnpc/codelength.h</itemPath>
-      <itemPath>../../../miniupnpc/connecthostport.h</itemPath>
-      <itemPath>../../../miniupnpc/declspec.h</itemPath>
-      <itemPath>../../../miniupnpc/igd_desc_parse.h</itemPath>
-      <itemPath>../../../miniupnpc/minisoap.h</itemPath>
-      <itemPath>../../../miniupnpc/minissdpc.h</itemPath>
-      <itemPath>../../../miniupnpc/miniupnpc.h</itemPath>
-      <itemPath>../../../miniupnpc/miniupnpcstrings.h</itemPath>
-      <itemPath>../../../miniupnpc/miniupnpctypes.h</itemPath>
-      <itemPath>../../../miniupnpc/miniwget.h</itemPath>
-      <itemPath>../../../miniupnpc/minixml.h</itemPath>
-      <itemPath>../../../miniupnpc/portlistingparse.h</itemPath>
-      <itemPath>../../../miniupnpc/receivedata.h</itemPath>
-      <itemPath>../../../miniupnpc/upnpcommands.h</itemPath>
-      <itemPath>../../../miniupnpc/upnperrors.h</itemPath>
-      <itemPath>../../../miniupnpc/upnpreplyparse.h</itemPath>
+      <itemPath>../../../src/miniupnpc/bsdqueue.h</itemPath>
+      <itemPath>../../../src/miniupnpc/codelength.h</itemPath>
+      <itemPath>../../../src/miniupnpc/connecthostport.h</itemPath>
+      <itemPath>../../../src/miniupnpc/declspec.h</itemPath>
+      <itemPath>../../../src/miniupnpc/igd_desc_parse.h</itemPath>
+      <itemPath>../../../src/miniupnpc/minisoap.h</itemPath>
+      <itemPath>../../../src/miniupnpc/minissdpc.h</itemPath>
+      <itemPath>../../../src/miniupnpc/miniupnpc.h</itemPath>
+      <itemPath>../../../src/miniupnpc/miniupnpcstrings.h</itemPath>
+      <itemPath>../../../src/miniupnpc/miniupnpctypes.h</itemPath>
+      <itemPath>../../../src/miniupnpc/miniwget.h</itemPath>
+      <itemPath>../../../src/miniupnpc/minixml.h</itemPath>
+      <itemPath>../../../src/miniupnpc/portlistingparse.h</itemPath>
+      <itemPath>../../../src/miniupnpc/receivedata.h</itemPath>
+      <itemPath>../../../src/miniupnpc/upnpcommands.h</itemPath>
+      <itemPath>../../../src/miniupnpc/upnperrors.h</itemPath>
+      <itemPath>../../../src/miniupnpc/upnpreplyparse.h</itemPath>
     </logicalFolder>
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
-      <itemPath>../../../miniupnpc/connecthostport.c</itemPath>
-      <itemPath>../../../miniupnpc/igd_desc_parse.c</itemPath>
-      <itemPath>../../../miniupnpc/minisoap.c</itemPath>
-      <itemPath>../../../miniupnpc/minissdpc.c</itemPath>
-      <itemPath>../../../miniupnpc/miniupnpc.c</itemPath>
-      <itemPath>../../../miniupnpc/miniwget.c</itemPath>
-      <itemPath>../../../miniupnpc/minixml.c</itemPath>
-      <itemPath>../../../miniupnpc/portlistingparse.c</itemPath>
-      <itemPath>../../../miniupnpc/receivedata.c</itemPath>
-      <itemPath>../../../miniupnpc/upnpcommands.c</itemPath>
-      <itemPath>../../../miniupnpc/upnperrors.c</itemPath>
-      <itemPath>../../../miniupnpc/upnpreplyparse.c</itemPath>
+      <itemPath>../../../src/miniupnpc/connecthostport.c</itemPath>
+      <itemPath>../../../src/miniupnpc/igd_desc_parse.c</itemPath>
+      <itemPath>../../../src/miniupnpc/minisoap.c</itemPath>
+      <itemPath>../../../src/miniupnpc/minissdpc.c</itemPath>
+      <itemPath>../../../src/miniupnpc/miniupnpc.c</itemPath>
+      <itemPath>../../../src/miniupnpc/miniwget.c</itemPath>
+      <itemPath>../../../src/miniupnpc/minixml.c</itemPath>
+      <itemPath>../../../src/miniupnpc/portlistingparse.c</itemPath>
+      <itemPath>../../../src/miniupnpc/receivedata.c</itemPath>
+      <itemPath>../../../src/miniupnpc/upnpcommands.c</itemPath>
+      <itemPath>../../../src/miniupnpc/upnperrors.c</itemPath>
+      <itemPath>../../../src/miniupnpc/upnpreplyparse.c</itemPath>
     </logicalFolder>
     <logicalFolder name="TestFiles"
                    displayName="Test Files"
@@ -51,7 +51,7 @@
     </logicalFolder>
   </logicalFolder>
   <sourceRootList>
-    <Elem>../../../miniupnpc</Elem>
+    <Elem>../../../src/miniupnpc</Elem>
   </sourceRootList>
   <projectmakefile>Makefile</projectmakefile>
   <confs>
@@ -64,9 +64,9 @@
       <compileType>
         <cTool>
           <incDir>
-            <pElem>../../../</pElem>
-            <pElem>../../../mingw/preload</pElem>
-            <pElem>../../../mingw/include</pElem>
+            <pElem>../../../src</pElem>
+            <pElem>../../../src/mingw/preload</pElem>
+            <pElem>../../../src/mingw/include</pElem>
           </incDir>
           <commandLine>-march=i686 -mtune=generic -pipe -mthreads -mwindows -Wall -Wextra -Wno-unused-local-typedefs -Wno-unused-parameter -Wno-unused-value -Wno-missing-field-initializers -Wno-address -Wno-unknown-pragmas -Wno-format -fexceptions -Og</commandLine>
           <preprocessorList>
@@ -93,90 +93,90 @@
           <output>${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/libminiupnpc.a</output>
         </archiverTool>
       </compileType>
-      <item path="../../../miniupnpc/bsdqueue.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/miniupnpc/bsdqueue.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../miniupnpc/codelength.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/miniupnpc/codelength.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../miniupnpc/connecthostport.c"
+      <item path="../../../src/miniupnpc/connecthostport.c"
             ex="false"
             tool="0"
             flavor2="0">
       </item>
-      <item path="../../../miniupnpc/connecthostport.h"
+      <item path="../../../src/miniupnpc/connecthostport.h"
             ex="false"
             tool="3"
             flavor2="0">
       </item>
-      <item path="../../../miniupnpc/declspec.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/miniupnpc/declspec.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../miniupnpc/igd_desc_parse.c"
+      <item path="../../../src/miniupnpc/igd_desc_parse.c"
             ex="false"
             tool="0"
             flavor2="0">
       </item>
-      <item path="../../../miniupnpc/igd_desc_parse.h"
+      <item path="../../../src/miniupnpc/igd_desc_parse.h"
             ex="false"
             tool="3"
             flavor2="0">
       </item>
-      <item path="../../../miniupnpc/minisoap.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/miniupnpc/minisoap.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../miniupnpc/minisoap.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/miniupnpc/minisoap.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../miniupnpc/minissdpc.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/miniupnpc/minissdpc.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../miniupnpc/minissdpc.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/miniupnpc/minissdpc.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../miniupnpc/miniupnpc.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/miniupnpc/miniupnpc.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../miniupnpc/miniupnpc.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/miniupnpc/miniupnpc.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../miniupnpc/miniupnpcstrings.h"
+      <item path="../../../src/miniupnpc/miniupnpcstrings.h"
             ex="false"
             tool="3"
             flavor2="0">
       </item>
-      <item path="../../../miniupnpc/miniupnpctypes.h"
+      <item path="../../../src/miniupnpc/miniupnpctypes.h"
             ex="false"
             tool="3"
             flavor2="0">
       </item>
-      <item path="../../../miniupnpc/miniwget.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/miniupnpc/miniwget.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../miniupnpc/miniwget.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/miniupnpc/miniwget.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../miniupnpc/minixml.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/miniupnpc/minixml.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../miniupnpc/minixml.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/miniupnpc/minixml.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../miniupnpc/portlistingparse.c"
+      <item path="../../../src/miniupnpc/portlistingparse.c"
             ex="false"
             tool="0"
             flavor2="0">
       </item>
-      <item path="../../../miniupnpc/portlistingparse.h"
+      <item path="../../../src/miniupnpc/portlistingparse.h"
             ex="false"
             tool="3"
             flavor2="0">
       </item>
-      <item path="../../../miniupnpc/receivedata.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/miniupnpc/receivedata.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../miniupnpc/receivedata.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/miniupnpc/receivedata.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../miniupnpc/upnpcommands.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/miniupnpc/upnpcommands.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../miniupnpc/upnpcommands.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/miniupnpc/upnpcommands.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../miniupnpc/upnperrors.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/miniupnpc/upnperrors.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../miniupnpc/upnperrors.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/miniupnpc/upnperrors.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../miniupnpc/upnpreplyparse.c"
+      <item path="../../../src/miniupnpc/upnpreplyparse.c"
             ex="false"
             tool="0"
             flavor2="0">
       </item>
-      <item path="../../../miniupnpc/upnpreplyparse.h"
+      <item path="../../../src/miniupnpc/upnpreplyparse.h"
             ex="false"
             tool="3"
             flavor2="0">
@@ -192,9 +192,9 @@
         <cTool>
           <developmentMode>0</developmentMode>
           <incDir>
-            <pElem>../../../</pElem>
-            <pElem>../../../mingw/preload</pElem>
-            <pElem>../../../mingw/include</pElem>
+            <pElem>../../../src</pElem>
+            <pElem>../../../src/mingw/preload</pElem>
+            <pElem>../../../src/mingw/include</pElem>
           </incDir>
           <commandLine>-pipe -march=i686 -mtune=generic -mthreads -mwindows -O3 -fno-ipa-cp-clone -g -Wall -Wextra -Wno-unused-local-typedefs -Wno-unused-parameter -Wno-unused-value -Wno-missing-field-initializers -Wno-address -Wno-unknown-pragmas -Wno-format -fexceptions</commandLine>
           <preprocessorList>
@@ -230,90 +230,90 @@
           <output>${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/libminiupnpc.a</output>
         </archiverTool>
       </compileType>
-      <item path="../../../miniupnpc/bsdqueue.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/miniupnpc/bsdqueue.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../miniupnpc/codelength.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/miniupnpc/codelength.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../miniupnpc/connecthostport.c"
+      <item path="../../../src/miniupnpc/connecthostport.c"
             ex="false"
             tool="0"
             flavor2="0">
       </item>
-      <item path="../../../miniupnpc/connecthostport.h"
+      <item path="../../../src/miniupnpc/connecthostport.h"
             ex="false"
             tool="3"
             flavor2="0">
       </item>
-      <item path="../../../miniupnpc/declspec.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/miniupnpc/declspec.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../miniupnpc/igd_desc_parse.c"
+      <item path="../../../src/miniupnpc/igd_desc_parse.c"
             ex="false"
             tool="0"
             flavor2="0">
       </item>
-      <item path="../../../miniupnpc/igd_desc_parse.h"
+      <item path="../../../src/miniupnpc/igd_desc_parse.h"
             ex="false"
             tool="3"
             flavor2="0">
       </item>
-      <item path="../../../miniupnpc/minisoap.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/miniupnpc/minisoap.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../miniupnpc/minisoap.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/miniupnpc/minisoap.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../miniupnpc/minissdpc.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/miniupnpc/minissdpc.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../miniupnpc/minissdpc.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/miniupnpc/minissdpc.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../miniupnpc/miniupnpc.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/miniupnpc/miniupnpc.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../miniupnpc/miniupnpc.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/miniupnpc/miniupnpc.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../miniupnpc/miniupnpcstrings.h"
+      <item path="../../../src/miniupnpc/miniupnpcstrings.h"
             ex="false"
             tool="3"
             flavor2="0">
       </item>
-      <item path="../../../miniupnpc/miniupnpctypes.h"
+      <item path="../../../src/miniupnpc/miniupnpctypes.h"
             ex="false"
             tool="3"
             flavor2="0">
       </item>
-      <item path="../../../miniupnpc/miniwget.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/miniupnpc/miniwget.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../miniupnpc/miniwget.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/miniupnpc/miniwget.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../miniupnpc/minixml.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/miniupnpc/minixml.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../miniupnpc/minixml.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/miniupnpc/minixml.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../miniupnpc/portlistingparse.c"
+      <item path="../../../src/miniupnpc/portlistingparse.c"
             ex="false"
             tool="0"
             flavor2="0">
       </item>
-      <item path="../../../miniupnpc/portlistingparse.h"
+      <item path="../../../src/miniupnpc/portlistingparse.h"
             ex="false"
             tool="3"
             flavor2="0">
       </item>
-      <item path="../../../miniupnpc/receivedata.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/miniupnpc/receivedata.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../miniupnpc/receivedata.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/miniupnpc/receivedata.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../miniupnpc/upnpcommands.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/miniupnpc/upnpcommands.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../miniupnpc/upnpcommands.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/miniupnpc/upnpcommands.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../miniupnpc/upnperrors.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/miniupnpc/upnperrors.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../miniupnpc/upnperrors.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/miniupnpc/upnperrors.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../miniupnpc/upnpreplyparse.c"
+      <item path="../../../src/miniupnpc/upnpreplyparse.c"
             ex="false"
             tool="0"
             flavor2="0">
       </item>
-      <item path="../../../miniupnpc/upnpreplyparse.h"
+      <item path="../../../src/miniupnpc/upnpreplyparse.h"
             ex="false"
             tool="3"
             flavor2="0">
@@ -328,9 +328,9 @@
       <compileType>
         <cTool>
           <incDir>
-            <pElem>../../../</pElem>
-            <pElem>../../../mingw/preload</pElem>
-            <pElem>../../../mingw/include</pElem>
+            <pElem>../../../src</pElem>
+            <pElem>../../../src/mingw/preload</pElem>
+            <pElem>../../../src/mingw/include</pElem>
           </incDir>
           <commandLine>-march=nocona -mtune=core2 -pipe -mthreads -mwindows -Wall -Wextra -Wno-unused-local-typedefs -Wno-unused-parameter -Wno-unused-value -Wno-missing-field-initializers -Wno-address -Wno-unknown-pragmas -Wno-format -fexceptions -Og</commandLine>
           <preprocessorList>
@@ -357,90 +357,90 @@
           <output>${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/libminiupnpc.a</output>
         </archiverTool>
       </compileType>
-      <item path="../../../miniupnpc/bsdqueue.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/miniupnpc/bsdqueue.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../miniupnpc/codelength.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/miniupnpc/codelength.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../miniupnpc/connecthostport.c"
+      <item path="../../../src/miniupnpc/connecthostport.c"
             ex="false"
             tool="0"
             flavor2="0">
       </item>
-      <item path="../../../miniupnpc/connecthostport.h"
+      <item path="../../../src/miniupnpc/connecthostport.h"
             ex="false"
             tool="3"
             flavor2="0">
       </item>
-      <item path="../../../miniupnpc/declspec.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/miniupnpc/declspec.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../miniupnpc/igd_desc_parse.c"
+      <item path="../../../src/miniupnpc/igd_desc_parse.c"
             ex="false"
             tool="0"
             flavor2="0">
       </item>
-      <item path="../../../miniupnpc/igd_desc_parse.h"
+      <item path="../../../src/miniupnpc/igd_desc_parse.h"
             ex="false"
             tool="3"
             flavor2="0">
       </item>
-      <item path="../../../miniupnpc/minisoap.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/miniupnpc/minisoap.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../miniupnpc/minisoap.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/miniupnpc/minisoap.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../miniupnpc/minissdpc.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/miniupnpc/minissdpc.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../miniupnpc/minissdpc.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/miniupnpc/minissdpc.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../miniupnpc/miniupnpc.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/miniupnpc/miniupnpc.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../miniupnpc/miniupnpc.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/miniupnpc/miniupnpc.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../miniupnpc/miniupnpcstrings.h"
+      <item path="../../../src/miniupnpc/miniupnpcstrings.h"
             ex="false"
             tool="3"
             flavor2="0">
       </item>
-      <item path="../../../miniupnpc/miniupnpctypes.h"
+      <item path="../../../src/miniupnpc/miniupnpctypes.h"
             ex="false"
             tool="3"
             flavor2="0">
       </item>
-      <item path="../../../miniupnpc/miniwget.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/miniupnpc/miniwget.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../miniupnpc/miniwget.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/miniupnpc/miniwget.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../miniupnpc/minixml.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/miniupnpc/minixml.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../miniupnpc/minixml.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/miniupnpc/minixml.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../miniupnpc/portlistingparse.c"
+      <item path="../../../src/miniupnpc/portlistingparse.c"
             ex="false"
             tool="0"
             flavor2="0">
       </item>
-      <item path="../../../miniupnpc/portlistingparse.h"
+      <item path="../../../src/miniupnpc/portlistingparse.h"
             ex="false"
             tool="3"
             flavor2="0">
       </item>
-      <item path="../../../miniupnpc/receivedata.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/miniupnpc/receivedata.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../miniupnpc/receivedata.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/miniupnpc/receivedata.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../miniupnpc/upnpcommands.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/miniupnpc/upnpcommands.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../miniupnpc/upnpcommands.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/miniupnpc/upnpcommands.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../miniupnpc/upnperrors.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/miniupnpc/upnperrors.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../miniupnpc/upnperrors.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/miniupnpc/upnperrors.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../miniupnpc/upnpreplyparse.c"
+      <item path="../../../src/miniupnpc/upnpreplyparse.c"
             ex="false"
             tool="0"
             flavor2="0">
       </item>
-      <item path="../../../miniupnpc/upnpreplyparse.h"
+      <item path="../../../src/miniupnpc/upnpreplyparse.h"
             ex="false"
             tool="3"
             flavor2="0">
@@ -456,9 +456,9 @@
         <cTool>
           <developmentMode>0</developmentMode>
           <incDir>
-            <pElem>../../../</pElem>
-            <pElem>../../../mingw/preload</pElem>
-            <pElem>../../../mingw/include</pElem>
+            <pElem>../../../src</pElem>
+            <pElem>../../../src/mingw/preload</pElem>
+            <pElem>../../../src/mingw/include</pElem>
           </incDir>
           <commandLine>-pipe -march=nocona -mtune=core2 -mthreads -mwindows -O3 -fno-ipa-cp-clone -g -Wall -Wextra -Wno-unused-local-typedefs -Wno-unused-parameter -Wno-unused-value -Wno-missing-field-initializers -Wno-address -Wno-unknown-pragmas -Wno-format -fexceptions</commandLine>
           <preprocessorList>
@@ -494,90 +494,90 @@
           <output>${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/libminiupnpc.a</output>
         </archiverTool>
       </compileType>
-      <item path="../../../miniupnpc/bsdqueue.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/miniupnpc/bsdqueue.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../miniupnpc/codelength.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/miniupnpc/codelength.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../miniupnpc/connecthostport.c"
+      <item path="../../../src/miniupnpc/connecthostport.c"
             ex="false"
             tool="0"
             flavor2="0">
       </item>
-      <item path="../../../miniupnpc/connecthostport.h"
+      <item path="../../../src/miniupnpc/connecthostport.h"
             ex="false"
             tool="3"
             flavor2="0">
       </item>
-      <item path="../../../miniupnpc/declspec.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/miniupnpc/declspec.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../miniupnpc/igd_desc_parse.c"
+      <item path="../../../src/miniupnpc/igd_desc_parse.c"
             ex="false"
             tool="0"
             flavor2="0">
       </item>
-      <item path="../../../miniupnpc/igd_desc_parse.h"
+      <item path="../../../src/miniupnpc/igd_desc_parse.h"
             ex="false"
             tool="3"
             flavor2="0">
       </item>
-      <item path="../../../miniupnpc/minisoap.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/miniupnpc/minisoap.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../miniupnpc/minisoap.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/miniupnpc/minisoap.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../miniupnpc/minissdpc.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/miniupnpc/minissdpc.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../miniupnpc/minissdpc.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/miniupnpc/minissdpc.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../miniupnpc/miniupnpc.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/miniupnpc/miniupnpc.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../miniupnpc/miniupnpc.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/miniupnpc/miniupnpc.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../miniupnpc/miniupnpcstrings.h"
+      <item path="../../../src/miniupnpc/miniupnpcstrings.h"
             ex="false"
             tool="3"
             flavor2="0">
       </item>
-      <item path="../../../miniupnpc/miniupnpctypes.h"
+      <item path="../../../src/miniupnpc/miniupnpctypes.h"
             ex="false"
             tool="3"
             flavor2="0">
       </item>
-      <item path="../../../miniupnpc/miniwget.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/miniupnpc/miniwget.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../miniupnpc/miniwget.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/miniupnpc/miniwget.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../miniupnpc/minixml.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/miniupnpc/minixml.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../miniupnpc/minixml.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/miniupnpc/minixml.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../miniupnpc/portlistingparse.c"
+      <item path="../../../src/miniupnpc/portlistingparse.c"
             ex="false"
             tool="0"
             flavor2="0">
       </item>
-      <item path="../../../miniupnpc/portlistingparse.h"
+      <item path="../../../src/miniupnpc/portlistingparse.h"
             ex="false"
             tool="3"
             flavor2="0">
       </item>
-      <item path="../../../miniupnpc/receivedata.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/miniupnpc/receivedata.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../miniupnpc/receivedata.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/miniupnpc/receivedata.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../miniupnpc/upnpcommands.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/miniupnpc/upnpcommands.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../miniupnpc/upnpcommands.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/miniupnpc/upnpcommands.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../miniupnpc/upnperrors.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/miniupnpc/upnperrors.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../miniupnpc/upnperrors.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/miniupnpc/upnperrors.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../miniupnpc/upnpreplyparse.c"
+      <item path="../../../src/miniupnpc/upnpreplyparse.c"
             ex="false"
             tool="0"
             flavor2="0">
       </item>
-      <item path="../../../miniupnpc/upnpreplyparse.h"
+      <item path="../../../src/miniupnpc/upnpreplyparse.h"
             ex="false"
             tool="3"
             flavor2="0">

@@ -16,7 +16,7 @@
 ##### variables #####
 
 range_begin=11000
-workdir=../../../help
+workdir=../../../src/help
 foutput=cshelp.h
 newline="\n"
 

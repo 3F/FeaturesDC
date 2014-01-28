@@ -127,5 +127,5 @@ include nbproject/Makefile-impl.mk
 include nbproject/Makefile-variables.mk
 
 # output paths
-CND_DISTDIR=../../../../build/$(PROJECTNAME)/dist
-CND_BUILDDIR=../../../../build/$(PROJECTNAME)/obj
+CND_DISTDIR=../../../build/$(PROJECTNAME)/dist
+CND_BUILDDIR=../../../build/$(PROJECTNAME)/obj

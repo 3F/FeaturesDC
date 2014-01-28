@@ -10,7 +10,7 @@
             <sourceEncoding>UTF-8</sourceEncoding>
             <make-dep-projects/>
             <sourceRootList>
-                <sourceRootElem>../../../bzip2</sourceRootElem>
+                <sourceRootElem>../../../src/bzip2</sourceRootElem>
             </sourceRootList>
             <confList>
                 <confElem>

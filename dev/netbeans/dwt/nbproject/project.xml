@@ -10,9 +10,9 @@
             <sourceEncoding>UTF-8</sourceEncoding>
             <make-dep-projects/>
             <sourceRootList>
-                <sourceRootElem>../../../dwt/src</sourceRootElem>
-                <sourceRootElem>../../../dwt/test</sourceRootElem>
-                <sourceRootElem>../../../dwt/include</sourceRootElem>
+                <sourceRootElem>../../../src/dwt/src</sourceRootElem>
+                <sourceRootElem>../../../src/dwt/test</sourceRootElem>
+                <sourceRootElem>../../../src/dwt/include</sourceRootElem>
             </sourceRootList>
             <confList>
                 <confElem>

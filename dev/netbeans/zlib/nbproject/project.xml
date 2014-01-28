@@ -10,7 +10,7 @@
             <sourceEncoding>UTF-8</sourceEncoding>
             <make-dep-projects/>
             <sourceRootList>
-                <sourceRootElem>../../../zlib</sourceRootElem>
+                <sourceRootElem>../../../src/zlib</sourceRootElem>
             </sourceRootList>
             <confList>
                 <confElem>

@@ -10,7 +10,7 @@
             <sourceEncoding>UTF-8</sourceEncoding>
             <make-dep-projects/>
             <sourceRootList>
-                <sourceRootElem>../../../natpmp</sourceRootElem>
+                <sourceRootElem>../../../src/natpmp</sourceRootElem>
             </sourceRootList>
             <confList>
                 <confElem>

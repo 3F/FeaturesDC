@@ -49,7 +49,7 @@ MKDIR=mkdir
 CP=cp
 CCADMIN=CCadmin
 PATH_TO_ROOT=../../../
-PATH_TO_BUILD=../../../../build
+PATH_TO_BUILD=../../../build
 
 # bin
 OUTPUT_FILE_NAME=DCPlusPlus
@@ -58,7 +58,7 @@ OUTPUT_FILE_EXT_E=.exe
 OUTPUT_FILE_EXT_S=.pdb
 
 # dependencies 
-PATH_DEP_CSHELP=../../../help/cshelp.h
+PATH_DEP_CSHELP=../../../src/help/cshelp.h
 
 # build
 build: .build-post

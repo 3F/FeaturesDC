@@ -4,41 +4,41 @@
     <logicalFolder name="HeaderFiles"
                    displayName="Header Files"
                    projectFiles="true">
-      <itemPath>../../../zlib/crc32.h</itemPath>
-      <itemPath>../../../zlib/deflate.h</itemPath>
-      <itemPath>../../../zlib/gzguts.h</itemPath>
-      <itemPath>../../../zlib/inffast.h</itemPath>
-      <itemPath>../../../zlib/inffixed.h</itemPath>
-      <itemPath>../../../zlib/inflate.h</itemPath>
-      <itemPath>../../../zlib/inftrees.h</itemPath>
-      <itemPath>../../../zlib/ioapi.h</itemPath>
-      <itemPath>../../../zlib/iowin32.h</itemPath>
-      <itemPath>../../../zlib/trees.h</itemPath>
-      <itemPath>../../../zlib/unzip.h</itemPath>
-      <itemPath>../../../zlib/zconf.h</itemPath>
-      <itemPath>../../../zlib/zlib.h</itemPath>
-      <itemPath>../../../zlib/zutil.h</itemPath>
+      <itemPath>../../../src/zlib/crc32.h</itemPath>
+      <itemPath>../../../src/zlib/deflate.h</itemPath>
+      <itemPath>../../../src/zlib/gzguts.h</itemPath>
+      <itemPath>../../../src/zlib/inffast.h</itemPath>
+      <itemPath>../../../src/zlib/inffixed.h</itemPath>
+      <itemPath>../../../src/zlib/inflate.h</itemPath>
+      <itemPath>../../../src/zlib/inftrees.h</itemPath>
+      <itemPath>../../../src/zlib/ioapi.h</itemPath>
+      <itemPath>../../../src/zlib/iowin32.h</itemPath>
+      <itemPath>../../../src/zlib/trees.h</itemPath>
+      <itemPath>../../../src/zlib/unzip.h</itemPath>
+      <itemPath>../../../src/zlib/zconf.h</itemPath>
+      <itemPath>../../../src/zlib/zlib.h</itemPath>
+      <itemPath>../../../src/zlib/zutil.h</itemPath>
     </logicalFolder>
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
-      <itemPath>../../../zlib/adler32.c</itemPath>
-      <itemPath>../../../zlib/compress.c</itemPath>
-      <itemPath>../../../zlib/crc32.c</itemPath>
-      <itemPath>../../../zlib/deflate.c</itemPath>
-      <itemPath>../../../zlib/gzclose.c</itemPath>
-      <itemPath>../../../zlib/gzlib.c</itemPath>
-      <itemPath>../../../zlib/gzread.c</itemPath>
-      <itemPath>../../../zlib/gzwrite.c</itemPath>
-      <itemPath>../../../zlib/inffast.c</itemPath>
-      <itemPath>../../../zlib/inflate.c</itemPath>
-      <itemPath>../../../zlib/inftrees.c</itemPath>
-      <itemPath>../../../zlib/ioapi.c</itemPath>
-      <itemPath>../../../zlib/iowin32.c</itemPath>
-      <itemPath>../../../zlib/trees.c</itemPath>
-      <itemPath>../../../zlib/uncompr.c</itemPath>
-      <itemPath>../../../zlib/unzip.c</itemPath>
-      <itemPath>../../../zlib/zutil.c</itemPath>
+      <itemPath>../../../src/zlib/adler32.c</itemPath>
+      <itemPath>../../../src/zlib/compress.c</itemPath>
+      <itemPath>../../../src/zlib/crc32.c</itemPath>
+      <itemPath>../../../src/zlib/deflate.c</itemPath>
+      <itemPath>../../../src/zlib/gzclose.c</itemPath>
+      <itemPath>../../../src/zlib/gzlib.c</itemPath>
+      <itemPath>../../../src/zlib/gzread.c</itemPath>
+      <itemPath>../../../src/zlib/gzwrite.c</itemPath>
+      <itemPath>../../../src/zlib/inffast.c</itemPath>
+      <itemPath>../../../src/zlib/inflate.c</itemPath>
+      <itemPath>../../../src/zlib/inftrees.c</itemPath>
+      <itemPath>../../../src/zlib/ioapi.c</itemPath>
+      <itemPath>../../../src/zlib/iowin32.c</itemPath>
+      <itemPath>../../../src/zlib/trees.c</itemPath>
+      <itemPath>../../../src/zlib/uncompr.c</itemPath>
+      <itemPath>../../../src/zlib/unzip.c</itemPath>
+      <itemPath>../../../src/zlib/zutil.c</itemPath>
     </logicalFolder>
     <logicalFolder name="TestFiles"
                    displayName="Test Files"
@@ -53,7 +53,7 @@
     </logicalFolder>
   </logicalFolder>
   <sourceRootList>
-    <Elem>../../../zlib</Elem>
+    <Elem>../../../src/zlib</Elem>
   </sourceRootList>
   <projectmakefile>Makefile</projectmakefile>
   <confs>
@@ -66,9 +66,9 @@
       <compileType>
         <cTool>
           <incDir>
-            <pElem>../../../</pElem>
-            <pElem>../../../mingw/preload</pElem>
-            <pElem>../../../mingw/include</pElem>
+            <pElem>../../../src</pElem>
+            <pElem>../../../src/mingw/preload</pElem>
+            <pElem>../../../src/mingw/include</pElem>
           </incDir>
           <commandLine>-march=i686 -mtune=generic -pipe -mthreads -mwindows -Wall -Wextra -Wno-unused-local-typedefs -Wno-unused-parameter -Wno-unused-value -Wno-missing-field-initializers -Wno-address -Wno-unknown-pragmas -Wno-format -fexceptions -Og</commandLine>
           <preprocessorList>
@@ -93,67 +93,67 @@
           <output>${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/libzlib.a</output>
         </archiverTool>
       </compileType>
-      <item path="../../../zlib/adler32.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/zlib/adler32.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../zlib/compress.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/zlib/compress.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../zlib/crc32.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/zlib/crc32.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../zlib/crc32.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/zlib/crc32.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../zlib/deflate.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/zlib/deflate.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../zlib/deflate.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/zlib/deflate.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../zlib/gzclose.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/zlib/gzclose.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../zlib/gzguts.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/zlib/gzguts.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../zlib/gzlib.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/zlib/gzlib.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../zlib/gzread.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/zlib/gzread.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../zlib/gzwrite.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/zlib/gzwrite.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../zlib/inffast.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/zlib/inffast.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../zlib/inffast.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/zlib/inffast.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../zlib/inffixed.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/zlib/inffixed.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../zlib/inflate.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/zlib/inflate.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../zlib/inflate.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/zlib/inflate.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../zlib/inftrees.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/zlib/inftrees.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../zlib/inftrees.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/zlib/inftrees.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../zlib/ioapi.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/zlib/ioapi.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../zlib/ioapi.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/zlib/ioapi.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../zlib/iowin32.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/zlib/iowin32.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../zlib/iowin32.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/zlib/iowin32.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../zlib/trees.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/zlib/trees.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../zlib/trees.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/zlib/trees.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../zlib/uncompr.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/zlib/uncompr.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../zlib/unzip.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/zlib/unzip.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../zlib/unzip.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/zlib/unzip.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../zlib/zconf.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/zlib/zconf.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../zlib/zlib.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/zlib/zlib.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../zlib/zutil.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/zlib/zutil.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../zlib/zutil.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/zlib/zutil.h" ex="false" tool="3" flavor2="0">
       </item>
     </conf>
     <conf name="Release_x32_-_i686_generic" type="3">
@@ -166,9 +166,9 @@
         <cTool>
           <developmentMode>0</developmentMode>
           <incDir>
-            <pElem>../../../</pElem>
-            <pElem>../../../mingw/preload</pElem>
-            <pElem>../../../mingw/include</pElem>
+            <pElem>../../../src</pElem>
+            <pElem>../../../src/mingw/preload</pElem>
+            <pElem>../../../src/mingw/include</pElem>
           </incDir>
           <commandLine>-pipe -march=i686 -mtune=generic -mthreads -mwindows -O3 -fno-ipa-cp-clone -g -Wall -Wextra -Wno-unused-local-typedefs -Wno-unused-parameter -Wno-unused-value -Wno-missing-field-initializers -Wno-address -Wno-unknown-pragmas -Wno-format -fexceptions</commandLine>
           <preprocessorList>
@@ -202,67 +202,67 @@
           <output>${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/libzlib.a</output>
         </archiverTool>
       </compileType>
-      <item path="../../../zlib/adler32.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/zlib/adler32.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../zlib/compress.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/zlib/compress.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../zlib/crc32.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/zlib/crc32.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../zlib/crc32.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/zlib/crc32.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../zlib/deflate.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/zlib/deflate.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../zlib/deflate.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/zlib/deflate.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../zlib/gzclose.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/zlib/gzclose.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../zlib/gzguts.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/zlib/gzguts.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../zlib/gzlib.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/zlib/gzlib.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../zlib/gzread.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/zlib/gzread.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../zlib/gzwrite.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/zlib/gzwrite.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../zlib/inffast.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/zlib/inffast.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../zlib/inffast.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/zlib/inffast.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../zlib/inffixed.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/zlib/inffixed.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../zlib/inflate.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/zlib/inflate.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../zlib/inflate.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/zlib/inflate.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../zlib/inftrees.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/zlib/inftrees.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../zlib/inftrees.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/zlib/inftrees.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../zlib/ioapi.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/zlib/ioapi.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../zlib/ioapi.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/zlib/ioapi.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../zlib/iowin32.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/zlib/iowin32.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../zlib/iowin32.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/zlib/iowin32.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../zlib/trees.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/zlib/trees.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../zlib/trees.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/zlib/trees.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../zlib/uncompr.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/zlib/uncompr.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../zlib/unzip.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/zlib/unzip.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../zlib/unzip.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/zlib/unzip.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../zlib/zconf.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/zlib/zconf.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../zlib/zlib.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/zlib/zlib.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../zlib/zutil.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/zlib/zutil.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../zlib/zutil.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/zlib/zutil.h" ex="false" tool="3" flavor2="0">
       </item>
     </conf>
     <conf name="Debug_x64_-_nocona_core2" type="3">
@@ -274,9 +274,9 @@
       <compileType>
         <cTool>
           <incDir>
-            <pElem>../../../</pElem>
-            <pElem>../../../mingw/preload</pElem>
-            <pElem>../../../mingw/include</pElem>
+            <pElem>../../../src</pElem>
+            <pElem>../../../src/mingw/preload</pElem>
+            <pElem>../../../src/mingw/include</pElem>
           </incDir>
           <commandLine>-march=nocona -mtune=core2 -pipe -mthreads -mwindows -Wall -Wextra -Wno-unused-local-typedefs -Wno-unused-parameter -Wno-unused-value -Wno-missing-field-initializers -Wno-address -Wno-unknown-pragmas -Wno-format -fexceptions -Og</commandLine>
           <preprocessorList>
@@ -301,67 +301,67 @@
           <output>${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/libzlib.a</output>
         </archiverTool>
       </compileType>
-      <item path="../../../zlib/adler32.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/zlib/adler32.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../zlib/compress.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/zlib/compress.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../zlib/crc32.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/zlib/crc32.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../zlib/crc32.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/zlib/crc32.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../zlib/deflate.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/zlib/deflate.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../zlib/deflate.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/zlib/deflate.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../zlib/gzclose.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/zlib/gzclose.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../zlib/gzguts.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/zlib/gzguts.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../zlib/gzlib.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/zlib/gzlib.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../zlib/gzread.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/zlib/gzread.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../zlib/gzwrite.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/zlib/gzwrite.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../zlib/inffast.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/zlib/inffast.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../zlib/inffast.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/zlib/inffast.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../zlib/inffixed.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/zlib/inffixed.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../zlib/inflate.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/zlib/inflate.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../zlib/inflate.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/zlib/inflate.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../zlib/inftrees.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/zlib/inftrees.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../zlib/inftrees.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/zlib/inftrees.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../zlib/ioapi.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/zlib/ioapi.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../zlib/ioapi.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/zlib/ioapi.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../zlib/iowin32.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/zlib/iowin32.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../zlib/iowin32.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/zlib/iowin32.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../zlib/trees.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/zlib/trees.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../zlib/trees.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/zlib/trees.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../zlib/uncompr.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/zlib/uncompr.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../zlib/unzip.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/zlib/unzip.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../zlib/unzip.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/zlib/unzip.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../zlib/zconf.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/zlib/zconf.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../zlib/zlib.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/zlib/zlib.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../zlib/zutil.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/zlib/zutil.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../zlib/zutil.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/zlib/zutil.h" ex="false" tool="3" flavor2="0">
       </item>
     </conf>
     <conf name="Release_x64_-_nocona_core2" type="3">
@@ -374,9 +374,9 @@
         <cTool>
           <developmentMode>0</developmentMode>
           <incDir>
-            <pElem>../../../</pElem>
-            <pElem>../../../mingw/preload</pElem>
-            <pElem>../../../mingw/include</pElem>
+            <pElem>../../../src</pElem>
+            <pElem>../../../src/mingw/preload</pElem>
+            <pElem>../../../src/mingw/include</pElem>
           </incDir>
           <commandLine>-pipe -march=nocona -mtune=core2 -mthreads -mwindows -O3 -fno-ipa-cp-clone -g -Wall -Wextra -Wno-unused-local-typedefs -Wno-unused-parameter -Wno-unused-value -Wno-missing-field-initializers -Wno-address -Wno-unknown-pragmas -Wno-format -fexceptions</commandLine>
           <preprocessorList>
@@ -410,67 +410,67 @@
           <output>${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/libzlib.a</output>
         </archiverTool>
       </compileType>
-      <item path="../../../zlib/adler32.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/zlib/adler32.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../zlib/compress.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/zlib/compress.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../zlib/crc32.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/zlib/crc32.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../zlib/crc32.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/zlib/crc32.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../zlib/deflate.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/zlib/deflate.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../zlib/deflate.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/zlib/deflate.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../zlib/gzclose.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/zlib/gzclose.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../zlib/gzguts.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/zlib/gzguts.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../zlib/gzlib.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/zlib/gzlib.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../zlib/gzread.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/zlib/gzread.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../zlib/gzwrite.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/zlib/gzwrite.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../zlib/inffast.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/zlib/inffast.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../zlib/inffast.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/zlib/inffast.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../zlib/inffixed.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/zlib/inffixed.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../zlib/inflate.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/zlib/inflate.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../zlib/inflate.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/zlib/inflate.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../zlib/inftrees.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/zlib/inftrees.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../zlib/inftrees.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/zlib/inftrees.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../zlib/ioapi.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/zlib/ioapi.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../zlib/ioapi.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/zlib/ioapi.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../zlib/iowin32.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/zlib/iowin32.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../zlib/iowin32.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/zlib/iowin32.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../zlib/trees.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/zlib/trees.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../zlib/trees.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/zlib/trees.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../zlib/uncompr.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/zlib/uncompr.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../zlib/unzip.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/zlib/unzip.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../zlib/unzip.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/zlib/unzip.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../zlib/zconf.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/zlib/zconf.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../zlib/zlib.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/zlib/zlib.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../zlib/zutil.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/zlib/zutil.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../zlib/zutil.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/zlib/zutil.h" ex="false" tool="3" flavor2="0">
       </item>
     </conf>
   </confs>

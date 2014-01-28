@@ -1,7 +1,8 @@
+/build
 /dev/netbeans/*/nbproject/private
-/.bzr
-/*.bzrignore
-/help/cshelp.h
+/src/.bzr
+/src/*.bzrignore
+/src/help/cshelp.h
 
 # NB bug :: should be placed into a nbproject/private folder:
 /dev/netbeans/*/nbproject/*.mk

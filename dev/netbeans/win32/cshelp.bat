@@ -16,7 +16,7 @@ REM detail on https://bitbucket.org/3F/featuresdc/issue/1/help-cshelph-dcpp-vers
 REM ##### variables #####
 
 set range_begin=11000
-set workdir=../../../help
+set workdir=../../../src/help
 set output=cshelp.h
 
 

@@ -4,55 +4,55 @@
     <logicalFolder name="HeaderFiles"
                    displayName="Header Files"
                    projectFiles="true">
-      <itemPath>../../../dwarf/config.h</itemPath>
-      <itemPath>../../../dwarf/dwarf.h</itemPath>
-      <itemPath>../../../dwarf/dwarf_abbrev.h</itemPath>
-      <itemPath>../../../dwarf/dwarf_alloc.h</itemPath>
-      <itemPath>../../../dwarf/dwarf_arange.h</itemPath>
-      <itemPath>../../../dwarf/dwarf_base_types.h</itemPath>
-      <itemPath>../../../dwarf/dwarf_die_deliv.h</itemPath>
-      <itemPath>../../../dwarf/dwarf_error.h</itemPath>
-      <itemPath>../../../dwarf/dwarf_frame.h</itemPath>
-      <itemPath>../../../dwarf/dwarf_funcs.h</itemPath>
-      <itemPath>../../../dwarf/dwarf_global.h</itemPath>
-      <itemPath>../../../dwarf/dwarf_harmless.h</itemPath>
-      <itemPath>../../../dwarf/dwarf_incl.h</itemPath>
-      <itemPath>../../../dwarf/dwarf_line.h</itemPath>
-      <itemPath>../../../dwarf/dwarf_loc.h</itemPath>
-      <itemPath>../../../dwarf/dwarf_macro.h</itemPath>
-      <itemPath>../../../dwarf/dwarf_opaque.h</itemPath>
-      <itemPath>../../../dwarf/dwarf_types.h</itemPath>
-      <itemPath>../../../dwarf/dwarf_util.h</itemPath>
-      <itemPath>../../../dwarf/dwarf_vars.h</itemPath>
-      <itemPath>../../../dwarf/dwarf_weaks.h</itemPath>
-      <itemPath>../../../dwarf/libdwarf.h</itemPath>
-      <itemPath>../../../dwarf/libdwarfdefs.h</itemPath>
-      <itemPath>../../../dwarf/malloc_check.h</itemPath>
-      <itemPath>../../../dwarf/pro_alloc.h</itemPath>
-      <itemPath>../../../dwarf/pro_encode_nm.h</itemPath>
-      <itemPath>../../../dwarf/pro_error.h</itemPath>
-      <itemPath>../../../dwarf/pro_incl.h</itemPath>
-      <itemPath>../../../dwarf/pro_opaque.h</itemPath>
-      <itemPath>../../../dwarf/pro_util.h</itemPath>
+      <itemPath>../../../src/dwarf/config.h</itemPath>
+      <itemPath>../../../src/dwarf/dwarf.h</itemPath>
+      <itemPath>../../../src/dwarf/dwarf_abbrev.h</itemPath>
+      <itemPath>../../../src/dwarf/dwarf_alloc.h</itemPath>
+      <itemPath>../../../src/dwarf/dwarf_arange.h</itemPath>
+      <itemPath>../../../src/dwarf/dwarf_base_types.h</itemPath>
+      <itemPath>../../../src/dwarf/dwarf_die_deliv.h</itemPath>
+      <itemPath>../../../src/dwarf/dwarf_error.h</itemPath>
+      <itemPath>../../../src/dwarf/dwarf_frame.h</itemPath>
+      <itemPath>../../../src/dwarf/dwarf_funcs.h</itemPath>
+      <itemPath>../../../src/dwarf/dwarf_global.h</itemPath>
+      <itemPath>../../../src/dwarf/dwarf_harmless.h</itemPath>
+      <itemPath>../../../src/dwarf/dwarf_incl.h</itemPath>
+      <itemPath>../../../src/dwarf/dwarf_line.h</itemPath>
+      <itemPath>../../../src/dwarf/dwarf_loc.h</itemPath>
+      <itemPath>../../../src/dwarf/dwarf_macro.h</itemPath>
+      <itemPath>../../../src/dwarf/dwarf_opaque.h</itemPath>
+      <itemPath>../../../src/dwarf/dwarf_types.h</itemPath>
+      <itemPath>../../../src/dwarf/dwarf_util.h</itemPath>
+      <itemPath>../../../src/dwarf/dwarf_vars.h</itemPath>
+      <itemPath>../../../src/dwarf/dwarf_weaks.h</itemPath>
+      <itemPath>../../../src/dwarf/libdwarf.h</itemPath>
+      <itemPath>../../../src/dwarf/libdwarfdefs.h</itemPath>
+      <itemPath>../../../src/dwarf/malloc_check.h</itemPath>
+      <itemPath>../../../src/dwarf/pro_alloc.h</itemPath>
+      <itemPath>../../../src/dwarf/pro_encode_nm.h</itemPath>
+      <itemPath>../../../src/dwarf/pro_error.h</itemPath>
+      <itemPath>../../../src/dwarf/pro_incl.h</itemPath>
+      <itemPath>../../../src/dwarf/pro_opaque.h</itemPath>
+      <itemPath>../../../src/dwarf/pro_util.h</itemPath>
     </logicalFolder>
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
-      <itemPath>../../../dwarf/dwarf_alloc.c</itemPath>
-      <itemPath>../../../dwarf/dwarf_arange.c</itemPath>
-      <itemPath>../../../dwarf/dwarf_die_deliv.c</itemPath>
-      <itemPath>../../../dwarf/dwarf_error.c</itemPath>
-      <itemPath>../../../dwarf/dwarf_form.c</itemPath>
-      <itemPath>../../../dwarf/dwarf_frame.c</itemPath>
-      <itemPath>../../../dwarf/dwarf_frame2.c</itemPath>
-      <itemPath>../../../dwarf/dwarf_harmless.c</itemPath>
-      <itemPath>../../../dwarf/dwarf_init_finish.c</itemPath>
-      <itemPath>../../../dwarf/dwarf_leb.c</itemPath>
-      <itemPath>../../../dwarf/dwarf_line.c</itemPath>
-      <itemPath>../../../dwarf/dwarf_query.c</itemPath>
-      <itemPath>../../../dwarf/dwarf_stubs.c</itemPath>
-      <itemPath>../../../dwarf/dwarf_util.c</itemPath>
-      <itemPath>../../../dwarf/pro_encode_nm.c</itemPath>
+      <itemPath>../../../src/dwarf/dwarf_alloc.c</itemPath>
+      <itemPath>../../../src/dwarf/dwarf_arange.c</itemPath>
+      <itemPath>../../../src/dwarf/dwarf_die_deliv.c</itemPath>
+      <itemPath>../../../src/dwarf/dwarf_error.c</itemPath>
+      <itemPath>../../../src/dwarf/dwarf_form.c</itemPath>
+      <itemPath>../../../src/dwarf/dwarf_frame.c</itemPath>
+      <itemPath>../../../src/dwarf/dwarf_frame2.c</itemPath>
+      <itemPath>../../../src/dwarf/dwarf_harmless.c</itemPath>
+      <itemPath>../../../src/dwarf/dwarf_init_finish.c</itemPath>
+      <itemPath>../../../src/dwarf/dwarf_leb.c</itemPath>
+      <itemPath>../../../src/dwarf/dwarf_line.c</itemPath>
+      <itemPath>../../../src/dwarf/dwarf_query.c</itemPath>
+      <itemPath>../../../src/dwarf/dwarf_stubs.c</itemPath>
+      <itemPath>../../../src/dwarf/dwarf_util.c</itemPath>
+      <itemPath>../../../src/dwarf/pro_encode_nm.c</itemPath>
     </logicalFolder>
     <logicalFolder name="TestFiles"
                    displayName="Test Files"
@@ -67,7 +67,7 @@
     </logicalFolder>
   </logicalFolder>
   <sourceRootList>
-    <Elem>../../../dwarf</Elem>
+    <Elem>../../../src/dwarf</Elem>
   </sourceRootList>
   <projectmakefile>Makefile</projectmakefile>
   <confs>
@@ -80,10 +80,10 @@
       <compileType>
         <cTool>
           <incDir>
-            <pElem>../../../</pElem>
-            <pElem>../../../mingw/preload</pElem>
-            <pElem>../../../mingw/include</pElem>
-            <pElem>../../../dwarf</pElem>
+            <pElem>../../../src</pElem>
+            <pElem>../../../src/mingw/preload</pElem>
+            <pElem>../../../src/mingw/include</pElem>
+            <pElem>../../../src/dwarf</pElem>
           </incDir>
           <commandLine>-march=i686 -mtune=generic -pipe -mthreads -mwindows -Wall -Wextra -Wno-unused-local-typedefs -Wno-unused-parameter -Wno-unused-value -Wno-missing-field-initializers -Wno-address -Wno-unknown-pragmas -Wno-format -fexceptions -Og</commandLine>
           <preprocessorList>
@@ -110,95 +110,95 @@
           <output>${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/libdwarf.a</output>
         </archiverTool>
       </compileType>
-      <item path="../../../dwarf/config.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/config.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/dwarf.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_abbrev.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_abbrev.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_alloc.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_alloc.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_alloc.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_alloc.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_arange.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_arange.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_arange.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_arange.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_base_types.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_base_types.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_die_deliv.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_die_deliv.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_die_deliv.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_die_deliv.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_error.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_error.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_error.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_error.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_form.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_form.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_frame.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_frame.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_frame.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_frame.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_frame2.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_frame2.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_funcs.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_funcs.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_global.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_global.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_harmless.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_harmless.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_harmless.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_harmless.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_incl.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_incl.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_init_finish.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_init_finish.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_leb.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_leb.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_line.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_line.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_line.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_line.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_loc.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_loc.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_macro.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_macro.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_opaque.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_opaque.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_query.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_query.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_stubs.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_stubs.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_types.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_types.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_util.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_util.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_util.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_util.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_vars.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_vars.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_weaks.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_weaks.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../dwarf/libdwarf.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/libdwarf.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../dwarf/libdwarfdefs.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/libdwarfdefs.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../dwarf/malloc_check.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/malloc_check.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../dwarf/pro_alloc.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/pro_alloc.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../dwarf/pro_encode_nm.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/dwarf/pro_encode_nm.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../dwarf/pro_encode_nm.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/pro_encode_nm.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../dwarf/pro_error.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/pro_error.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../dwarf/pro_incl.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/pro_incl.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../dwarf/pro_opaque.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/pro_opaque.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../dwarf/pro_util.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/pro_util.h" ex="false" tool="3" flavor2="0">
       </item>
     </conf>
     <conf name="Release_x32_-_i686_generic" type="3">
@@ -211,10 +211,10 @@
         <cTool>
           <developmentMode>0</developmentMode>
           <incDir>
-            <pElem>../../../</pElem>
-            <pElem>../../../mingw/preload</pElem>
-            <pElem>../../../mingw/include</pElem>
-            <pElem>../../../dwarf</pElem>
+            <pElem>../../../src</pElem>
+            <pElem>../../../src/mingw/preload</pElem>
+            <pElem>../../../src/mingw/include</pElem>
+            <pElem>../../../src/dwarf</pElem>
           </incDir>
           <commandLine>-pipe -march=i686 -mtune=generic -mthreads -mwindows -O3 -fno-ipa-cp-clone -g -Wall -Wextra -Wno-unused-local-typedefs -Wno-unused-parameter -Wno-unused-value -Wno-missing-field-initializers -Wno-address -Wno-unknown-pragmas -Wno-format -fexceptions</commandLine>
           <preprocessorList>
@@ -250,95 +250,95 @@
           <output>${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/libdwarf.a</output>
         </archiverTool>
       </compileType>
-      <item path="../../../dwarf/config.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/config.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/dwarf.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_abbrev.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_abbrev.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_alloc.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_alloc.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_alloc.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_alloc.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_arange.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_arange.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_arange.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_arange.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_base_types.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_base_types.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_die_deliv.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_die_deliv.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_die_deliv.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_die_deliv.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_error.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_error.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_error.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_error.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_form.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_form.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_frame.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_frame.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_frame.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_frame.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_frame2.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_frame2.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_funcs.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_funcs.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_global.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_global.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_harmless.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_harmless.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_harmless.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_harmless.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_incl.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_incl.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_init_finish.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_init_finish.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_leb.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_leb.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_line.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_line.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_line.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_line.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_loc.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_loc.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_macro.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_macro.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_opaque.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_opaque.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_query.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_query.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_stubs.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_stubs.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_types.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_types.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_util.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_util.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_util.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_util.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_vars.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_vars.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_weaks.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_weaks.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../dwarf/libdwarf.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/libdwarf.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../dwarf/libdwarfdefs.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/libdwarfdefs.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../dwarf/malloc_check.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/malloc_check.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../dwarf/pro_alloc.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/pro_alloc.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../dwarf/pro_encode_nm.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/dwarf/pro_encode_nm.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../dwarf/pro_encode_nm.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/pro_encode_nm.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../dwarf/pro_error.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/pro_error.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../dwarf/pro_incl.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/pro_incl.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../dwarf/pro_opaque.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/pro_opaque.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../dwarf/pro_util.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/pro_util.h" ex="false" tool="3" flavor2="0">
       </item>
     </conf>
     <conf name="Debug_x64_-_nocona_core2" type="3">
@@ -350,10 +350,10 @@
       <compileType>
         <cTool>
           <incDir>
-            <pElem>../../../</pElem>
-            <pElem>../../../mingw/preload</pElem>
-            <pElem>../../../mingw/include</pElem>
-            <pElem>../../../dwarf</pElem>
+            <pElem>../../../src</pElem>
+            <pElem>../../../src/mingw/preload</pElem>
+            <pElem>../../../src/mingw/include</pElem>
+            <pElem>../../../src/dwarf</pElem>
           </incDir>
           <commandLine>-march=nocona -mtune=core2 -pipe -mthreads -mwindows -Wall -Wextra -Wno-unused-local-typedefs -Wno-unused-parameter -Wno-unused-value -Wno-missing-field-initializers -Wno-address -Wno-unknown-pragmas -Wno-format -fexceptions -Og</commandLine>
           <preprocessorList>
@@ -380,95 +380,95 @@
           <output>${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/libdwarf.a</output>
         </archiverTool>
       </compileType>
-      <item path="../../../dwarf/config.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/config.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/dwarf.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_abbrev.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_abbrev.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_alloc.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_alloc.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_alloc.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_alloc.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_arange.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_arange.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_arange.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_arange.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_base_types.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_base_types.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_die_deliv.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_die_deliv.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_die_deliv.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_die_deliv.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_error.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_error.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_error.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_error.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_form.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_form.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_frame.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_frame.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_frame.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_frame.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_frame2.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_frame2.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_funcs.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_funcs.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_global.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_global.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_harmless.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_harmless.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_harmless.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_harmless.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_incl.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_incl.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_init_finish.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_init_finish.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_leb.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_leb.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_line.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_line.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_line.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_line.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_loc.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_loc.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_macro.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_macro.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_opaque.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_opaque.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_query.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_query.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_stubs.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_stubs.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_types.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_types.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_util.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_util.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_util.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_util.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_vars.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_vars.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_weaks.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_weaks.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../dwarf/libdwarf.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/libdwarf.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../dwarf/libdwarfdefs.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/libdwarfdefs.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../dwarf/malloc_check.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/malloc_check.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../dwarf/pro_alloc.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/pro_alloc.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../dwarf/pro_encode_nm.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/dwarf/pro_encode_nm.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../dwarf/pro_encode_nm.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/pro_encode_nm.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../dwarf/pro_error.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/pro_error.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../dwarf/pro_incl.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/pro_incl.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../dwarf/pro_opaque.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/pro_opaque.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../dwarf/pro_util.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/pro_util.h" ex="false" tool="3" flavor2="0">
       </item>
     </conf>
     <conf name="Release_x64_-_nocona_core2" type="3">
@@ -481,10 +481,10 @@
         <cTool>
           <developmentMode>0</developmentMode>
           <incDir>
-            <pElem>../../../</pElem>
-            <pElem>../../../mingw/preload</pElem>
-            <pElem>../../../mingw/include</pElem>
-            <pElem>../../../dwarf</pElem>
+            <pElem>../../../src</pElem>
+            <pElem>../../../src/mingw/preload</pElem>
+            <pElem>../../../src/mingw/include</pElem>
+            <pElem>../../../src/dwarf</pElem>
           </incDir>
           <commandLine>-pipe -march=nocona -mtune=core2 -mthreads -mwindows -O3 -fno-ipa-cp-clone -g -Wall -Wextra -Wno-unused-local-typedefs -Wno-unused-parameter -Wno-unused-value -Wno-missing-field-initializers -Wno-address -Wno-unknown-pragmas -Wno-format -fexceptions</commandLine>
           <preprocessorList>
@@ -520,95 +520,95 @@
           <output>${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/libdwarf.a</output>
         </archiverTool>
       </compileType>
-      <item path="../../../dwarf/config.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/config.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/dwarf.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_abbrev.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_abbrev.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_alloc.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_alloc.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_alloc.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_alloc.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_arange.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_arange.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_arange.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_arange.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_base_types.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_base_types.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_die_deliv.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_die_deliv.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_die_deliv.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_die_deliv.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_error.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_error.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_error.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_error.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_form.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_form.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_frame.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_frame.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_frame.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_frame.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_frame2.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_frame2.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_funcs.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_funcs.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_global.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_global.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_harmless.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_harmless.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_harmless.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_harmless.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_incl.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_incl.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_init_finish.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_init_finish.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_leb.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_leb.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_line.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_line.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_line.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_line.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_loc.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_loc.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_macro.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_macro.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_opaque.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_opaque.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_query.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_query.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_stubs.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_stubs.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_types.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_types.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_util.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_util.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_util.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_util.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_vars.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_vars.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../dwarf/dwarf_weaks.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_weaks.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../dwarf/libdwarf.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/libdwarf.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../dwarf/libdwarfdefs.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/libdwarfdefs.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../dwarf/malloc_check.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/malloc_check.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../dwarf/pro_alloc.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/pro_alloc.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../dwarf/pro_encode_nm.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/dwarf/pro_encode_nm.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="../../../dwarf/pro_encode_nm.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/pro_encode_nm.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../dwarf/pro_error.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/pro_error.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../dwarf/pro_incl.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/pro_incl.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../dwarf/pro_opaque.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/pro_opaque.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../dwarf/pro_util.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/pro_util.h" ex="false" tool="3" flavor2="0">
       </item>
     </conf>
   </confs>
