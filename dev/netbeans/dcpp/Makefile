@@ -53,8 +53,13 @@ CCADMIN=CCadmin
 # build
 build: .build-post
 
-.build-pre:
+.build-pre: .gpch
 # Add your pre 'build' code here...
+
+.gpch:	
+	@if [ $(shell echo ${CONF} | sed -r 's/(\S{5}).*/\L\1/') = 'pch__' ] ; then \
+	    ${MAKE} -f nbproject/Makefile-${CONF}.mk "stdinc.h.gch"; \
+	fi;
 
 .build-post: .build-impl
 # Add your post 'build' code here...

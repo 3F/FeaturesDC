@@ -74,8 +74,8 @@
     <conf name="Debug_x32_-_i686_generic" type="3">
       <toolsSet>
         <compilerSet>MinGW_w64_-_x32|MinGW</compilerSet>
-        <dependencyChecking>true</dependencyChecking>
-        <rebuildPropChanged>false</rebuildPropChanged>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>true</rebuildPropChanged>
       </toolsSet>
       <compileType>
         <cTool>
@@ -124,11 +124,20 @@
       </item>
       <item path="../../../src/dwarf/dwarf_arange.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../src/dwarf/dwarf_base_types.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_base_types.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
-      <item path="../../../src/dwarf/dwarf_die_deliv.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_die_deliv.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
       </item>
-      <item path="../../../src/dwarf/dwarf_die_deliv.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_die_deliv.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
       <item path="../../../src/dwarf/dwarf_error.c" ex="false" tool="0" flavor2="0">
       </item>
@@ -146,13 +155,22 @@
       </item>
       <item path="../../../src/dwarf/dwarf_global.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../src/dwarf/dwarf_harmless.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_harmless.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
       </item>
-      <item path="../../../src/dwarf/dwarf_harmless.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_harmless.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
       <item path="../../../src/dwarf/dwarf_incl.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../src/dwarf/dwarf_init_finish.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_init_finish.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
       </item>
       <item path="../../../src/dwarf/dwarf_leb.c" ex="false" tool="0" flavor2="0">
       </item>
@@ -204,8 +222,8 @@
     <conf name="Release_x32_-_i686_generic" type="3">
       <toolsSet>
         <compilerSet>MinGW_w64_-_x32|MinGW</compilerSet>
-        <dependencyChecking>true</dependencyChecking>
-        <rebuildPropChanged>false</rebuildPropChanged>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>true</rebuildPropChanged>
       </toolsSet>
       <compileType>
         <cTool>
@@ -264,11 +282,20 @@
       </item>
       <item path="../../../src/dwarf/dwarf_arange.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../src/dwarf/dwarf_base_types.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_base_types.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
-      <item path="../../../src/dwarf/dwarf_die_deliv.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_die_deliv.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
       </item>
-      <item path="../../../src/dwarf/dwarf_die_deliv.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_die_deliv.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
       <item path="../../../src/dwarf/dwarf_error.c" ex="false" tool="0" flavor2="0">
       </item>
@@ -286,13 +313,22 @@
       </item>
       <item path="../../../src/dwarf/dwarf_global.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../src/dwarf/dwarf_harmless.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_harmless.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
       </item>
-      <item path="../../../src/dwarf/dwarf_harmless.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_harmless.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
       <item path="../../../src/dwarf/dwarf_incl.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../src/dwarf/dwarf_init_finish.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_init_finish.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
       </item>
       <item path="../../../src/dwarf/dwarf_leb.c" ex="false" tool="0" flavor2="0">
       </item>
@@ -344,8 +380,8 @@
     <conf name="Debug_x64_-_nocona_core2" type="3">
       <toolsSet>
         <compilerSet>MinGW_w64_-_x64|MinGW</compilerSet>
-        <dependencyChecking>true</dependencyChecking>
-        <rebuildPropChanged>false</rebuildPropChanged>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>true</rebuildPropChanged>
       </toolsSet>
       <compileType>
         <cTool>
@@ -394,11 +430,20 @@
       </item>
       <item path="../../../src/dwarf/dwarf_arange.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../src/dwarf/dwarf_base_types.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_base_types.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
-      <item path="../../../src/dwarf/dwarf_die_deliv.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_die_deliv.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
       </item>
-      <item path="../../../src/dwarf/dwarf_die_deliv.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_die_deliv.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
       <item path="../../../src/dwarf/dwarf_error.c" ex="false" tool="0" flavor2="0">
       </item>
@@ -416,13 +461,22 @@
       </item>
       <item path="../../../src/dwarf/dwarf_global.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../src/dwarf/dwarf_harmless.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_harmless.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
       </item>
-      <item path="../../../src/dwarf/dwarf_harmless.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_harmless.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
       <item path="../../../src/dwarf/dwarf_incl.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../src/dwarf/dwarf_init_finish.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_init_finish.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
       </item>
       <item path="../../../src/dwarf/dwarf_leb.c" ex="false" tool="0" flavor2="0">
       </item>
@@ -474,8 +528,8 @@
     <conf name="Release_x64_-_nocona_core2" type="3">
       <toolsSet>
         <compilerSet>MinGW_w64_-_x64|MinGW</compilerSet>
-        <dependencyChecking>true</dependencyChecking>
-        <rebuildPropChanged>false</rebuildPropChanged>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>true</rebuildPropChanged>
       </toolsSet>
       <compileType>
         <cTool>
@@ -534,11 +588,20 @@
       </item>
       <item path="../../../src/dwarf/dwarf_arange.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../src/dwarf/dwarf_base_types.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_base_types.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
-      <item path="../../../src/dwarf/dwarf_die_deliv.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_die_deliv.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
       </item>
-      <item path="../../../src/dwarf/dwarf_die_deliv.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_die_deliv.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
       <item path="../../../src/dwarf/dwarf_error.c" ex="false" tool="0" flavor2="0">
       </item>
@@ -556,13 +619,22 @@
       </item>
       <item path="../../../src/dwarf/dwarf_global.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../src/dwarf/dwarf_harmless.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_harmless.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
       </item>
-      <item path="../../../src/dwarf/dwarf_harmless.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_harmless.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
       <item path="../../../src/dwarf/dwarf_incl.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../src/dwarf/dwarf_init_finish.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/dwarf/dwarf_init_finish.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
       </item>
       <item path="../../../src/dwarf/dwarf_leb.c" ex="false" tool="0" flavor2="0">
       </item>

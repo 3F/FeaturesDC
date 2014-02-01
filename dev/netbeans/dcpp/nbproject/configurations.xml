@@ -243,8 +243,8 @@
     <conf name="Debug_x32_-_i686_generic" type="3">
       <toolsSet>
         <compilerSet>MinGW_w64_-_x32|MinGW</compilerSet>
-        <dependencyChecking>true</dependencyChecking>
-        <rebuildPropChanged>false</rebuildPropChanged>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>true</rebuildPropChanged>
       </toolsSet>
       <compileType>
         <ccTool>
@@ -306,7 +306,10 @@
       </item>
       <item path="../../../src/dcpp/BloomFilter.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../src/dcpp/BufferedSocket.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dcpp/BufferedSocket.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
       <item path="../../../src/dcpp/BufferedSocket.h" ex="false" tool="3" flavor2="0">
       </item>
@@ -335,7 +338,10 @@
       </item>
       <item path="../../../src/dcpp/ClientListener.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../src/dcpp/ClientManager.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dcpp/ClientManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
       <item path="../../../src/dcpp/ClientManager.h" ex="false" tool="3" flavor2="0">
       </item>
@@ -349,7 +355,10 @@
             tool="1"
             flavor2="0">
       </item>
-      <item path="../../../src/dcpp/ConnectionManager.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dcpp/ConnectionManager.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
       <item path="../../../src/dcpp/ConnectionManagerListener.h"
             ex="false"
@@ -368,9 +377,15 @@
             tool="3"
             flavor2="0">
       </item>
-      <item path="../../../src/dcpp/CriticalSection.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dcpp/CriticalSection.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
-      <item path="../../../src/dcpp/CryptoManager.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dcpp/CryptoManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
       <item path="../../../src/dcpp/CryptoManager.h" ex="false" tool="3" flavor2="0">
       </item>
@@ -378,17 +393,29 @@
       </item>
       <item path="../../../src/dcpp/DCPlusPlus.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../src/dcpp/DirectoryListing.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dcpp/DirectoryListing.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
-      <item path="../../../src/dcpp/DirectoryListing.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dcpp/DirectoryListing.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
       <item path="../../../src/dcpp/Download.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="../../../src/dcpp/Download.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../src/dcpp/DownloadManager.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dcpp/DownloadManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
-      <item path="../../../src/dcpp/DownloadManager.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dcpp/DownloadManager.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
       <item path="../../../src/dcpp/DownloadManagerListener.h"
             ex="false"
@@ -407,9 +434,15 @@
       </item>
       <item path="../../../src/dcpp/FavHubGroup.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../src/dcpp/FavoriteManager.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dcpp/FavoriteManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
-      <item path="../../../src/dcpp/FavoriteManager.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dcpp/FavoriteManager.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
       <item path="../../../src/dcpp/FavoriteManagerListener.h"
             ex="false"
@@ -432,9 +465,15 @@
       </item>
       <item path="../../../src/dcpp/FinishedItem.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../src/dcpp/FinishedManager.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dcpp/FinishedManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
-      <item path="../../../src/dcpp/FinishedManager.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dcpp/FinishedManager.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
       <item path="../../../src/dcpp/FinishedManagerListener.h"
             ex="false"
@@ -470,7 +509,10 @@
       </item>
       <item path="../../../src/dcpp/HintedUser.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../src/dcpp/HttpConnection.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dcpp/HttpConnection.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
       <item path="../../../src/dcpp/HttpConnection.h" ex="false" tool="3" flavor2="0">
       </item>
@@ -498,7 +540,10 @@
       </item>
       <item path="../../../src/dcpp/LogManager.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../src/dcpp/LogManagerListener.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dcpp/LogManagerListener.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
       <item path="../../../src/dcpp/MD5Hash.h" ex="false" tool="3" flavor2="0">
       </item>
@@ -510,15 +555,27 @@
       </item>
       <item path="../../../src/dcpp/Mapper.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../src/dcpp/Mapper_MiniUPnPc.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dcpp/Mapper_MiniUPnPc.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
-      <item path="../../../src/dcpp/Mapper_MiniUPnPc.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dcpp/Mapper_MiniUPnPc.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
-      <item path="../../../src/dcpp/Mapper_NATPMP.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dcpp/Mapper_NATPMP.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
       <item path="../../../src/dcpp/Mapper_NATPMP.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../src/dcpp/MappingManager.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dcpp/MappingManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
       <item path="../../../src/dcpp/MappingManager.h" ex="false" tool="3" flavor2="0">
       </item>
@@ -540,7 +597,10 @@
       </item>
       <item path="../../../src/dcpp/OnlineUser.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../src/dcpp/PluginApiImpl.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dcpp/PluginApiImpl.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
       <item path="../../../src/dcpp/PluginApiImpl.h" ex="false" tool="3" flavor2="0">
       </item>
@@ -548,7 +608,10 @@
       </item>
       <item path="../../../src/dcpp/PluginEntity.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../src/dcpp/PluginManager.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dcpp/PluginManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
       <item path="../../../src/dcpp/PluginManager.h" ex="false" tool="3" flavor2="0">
       </item>
@@ -567,9 +630,15 @@
             tool="3"
             flavor2="0">
       </item>
-      <item path="../../../src/dcpp/ResourceManager.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dcpp/ResourceManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
-      <item path="../../../src/dcpp/ResourceManager.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dcpp/ResourceManager.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
       <item path="../../../src/dcpp/SFVReader.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -587,7 +656,10 @@
       </item>
       <item path="../../../src/dcpp/ScopedFunctor.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../src/dcpp/SearchManager.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dcpp/SearchManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
       <item path="../../../src/dcpp/SearchManager.h" ex="false" tool="3" flavor2="0">
       </item>
@@ -604,9 +676,15 @@
       </item>
       <item path="../../../src/dcpp/Semaphore.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../src/dcpp/SettingsManager.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dcpp/SettingsManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
-      <item path="../../../src/dcpp/SettingsManager.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dcpp/SettingsManager.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
       <item path="../../../src/dcpp/ShareManager.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -626,9 +704,15 @@
       </item>
       <item path="../../../src/dcpp/SimpleXML.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../src/dcpp/SimpleXMLReader.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dcpp/SimpleXMLReader.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
-      <item path="../../../src/dcpp/SimpleXMLReader.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dcpp/SimpleXMLReader.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
       <item path="../../../src/dcpp/Singleton.h" ex="false" tool="3" flavor2="0">
       </item>
@@ -646,9 +730,15 @@
       </item>
       <item path="../../../src/dcpp/StringSearch.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../src/dcpp/StringTokenizer.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dcpp/StringTokenizer.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
-      <item path="../../../src/dcpp/StringTokenizer.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dcpp/StringTokenizer.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
       <item path="../../../src/dcpp/Style.h" ex="false" tool="3" flavor2="0">
       </item>
@@ -664,9 +754,15 @@
       </item>
       <item path="../../../src/dcpp/Thread.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../src/dcpp/ThrottleManager.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dcpp/ThrottleManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
-      <item path="../../../src/dcpp/ThrottleManager.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dcpp/ThrottleManager.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
       <item path="../../../src/dcpp/TigerHash.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -688,7 +784,10 @@
       </item>
       <item path="../../../src/dcpp/Upload.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../src/dcpp/UploadManager.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dcpp/UploadManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
       <item path="../../../src/dcpp/UploadManager.h" ex="false" tool="3" flavor2="0">
       </item>
@@ -705,7 +804,10 @@
       </item>
       <item path="../../../src/dcpp/UserCommand.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../src/dcpp/UserConnection.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dcpp/UserConnection.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
       <item path="../../../src/dcpp/UserConnection.h" ex="false" tool="3" flavor2="0">
       </item>
@@ -718,9 +820,15 @@
       </item>
       <item path="../../../src/dcpp/UserMatch.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../src/dcpp/UserMatchManager.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dcpp/UserMatchManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
-      <item path="../../../src/dcpp/UserMatchManager.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dcpp/UserMatchManager.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
       <item path="../../../src/dcpp/Util.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -730,7 +838,10 @@
       </item>
       <item path="../../../src/dcpp/WindowInfo.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../src/dcpp/WindowManager.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dcpp/WindowManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
       <item path="../../../src/dcpp/WindowManager.h" ex="false" tool="3" flavor2="0">
       </item>
@@ -768,8 +879,8 @@
     <conf name="Release_x32_-_i686_generic" type="3">
       <toolsSet>
         <compilerSet>MinGW_w64_-_x32|MinGW</compilerSet>
-        <dependencyChecking>true</dependencyChecking>
-        <rebuildPropChanged>false</rebuildPropChanged>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>true</rebuildPropChanged>
       </toolsSet>
       <compileType>
         <cTool>
@@ -841,7 +952,10 @@
       </item>
       <item path="../../../src/dcpp/BloomFilter.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../src/dcpp/BufferedSocket.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dcpp/BufferedSocket.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
       <item path="../../../src/dcpp/BufferedSocket.h" ex="false" tool="3" flavor2="0">
       </item>
@@ -870,7 +984,10 @@
       </item>
       <item path="../../../src/dcpp/ClientListener.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../src/dcpp/ClientManager.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dcpp/ClientManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
       <item path="../../../src/dcpp/ClientManager.h" ex="false" tool="3" flavor2="0">
       </item>
@@ -884,7 +1001,10 @@
             tool="1"
             flavor2="0">
       </item>
-      <item path="../../../src/dcpp/ConnectionManager.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dcpp/ConnectionManager.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
       <item path="../../../src/dcpp/ConnectionManagerListener.h"
             ex="false"
@@ -903,9 +1023,15 @@
             tool="3"
             flavor2="0">
       </item>
-      <item path="../../../src/dcpp/CriticalSection.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dcpp/CriticalSection.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
-      <item path="../../../src/dcpp/CryptoManager.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dcpp/CryptoManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
       <item path="../../../src/dcpp/CryptoManager.h" ex="false" tool="3" flavor2="0">
       </item>
@@ -913,17 +1039,29 @@
       </item>
       <item path="../../../src/dcpp/DCPlusPlus.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../src/dcpp/DirectoryListing.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dcpp/DirectoryListing.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
-      <item path="../../../src/dcpp/DirectoryListing.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dcpp/DirectoryListing.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
       <item path="../../../src/dcpp/Download.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="../../../src/dcpp/Download.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../src/dcpp/DownloadManager.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dcpp/DownloadManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
-      <item path="../../../src/dcpp/DownloadManager.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dcpp/DownloadManager.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
       <item path="../../../src/dcpp/DownloadManagerListener.h"
             ex="false"
@@ -942,9 +1080,15 @@
       </item>
       <item path="../../../src/dcpp/FavHubGroup.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../src/dcpp/FavoriteManager.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dcpp/FavoriteManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
-      <item path="../../../src/dcpp/FavoriteManager.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dcpp/FavoriteManager.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
       <item path="../../../src/dcpp/FavoriteManagerListener.h"
             ex="false"
@@ -967,9 +1111,15 @@
       </item>
       <item path="../../../src/dcpp/FinishedItem.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../src/dcpp/FinishedManager.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dcpp/FinishedManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
-      <item path="../../../src/dcpp/FinishedManager.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dcpp/FinishedManager.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
       <item path="../../../src/dcpp/FinishedManagerListener.h"
             ex="false"
@@ -1005,7 +1155,10 @@
       </item>
       <item path="../../../src/dcpp/HintedUser.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../src/dcpp/HttpConnection.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dcpp/HttpConnection.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
       <item path="../../../src/dcpp/HttpConnection.h" ex="false" tool="3" flavor2="0">
       </item>
@@ -1033,7 +1186,10 @@
       </item>
       <item path="../../../src/dcpp/LogManager.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../src/dcpp/LogManagerListener.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dcpp/LogManagerListener.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
       <item path="../../../src/dcpp/MD5Hash.h" ex="false" tool="3" flavor2="0">
       </item>
@@ -1045,15 +1201,27 @@
       </item>
       <item path="../../../src/dcpp/Mapper.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../src/dcpp/Mapper_MiniUPnPc.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dcpp/Mapper_MiniUPnPc.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
-      <item path="../../../src/dcpp/Mapper_MiniUPnPc.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dcpp/Mapper_MiniUPnPc.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
-      <item path="../../../src/dcpp/Mapper_NATPMP.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dcpp/Mapper_NATPMP.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
       <item path="../../../src/dcpp/Mapper_NATPMP.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../src/dcpp/MappingManager.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dcpp/MappingManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
       <item path="../../../src/dcpp/MappingManager.h" ex="false" tool="3" flavor2="0">
       </item>
@@ -1075,7 +1243,10 @@
       </item>
       <item path="../../../src/dcpp/OnlineUser.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../src/dcpp/PluginApiImpl.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dcpp/PluginApiImpl.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
       <item path="../../../src/dcpp/PluginApiImpl.h" ex="false" tool="3" flavor2="0">
       </item>
@@ -1083,7 +1254,10 @@
       </item>
       <item path="../../../src/dcpp/PluginEntity.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../src/dcpp/PluginManager.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dcpp/PluginManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
       <item path="../../../src/dcpp/PluginManager.h" ex="false" tool="3" flavor2="0">
       </item>
@@ -1102,9 +1276,15 @@
             tool="3"
             flavor2="0">
       </item>
-      <item path="../../../src/dcpp/ResourceManager.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dcpp/ResourceManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
-      <item path="../../../src/dcpp/ResourceManager.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dcpp/ResourceManager.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
       <item path="../../../src/dcpp/SFVReader.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -1122,7 +1302,10 @@
       </item>
       <item path="../../../src/dcpp/ScopedFunctor.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../src/dcpp/SearchManager.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dcpp/SearchManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
       <item path="../../../src/dcpp/SearchManager.h" ex="false" tool="3" flavor2="0">
       </item>
@@ -1139,9 +1322,15 @@
       </item>
       <item path="../../../src/dcpp/Semaphore.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../src/dcpp/SettingsManager.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dcpp/SettingsManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
-      <item path="../../../src/dcpp/SettingsManager.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dcpp/SettingsManager.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
       <item path="../../../src/dcpp/ShareManager.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -1161,9 +1350,15 @@
       </item>
       <item path="../../../src/dcpp/SimpleXML.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../src/dcpp/SimpleXMLReader.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dcpp/SimpleXMLReader.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
-      <item path="../../../src/dcpp/SimpleXMLReader.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dcpp/SimpleXMLReader.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
       <item path="../../../src/dcpp/Singleton.h" ex="false" tool="3" flavor2="0">
       </item>
@@ -1181,9 +1376,15 @@
       </item>
       <item path="../../../src/dcpp/StringSearch.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../src/dcpp/StringTokenizer.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dcpp/StringTokenizer.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
-      <item path="../../../src/dcpp/StringTokenizer.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dcpp/StringTokenizer.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
       <item path="../../../src/dcpp/Style.h" ex="false" tool="3" flavor2="0">
       </item>
@@ -1199,9 +1400,15 @@
       </item>
       <item path="../../../src/dcpp/Thread.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../src/dcpp/ThrottleManager.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dcpp/ThrottleManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
-      <item path="../../../src/dcpp/ThrottleManager.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dcpp/ThrottleManager.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
       <item path="../../../src/dcpp/TigerHash.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -1223,7 +1430,10 @@
       </item>
       <item path="../../../src/dcpp/Upload.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../src/dcpp/UploadManager.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dcpp/UploadManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
       <item path="../../../src/dcpp/UploadManager.h" ex="false" tool="3" flavor2="0">
       </item>
@@ -1240,7 +1450,10 @@
       </item>
       <item path="../../../src/dcpp/UserCommand.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../src/dcpp/UserConnection.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dcpp/UserConnection.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
       <item path="../../../src/dcpp/UserConnection.h" ex="false" tool="3" flavor2="0">
       </item>
@@ -1253,9 +1466,15 @@
       </item>
       <item path="../../../src/dcpp/UserMatch.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../src/dcpp/UserMatchManager.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dcpp/UserMatchManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
-      <item path="../../../src/dcpp/UserMatchManager.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dcpp/UserMatchManager.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
       <item path="../../../src/dcpp/Util.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -1265,7 +1484,10 @@
       </item>
       <item path="../../../src/dcpp/WindowInfo.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../src/dcpp/WindowManager.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dcpp/WindowManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
       <item path="../../../src/dcpp/WindowManager.h" ex="false" tool="3" flavor2="0">
       </item>
@@ -1303,8 +1525,8 @@
     <conf name="Debug_x64_-_nocona_core2" type="3">
       <toolsSet>
         <compilerSet>MinGW_w64_-_x64|MinGW</compilerSet>
-        <dependencyChecking>true</dependencyChecking>
-        <rebuildPropChanged>false</rebuildPropChanged>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>true</rebuildPropChanged>
       </toolsSet>
       <compileType>
         <ccTool>
@@ -1366,7 +1588,10 @@
       </item>
       <item path="../../../src/dcpp/BloomFilter.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../src/dcpp/BufferedSocket.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dcpp/BufferedSocket.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
       <item path="../../../src/dcpp/BufferedSocket.h" ex="false" tool="3" flavor2="0">
       </item>
@@ -1395,7 +1620,10 @@
       </item>
       <item path="../../../src/dcpp/ClientListener.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../src/dcpp/ClientManager.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dcpp/ClientManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
       <item path="../../../src/dcpp/ClientManager.h" ex="false" tool="3" flavor2="0">
       </item>
@@ -1409,7 +1637,10 @@
             tool="1"
             flavor2="0">
       </item>
-      <item path="../../../src/dcpp/ConnectionManager.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dcpp/ConnectionManager.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
       <item path="../../../src/dcpp/ConnectionManagerListener.h"
             ex="false"
@@ -1428,9 +1659,15 @@
             tool="3"
             flavor2="0">
       </item>
-      <item path="../../../src/dcpp/CriticalSection.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dcpp/CriticalSection.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
-      <item path="../../../src/dcpp/CryptoManager.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dcpp/CryptoManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
       <item path="../../../src/dcpp/CryptoManager.h" ex="false" tool="3" flavor2="0">
       </item>
@@ -1438,17 +1675,29 @@
       </item>
       <item path="../../../src/dcpp/DCPlusPlus.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../src/dcpp/DirectoryListing.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dcpp/DirectoryListing.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
-      <item path="../../../src/dcpp/DirectoryListing.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dcpp/DirectoryListing.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
       <item path="../../../src/dcpp/Download.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="../../../src/dcpp/Download.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../src/dcpp/DownloadManager.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dcpp/DownloadManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
-      <item path="../../../src/dcpp/DownloadManager.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dcpp/DownloadManager.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
       <item path="../../../src/dcpp/DownloadManagerListener.h"
             ex="false"
@@ -1467,9 +1716,15 @@
       </item>
       <item path="../../../src/dcpp/FavHubGroup.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../src/dcpp/FavoriteManager.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dcpp/FavoriteManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
-      <item path="../../../src/dcpp/FavoriteManager.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dcpp/FavoriteManager.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
       <item path="../../../src/dcpp/FavoriteManagerListener.h"
             ex="false"
@@ -1492,9 +1747,15 @@
       </item>
       <item path="../../../src/dcpp/FinishedItem.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../src/dcpp/FinishedManager.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dcpp/FinishedManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
-      <item path="../../../src/dcpp/FinishedManager.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dcpp/FinishedManager.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
       <item path="../../../src/dcpp/FinishedManagerListener.h"
             ex="false"
@@ -1530,7 +1791,10 @@
       </item>
       <item path="../../../src/dcpp/HintedUser.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../src/dcpp/HttpConnection.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dcpp/HttpConnection.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
       <item path="../../../src/dcpp/HttpConnection.h" ex="false" tool="3" flavor2="0">
       </item>
@@ -1558,7 +1822,10 @@
       </item>
       <item path="../../../src/dcpp/LogManager.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../src/dcpp/LogManagerListener.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dcpp/LogManagerListener.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
       <item path="../../../src/dcpp/MD5Hash.h" ex="false" tool="3" flavor2="0">
       </item>
@@ -1570,15 +1837,27 @@
       </item>
       <item path="../../../src/dcpp/Mapper.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../src/dcpp/Mapper_MiniUPnPc.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dcpp/Mapper_MiniUPnPc.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
-      <item path="../../../src/dcpp/Mapper_MiniUPnPc.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dcpp/Mapper_MiniUPnPc.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
-      <item path="../../../src/dcpp/Mapper_NATPMP.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dcpp/Mapper_NATPMP.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
       <item path="../../../src/dcpp/Mapper_NATPMP.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../src/dcpp/MappingManager.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dcpp/MappingManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
       <item path="../../../src/dcpp/MappingManager.h" ex="false" tool="3" flavor2="0">
       </item>
@@ -1600,7 +1879,10 @@
       </item>
       <item path="../../../src/dcpp/OnlineUser.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../src/dcpp/PluginApiImpl.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dcpp/PluginApiImpl.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
       <item path="../../../src/dcpp/PluginApiImpl.h" ex="false" tool="3" flavor2="0">
       </item>
@@ -1608,7 +1890,10 @@
       </item>
       <item path="../../../src/dcpp/PluginEntity.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../src/dcpp/PluginManager.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dcpp/PluginManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
       <item path="../../../src/dcpp/PluginManager.h" ex="false" tool="3" flavor2="0">
       </item>
@@ -1627,9 +1912,15 @@
             tool="3"
             flavor2="0">
       </item>
-      <item path="../../../src/dcpp/ResourceManager.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dcpp/ResourceManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
-      <item path="../../../src/dcpp/ResourceManager.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dcpp/ResourceManager.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
       <item path="../../../src/dcpp/SFVReader.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -1647,7 +1938,10 @@
       </item>
       <item path="../../../src/dcpp/ScopedFunctor.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../src/dcpp/SearchManager.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dcpp/SearchManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
       <item path="../../../src/dcpp/SearchManager.h" ex="false" tool="3" flavor2="0">
       </item>
@@ -1664,9 +1958,15 @@
       </item>
       <item path="../../../src/dcpp/Semaphore.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../src/dcpp/SettingsManager.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dcpp/SettingsManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
-      <item path="../../../src/dcpp/SettingsManager.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dcpp/SettingsManager.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
       <item path="../../../src/dcpp/ShareManager.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -1686,9 +1986,15 @@
       </item>
       <item path="../../../src/dcpp/SimpleXML.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../src/dcpp/SimpleXMLReader.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dcpp/SimpleXMLReader.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
-      <item path="../../../src/dcpp/SimpleXMLReader.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dcpp/SimpleXMLReader.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
       <item path="../../../src/dcpp/Singleton.h" ex="false" tool="3" flavor2="0">
       </item>
@@ -1706,9 +2012,15 @@
       </item>
       <item path="../../../src/dcpp/StringSearch.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../src/dcpp/StringTokenizer.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dcpp/StringTokenizer.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
-      <item path="../../../src/dcpp/StringTokenizer.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dcpp/StringTokenizer.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
       <item path="../../../src/dcpp/Style.h" ex="false" tool="3" flavor2="0">
       </item>
@@ -1724,9 +2036,15 @@
       </item>
       <item path="../../../src/dcpp/Thread.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../src/dcpp/ThrottleManager.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dcpp/ThrottleManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
-      <item path="../../../src/dcpp/ThrottleManager.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dcpp/ThrottleManager.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
       <item path="../../../src/dcpp/TigerHash.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -1748,7 +2066,10 @@
       </item>
       <item path="../../../src/dcpp/Upload.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../src/dcpp/UploadManager.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dcpp/UploadManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
       <item path="../../../src/dcpp/UploadManager.h" ex="false" tool="3" flavor2="0">
       </item>
@@ -1765,7 +2086,10 @@
       </item>
       <item path="../../../src/dcpp/UserCommand.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../src/dcpp/UserConnection.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dcpp/UserConnection.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
       <item path="../../../src/dcpp/UserConnection.h" ex="false" tool="3" flavor2="0">
       </item>
@@ -1778,9 +2102,15 @@
       </item>
       <item path="../../../src/dcpp/UserMatch.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../src/dcpp/UserMatchManager.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dcpp/UserMatchManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
-      <item path="../../../src/dcpp/UserMatchManager.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dcpp/UserMatchManager.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
       <item path="../../../src/dcpp/Util.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -1790,7 +2120,10 @@
       </item>
       <item path="../../../src/dcpp/WindowInfo.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../src/dcpp/WindowManager.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dcpp/WindowManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
       <item path="../../../src/dcpp/WindowManager.h" ex="false" tool="3" flavor2="0">
       </item>
@@ -1828,8 +2161,8 @@
     <conf name="Release_x64_-_nocona_core2" type="3">
       <toolsSet>
         <compilerSet>MinGW_w64_-_x64|MinGW</compilerSet>
-        <dependencyChecking>true</dependencyChecking>
-        <rebuildPropChanged>false</rebuildPropChanged>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>true</rebuildPropChanged>
       </toolsSet>
       <compileType>
         <cTool>
@@ -1901,7 +2234,10 @@
       </item>
       <item path="../../../src/dcpp/BloomFilter.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../src/dcpp/BufferedSocket.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dcpp/BufferedSocket.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
       <item path="../../../src/dcpp/BufferedSocket.h" ex="false" tool="3" flavor2="0">
       </item>
@@ -1930,7 +2266,10 @@
       </item>
       <item path="../../../src/dcpp/ClientListener.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../src/dcpp/ClientManager.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dcpp/ClientManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
       <item path="../../../src/dcpp/ClientManager.h" ex="false" tool="3" flavor2="0">
       </item>
@@ -1944,7 +2283,10 @@
             tool="1"
             flavor2="0">
       </item>
-      <item path="../../../src/dcpp/ConnectionManager.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dcpp/ConnectionManager.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
       <item path="../../../src/dcpp/ConnectionManagerListener.h"
             ex="false"
@@ -1963,9 +2305,15 @@
             tool="3"
             flavor2="0">
       </item>
-      <item path="../../../src/dcpp/CriticalSection.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dcpp/CriticalSection.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
-      <item path="../../../src/dcpp/CryptoManager.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dcpp/CryptoManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
       <item path="../../../src/dcpp/CryptoManager.h" ex="false" tool="3" flavor2="0">
       </item>
@@ -1973,17 +2321,29 @@
       </item>
       <item path="../../../src/dcpp/DCPlusPlus.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../src/dcpp/DirectoryListing.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dcpp/DirectoryListing.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
-      <item path="../../../src/dcpp/DirectoryListing.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dcpp/DirectoryListing.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
       <item path="../../../src/dcpp/Download.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="../../../src/dcpp/Download.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../src/dcpp/DownloadManager.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dcpp/DownloadManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
-      <item path="../../../src/dcpp/DownloadManager.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dcpp/DownloadManager.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
       <item path="../../../src/dcpp/DownloadManagerListener.h"
             ex="false"
@@ -2002,9 +2362,15 @@
       </item>
       <item path="../../../src/dcpp/FavHubGroup.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../src/dcpp/FavoriteManager.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dcpp/FavoriteManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
-      <item path="../../../src/dcpp/FavoriteManager.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dcpp/FavoriteManager.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
       <item path="../../../src/dcpp/FavoriteManagerListener.h"
             ex="false"
@@ -2027,9 +2393,15 @@
       </item>
       <item path="../../../src/dcpp/FinishedItem.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../src/dcpp/FinishedManager.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dcpp/FinishedManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
-      <item path="../../../src/dcpp/FinishedManager.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dcpp/FinishedManager.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
       <item path="../../../src/dcpp/FinishedManagerListener.h"
             ex="false"
@@ -2065,7 +2437,10 @@
       </item>
       <item path="../../../src/dcpp/HintedUser.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../src/dcpp/HttpConnection.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dcpp/HttpConnection.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
       <item path="../../../src/dcpp/HttpConnection.h" ex="false" tool="3" flavor2="0">
       </item>
@@ -2093,7 +2468,10 @@
       </item>
       <item path="../../../src/dcpp/LogManager.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../src/dcpp/LogManagerListener.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dcpp/LogManagerListener.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
       <item path="../../../src/dcpp/MD5Hash.h" ex="false" tool="3" flavor2="0">
       </item>
@@ -2105,15 +2483,27 @@
       </item>
       <item path="../../../src/dcpp/Mapper.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../src/dcpp/Mapper_MiniUPnPc.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dcpp/Mapper_MiniUPnPc.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
-      <item path="../../../src/dcpp/Mapper_MiniUPnPc.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dcpp/Mapper_MiniUPnPc.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
-      <item path="../../../src/dcpp/Mapper_NATPMP.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dcpp/Mapper_NATPMP.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
       <item path="../../../src/dcpp/Mapper_NATPMP.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../src/dcpp/MappingManager.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dcpp/MappingManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
       <item path="../../../src/dcpp/MappingManager.h" ex="false" tool="3" flavor2="0">
       </item>
@@ -2135,7 +2525,10 @@
       </item>
       <item path="../../../src/dcpp/OnlineUser.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../src/dcpp/PluginApiImpl.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dcpp/PluginApiImpl.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
       <item path="../../../src/dcpp/PluginApiImpl.h" ex="false" tool="3" flavor2="0">
       </item>
@@ -2143,7 +2536,10 @@
       </item>
       <item path="../../../src/dcpp/PluginEntity.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../src/dcpp/PluginManager.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dcpp/PluginManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
       <item path="../../../src/dcpp/PluginManager.h" ex="false" tool="3" flavor2="0">
       </item>
@@ -2162,9 +2558,15 @@
             tool="3"
             flavor2="0">
       </item>
-      <item path="../../../src/dcpp/ResourceManager.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dcpp/ResourceManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
-      <item path="../../../src/dcpp/ResourceManager.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dcpp/ResourceManager.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
       <item path="../../../src/dcpp/SFVReader.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -2182,7 +2584,10 @@
       </item>
       <item path="../../../src/dcpp/ScopedFunctor.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../src/dcpp/SearchManager.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dcpp/SearchManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
       <item path="../../../src/dcpp/SearchManager.h" ex="false" tool="3" flavor2="0">
       </item>
@@ -2199,9 +2604,15 @@
       </item>
       <item path="../../../src/dcpp/Semaphore.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../src/dcpp/SettingsManager.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dcpp/SettingsManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
-      <item path="../../../src/dcpp/SettingsManager.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dcpp/SettingsManager.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
       <item path="../../../src/dcpp/ShareManager.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -2221,9 +2632,15 @@
       </item>
       <item path="../../../src/dcpp/SimpleXML.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../src/dcpp/SimpleXMLReader.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dcpp/SimpleXMLReader.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
-      <item path="../../../src/dcpp/SimpleXMLReader.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dcpp/SimpleXMLReader.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
       <item path="../../../src/dcpp/Singleton.h" ex="false" tool="3" flavor2="0">
       </item>
@@ -2241,9 +2658,15 @@
       </item>
       <item path="../../../src/dcpp/StringSearch.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../src/dcpp/StringTokenizer.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dcpp/StringTokenizer.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
-      <item path="../../../src/dcpp/StringTokenizer.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dcpp/StringTokenizer.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
       <item path="../../../src/dcpp/Style.h" ex="false" tool="3" flavor2="0">
       </item>
@@ -2259,9 +2682,15 @@
       </item>
       <item path="../../../src/dcpp/Thread.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../src/dcpp/ThrottleManager.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dcpp/ThrottleManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
-      <item path="../../../src/dcpp/ThrottleManager.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dcpp/ThrottleManager.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
       <item path="../../../src/dcpp/TigerHash.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -2283,7 +2712,10 @@
       </item>
       <item path="../../../src/dcpp/Upload.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../src/dcpp/UploadManager.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dcpp/UploadManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
       <item path="../../../src/dcpp/UploadManager.h" ex="false" tool="3" flavor2="0">
       </item>
@@ -2300,7 +2732,10 @@
       </item>
       <item path="../../../src/dcpp/UserCommand.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../src/dcpp/UserConnection.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dcpp/UserConnection.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
       <item path="../../../src/dcpp/UserConnection.h" ex="false" tool="3" flavor2="0">
       </item>
@@ -2313,9 +2748,15 @@
       </item>
       <item path="../../../src/dcpp/UserMatch.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../src/dcpp/UserMatchManager.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dcpp/UserMatchManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
-      <item path="../../../src/dcpp/UserMatchManager.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dcpp/UserMatchManager.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
       <item path="../../../src/dcpp/Util.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -2325,7 +2766,10 @@
       </item>
       <item path="../../../src/dcpp/WindowInfo.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../src/dcpp/WindowManager.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dcpp/WindowManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
       <item path="../../../src/dcpp/WindowManager.h" ex="false" tool="3" flavor2="0">
       </item>
@@ -2354,6 +2798,3218 @@
       <item path="../../../src/dcpp/typedefs.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../../../src/dcpp/version.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/version.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/w.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="PCH__Debug_x32_-_i686_generic" type="3">
+      <toolsSet>
+        <compilerSet>MinGW_w64_-_x32|MinGW</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>true</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <standard>8</standard>
+          <incDir>
+            <pElem>../../../src</pElem>
+            <pElem>../../../src/mingw/preload</pElem>
+            <pElem>../../../src/mingw/include</pElem>
+            <pElem>../../../src/boost</pElem>
+            <pElem>../../../src/bzip2</pElem>
+            <pElem>../../../src/geoip</pElem>
+            <pElem>../../../src/zlib</pElem>
+            <pElem>../../../src/intl</pElem>
+            <pElem>../../../src/openssl/include</pElem>
+          </incDir>
+          <commandLine>-march=i686 -mtune=generic -std=gnu++11 -pipe -mthreads -mwindows -Wall -Wextra -Wno-unused-local-typedefs -Wno-unused-parameter -Wno-unused-value -Wno-missing-field-initializers -Wno-address -Wno-unknown-pragmas -Wno-format -fexceptions -Og</commandLine>
+          <preprocessorList>
+            <Elem>BOOST_ALL_NO_LIB</Elem>
+            <Elem>BOOST_USE_WINDOWS_H</Elem>
+            <Elem>BUILDING_DCPP=1</Elem>
+            <Elem>CASESENSITIVITYDEFAULT_YES</Elem>
+            <Elem>HAS_PCH</Elem>
+            <Elem>NOMINMAX</Elem>
+            <Elem>NO_VIZ</Elem>
+            <Elem>STRICT</Elem>
+            <Elem>UNICODE</Elem>
+            <Elem>WIN32_LEAN_AND_MEAN</Elem>
+            <Elem>WINVER=0x502</Elem>
+            <Elem>ZLIB_WINAPI</Elem>
+            <Elem>_DEBUG</Elem>
+            <Elem>_REENTRANT</Elem>
+            <Elem>_UNICODE</Elem>
+            <Elem>_WIN32_IE=0x600</Elem>
+            <Elem>_WIN32_WINNT=0x502</Elem>
+          </preprocessorList>
+        </ccTool>
+        <archiverTool>
+          <output>${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/libdcpp.a</output>
+        </archiverTool>
+      </compileType>
+      <item path="../../../src/dcpp/ADLSearch.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/ADLSearch.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/AdcCommand.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/AdcCommand.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/AdcHub.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/AdcHub.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/Archive.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/Archive.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/BZUtils.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/BZUtils.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/BloomFilter.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/BufferedSocket.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/BufferedSocket.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/BufferedSocketListener.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/Bundle.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/Bundle.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/BundleItem.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/CID.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/CID.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/ChatMessage.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/ChatMessage.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/Client.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/Client.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/ClientListener.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/ClientManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/ClientManager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/ClientManagerListener.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/ConnectionManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/ConnectionManager.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/ConnectionManagerListener.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/ConnectionType.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/ConnectivityManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/ConnectivityManager.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/CriticalSection.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/CryptoManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/CryptoManager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/DCPlusPlus.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/DCPlusPlus.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/DirectoryListing.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/DirectoryListing.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/Download.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/Download.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/DownloadManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/DownloadManager.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/DownloadManagerListener.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/Encoder.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/Encoder.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/Exception.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/Exception.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/FastAlloc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/FavHubGroup.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/FavoriteManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/FavoriteManager.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/FavoriteManagerListener.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/FavoriteUser.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/File.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/File.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/FileReader.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/FileReader.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/FilteredFile.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/FinishedItem.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/FinishedItem.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/FinishedManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/FinishedManager.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/FinishedManagerListener.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/Flags.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/GeoIP.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/GeoIP.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/GeoManager.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/GeoManager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/GetSet.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/HashBloom.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/HashBloom.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/HashManager.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/HashManager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/HashManagerListener.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/HashValue.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/HintedUser.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/HttpConnection.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/HttpConnection.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/HttpConnectionListener.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/HttpManager.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/HttpManager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/HttpManagerListener.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/HubEntry.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/HubSettings.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/HubSettings.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/LogManager.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/LogManager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/LogManagerListener.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/MD5Hash.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/Magnet.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/Magnet.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/Mapper.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/Mapper.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/Mapper_MiniUPnPc.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/Mapper_MiniUPnPc.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/Mapper_NATPMP.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/Mapper_NATPMP.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/MappingManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/MappingManager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/MerkleCheckOutputStream.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/MerkleTree.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/MerkleTreeOutputStream.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/NmdcHub.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/NmdcHub.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/OnlineUser.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/PluginApiImpl.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/PluginApiImpl.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/PluginDefs.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/PluginEntity.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/PluginManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/PluginManager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/Pointer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/QueueItem.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/QueueItem.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/QueueManager.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/QueueManager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/QueueManagerListener.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/ResourceManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/ResourceManager.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/SFVReader.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/SFVReader.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/SHA1Hash.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/SSL.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/SSL.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/SSLSocket.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/SSLSocket.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/ScopedFunctor.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/SearchManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/SearchManager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/SearchManagerListener.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/SearchResult.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/SearchResult.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/Segment.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/Semaphore.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/SettingsManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/SettingsManager.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/ShareManager.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/ShareManager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/SimpleBencodeReader.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/SimpleBencodeReader.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/SimpleXML.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/SimpleXML.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/SimpleXMLReader.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/SimpleXMLReader.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/Singleton.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/Socket.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/Socket.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/Speaker.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/Streams.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/StringMatch.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/StringMatch.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/StringSearch.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/StringTokenizer.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/StringTokenizer.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/Style.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/Tagger.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/Tagger.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/Text.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/Text.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/Thread.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/Thread.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/ThrottleManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/ThrottleManager.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/TigerHash.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/TigerHash.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/TimerManager.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/TimerManager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/Torrent.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/Torrent.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/Transfer.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/Transfer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/Upload.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/Upload.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/UploadManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/UploadManager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/UploadManagerListener.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/User.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/User.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/UserCommand.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/UserCommand.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/UserConnection.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/UserConnection.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/UserConnectionListener.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/UserMatch.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/UserMatch.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/UserMatchManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/UserMatchManager.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/Util.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/Util.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/WindowInfo.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/WindowInfo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/WindowManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/WindowManager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/ZUtils.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/ZUtils.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/atomic.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/compiler.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/debug.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/format.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/forward.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/noexcept.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/stdinc.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/stdinc.h" ex="false" tool="3" flavor2="0">
+        <customTool>
+          <customToolCommandline>g++ -march=i686 -mtune=generic -std=gnu++11 -pipe -mthreads -mwindows -Wall -Wextra -Wno-unused-local-typedefs -Wno-unused-parameter -Wno-unused-value -Wno-missing-field-initializers -Wno-address -Wno-unknown-pragmas -Wno-format -fexceptions -Og -g -DBOOST_ALL_NO_LIB -DBOOST_USE_WINDOWS_H -DBUILDING_DCPP=1 -DCASESENSITIVITYDEFAULT_YES -DNOMINMAX -DNO_VIZ -DSTRICT -DUNICODE -DWIN32_LEAN_AND_MEAN -DWINVER=0x502 -DZLIB_WINAPI -D_DEBUG -D_REENTRANT -D_UNICODE -D_WIN32_IE=0x600 -D_WIN32_WINNT=0x502 -DHAS_PCH -I../../../src -I../../../src/mingw/preload -I../../../src/mingw/include -I../../../src/boost -I../../../src/bzip2 -I../../../src/geoip -I../../../src/zlib -I../../../src/intl -I../../../src/openssl/include -std=c++11 -o ../../../src/dcpp/stdinc.h.gch -c ../../../src/dcpp/stdinc.h</customToolCommandline>
+          <customToolDescription>Performing Custom Build Step - stdinc.h.gch</customToolDescription>
+          <customToolOutputs>stdinc.h.gch</customToolOutputs>
+        </customTool>
+      </item>
+      <item path="../../../src/dcpp/tribool.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/typedefs.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/version.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/version.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/w.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="PCH__Release_x32_-_i686_generic" type="3">
+      <toolsSet>
+        <compilerSet>MinGW_w64_-_x32|MinGW</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>true</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>0</developmentMode>
+          <standard>8</standard>
+          <incDir>
+            <pElem>../../../src</pElem>
+            <pElem>../../../src/mingw/preload</pElem>
+            <pElem>../../../src/mingw/include</pElem>
+            <pElem>../../../src/boost</pElem>
+            <pElem>../../../src/bzip2</pElem>
+            <pElem>../../../src/geoip</pElem>
+            <pElem>../../../src/zlib</pElem>
+            <pElem>../../../src/intl</pElem>
+            <pElem>../../../src/openssl/include</pElem>
+          </incDir>
+          <commandLine>-std=gnu++11 -pipe -march=i686 -mtune=generic -mthreads -mwindows -O3 -fno-ipa-cp-clone -g -Wall -Wextra -Wno-unused-local-typedefs -Wno-unused-parameter -Wno-unused-value -Wno-missing-field-initializers -Wno-address -Wno-unknown-pragmas -Wno-format -fexceptions</commandLine>
+          <preprocessorList>
+            <Elem>BOOST_ALL_NO_LIB</Elem>
+            <Elem>BOOST_USE_WINDOWS_H</Elem>
+            <Elem>BUILDING_DCPP=1</Elem>
+            <Elem>CASESENSITIVITYDEFAULT_YES</Elem>
+            <Elem>HAS_PCH</Elem>
+            <Elem>NDEBUG</Elem>
+            <Elem>NOMINMAX</Elem>
+            <Elem>NO_VIZ</Elem>
+            <Elem>STRICT</Elem>
+            <Elem>UNICODE</Elem>
+            <Elem>WIN32_LEAN_AND_MEAN</Elem>
+            <Elem>WINVER=0x502</Elem>
+            <Elem>ZLIB_WINAPI</Elem>
+            <Elem>_REENTRANT</Elem>
+            <Elem>_UNICODE</Elem>
+            <Elem>_WIN32_IE=0x600</Elem>
+            <Elem>_WIN32_WINNT=0x502</Elem>
+          </preprocessorList>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+        <archiverTool>
+          <output>${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/libdcpp.a</output>
+        </archiverTool>
+      </compileType>
+      <item path="../../../src/dcpp/ADLSearch.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/ADLSearch.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/AdcCommand.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/AdcCommand.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/AdcHub.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/AdcHub.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/Archive.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/Archive.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/BZUtils.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/BZUtils.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/BloomFilter.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/BufferedSocket.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/BufferedSocket.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/BufferedSocketListener.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/Bundle.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/Bundle.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/BundleItem.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/CID.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/CID.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/ChatMessage.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/ChatMessage.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/Client.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/Client.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/ClientListener.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/ClientManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/ClientManager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/ClientManagerListener.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/ConnectionManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/ConnectionManager.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/ConnectionManagerListener.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/ConnectionType.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/ConnectivityManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/ConnectivityManager.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/CriticalSection.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/CryptoManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/CryptoManager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/DCPlusPlus.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/DCPlusPlus.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/DirectoryListing.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/DirectoryListing.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/Download.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/Download.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/DownloadManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/DownloadManager.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/DownloadManagerListener.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/Encoder.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/Encoder.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/Exception.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/Exception.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/FastAlloc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/FavHubGroup.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/FavoriteManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/FavoriteManager.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/FavoriteManagerListener.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/FavoriteUser.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/File.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/File.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/FileReader.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/FileReader.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/FilteredFile.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/FinishedItem.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/FinishedItem.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/FinishedManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/FinishedManager.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/FinishedManagerListener.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/Flags.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/GeoIP.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/GeoIP.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/GeoManager.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/GeoManager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/GetSet.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/HashBloom.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/HashBloom.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/HashManager.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/HashManager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/HashManagerListener.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/HashValue.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/HintedUser.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/HttpConnection.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/HttpConnection.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/HttpConnectionListener.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/HttpManager.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/HttpManager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/HttpManagerListener.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/HubEntry.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/HubSettings.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/HubSettings.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/LogManager.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/LogManager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/LogManagerListener.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/MD5Hash.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/Magnet.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/Magnet.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/Mapper.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/Mapper.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/Mapper_MiniUPnPc.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/Mapper_MiniUPnPc.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/Mapper_NATPMP.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/Mapper_NATPMP.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/MappingManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/MappingManager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/MerkleCheckOutputStream.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/MerkleTree.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/MerkleTreeOutputStream.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/NmdcHub.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/NmdcHub.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/OnlineUser.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/PluginApiImpl.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/PluginApiImpl.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/PluginDefs.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/PluginEntity.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/PluginManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/PluginManager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/Pointer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/QueueItem.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/QueueItem.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/QueueManager.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/QueueManager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/QueueManagerListener.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/ResourceManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/ResourceManager.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/SFVReader.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/SFVReader.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/SHA1Hash.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/SSL.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/SSL.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/SSLSocket.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/SSLSocket.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/ScopedFunctor.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/SearchManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/SearchManager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/SearchManagerListener.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/SearchResult.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/SearchResult.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/Segment.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/Semaphore.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/SettingsManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/SettingsManager.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/ShareManager.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/ShareManager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/SimpleBencodeReader.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/SimpleBencodeReader.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/SimpleXML.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/SimpleXML.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/SimpleXMLReader.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/SimpleXMLReader.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/Singleton.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/Socket.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/Socket.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/Speaker.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/Streams.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/StringMatch.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/StringMatch.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/StringSearch.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/StringTokenizer.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/StringTokenizer.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/Style.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/Tagger.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/Tagger.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/Text.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/Text.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/Thread.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/Thread.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/ThrottleManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/ThrottleManager.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/TigerHash.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/TigerHash.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/TimerManager.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/TimerManager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/Torrent.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/Torrent.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/Transfer.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/Transfer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/Upload.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/Upload.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/UploadManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/UploadManager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/UploadManagerListener.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/User.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/User.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/UserCommand.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/UserCommand.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/UserConnection.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/UserConnection.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/UserConnectionListener.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/UserMatch.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/UserMatch.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/UserMatchManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/UserMatchManager.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/Util.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/Util.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/WindowInfo.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/WindowInfo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/WindowManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/WindowManager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/ZUtils.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/ZUtils.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/atomic.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/compiler.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/debug.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/format.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/forward.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/noexcept.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/stdinc.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/stdinc.h" ex="false" tool="3" flavor2="0">
+        <customTool>
+          <customToolCommandline>g++ -std=gnu++11 -pipe -march=i686 -mtune=generic -mthreads -mwindows -O3 -fno-ipa-cp-clone -g -Wall -Wextra -Wno-unused-local-typedefs -Wno-unused-parameter -Wno-unused-value -Wno-missing-field-initializers -Wno-address -Wno-unknown-pragmas -Wno-format -fexceptions -DBOOST_ALL_NO_LIB -DBOOST_USE_WINDOWS_H -DBUILDING_DCPP=1 -DCASESENSITIVITYDEFAULT_YES -DNDEBUG -DNOMINMAX -DNO_VIZ -DSTRICT -DUNICODE -DWIN32_LEAN_AND_MEAN -DWINVER=0x502 -DZLIB_WINAPI -D_REENTRANT -D_UNICODE -D_WIN32_IE=0x600 -D_WIN32_WINNT=0x502 -DHAS_PCH -I../../../src -I../../../src/mingw/preload -I../../../src/mingw/include -I../../../src/boost -I../../../src/bzip2 -I../../../src/geoip -I../../../src/zlib -I../../../src/intl -I../../../src/openssl/include -std=c++11 -o ../../../src/dcpp/stdinc.h.gch -c ../../../src/dcpp/stdinc.h</customToolCommandline>
+          <customToolDescription>Performing Custom Build Step - stdinc.h.gch</customToolDescription>
+          <customToolOutputs>stdinc.h.gch</customToolOutputs>
+        </customTool>
+      </item>
+      <item path="../../../src/dcpp/tribool.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/typedefs.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/version.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/version.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/w.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="PCH__Debug_x64_-_nocona_core2" type="3">
+      <toolsSet>
+        <compilerSet>MinGW_w64_-_x64|MinGW</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>true</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <standard>8</standard>
+          <incDir>
+            <pElem>../../../src</pElem>
+            <pElem>../../../src/mingw/preload</pElem>
+            <pElem>../../../src/mingw/include</pElem>
+            <pElem>../../../src/boost</pElem>
+            <pElem>../../../src/bzip2</pElem>
+            <pElem>../../../src/geoip</pElem>
+            <pElem>../../../src/zlib</pElem>
+            <pElem>../../../src/intl</pElem>
+            <pElem>../../../src/openssl/include</pElem>
+          </incDir>
+          <commandLine>-march=nocona -mtune=core2 -std=gnu++11 -pipe -mthreads -mwindows -Wall -Wextra -Wno-unused-local-typedefs -Wno-unused-parameter -Wno-unused-value -Wno-missing-field-initializers -Wno-address -Wno-unknown-pragmas -Wno-format -fexceptions -Og</commandLine>
+          <preprocessorList>
+            <Elem>BOOST_ALL_NO_LIB</Elem>
+            <Elem>BOOST_USE_WINDOWS_H</Elem>
+            <Elem>BUILDING_DCPP=1</Elem>
+            <Elem>CASESENSITIVITYDEFAULT_YES</Elem>
+            <Elem>HAS_PCH</Elem>
+            <Elem>NOMINMAX</Elem>
+            <Elem>NO_VIZ</Elem>
+            <Elem>STRICT</Elem>
+            <Elem>UNICODE</Elem>
+            <Elem>WIN32_LEAN_AND_MEAN</Elem>
+            <Elem>WINVER=0x502</Elem>
+            <Elem>ZLIB_WINAPI</Elem>
+            <Elem>_DEBUG</Elem>
+            <Elem>_REENTRANT</Elem>
+            <Elem>_UNICODE</Elem>
+            <Elem>_WIN32_IE=0x600</Elem>
+            <Elem>_WIN32_WINNT=0x502</Elem>
+          </preprocessorList>
+        </ccTool>
+        <archiverTool>
+          <output>${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/libdcpp.a</output>
+        </archiverTool>
+      </compileType>
+      <item path="../../../src/dcpp/ADLSearch.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/ADLSearch.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/AdcCommand.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/AdcCommand.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/AdcHub.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/AdcHub.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/Archive.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/Archive.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/BZUtils.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/BZUtils.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/BloomFilter.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/BufferedSocket.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/BufferedSocket.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/BufferedSocketListener.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/Bundle.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/Bundle.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/BundleItem.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/CID.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/CID.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/ChatMessage.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/ChatMessage.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/Client.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/Client.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/ClientListener.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/ClientManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/ClientManager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/ClientManagerListener.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/ConnectionManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/ConnectionManager.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/ConnectionManagerListener.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/ConnectionType.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/ConnectivityManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/ConnectivityManager.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/CriticalSection.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/CryptoManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/CryptoManager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/DCPlusPlus.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/DCPlusPlus.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/DirectoryListing.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/DirectoryListing.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/Download.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/Download.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/DownloadManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/DownloadManager.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/DownloadManagerListener.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/Encoder.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/Encoder.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/Exception.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/Exception.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/FastAlloc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/FavHubGroup.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/FavoriteManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/FavoriteManager.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/FavoriteManagerListener.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/FavoriteUser.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/File.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/File.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/FileReader.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/FileReader.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/FilteredFile.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/FinishedItem.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/FinishedItem.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/FinishedManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/FinishedManager.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/FinishedManagerListener.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/Flags.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/GeoIP.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/GeoIP.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/GeoManager.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/GeoManager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/GetSet.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/HashBloom.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/HashBloom.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/HashManager.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/HashManager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/HashManagerListener.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/HashValue.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/HintedUser.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/HttpConnection.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/HttpConnection.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/HttpConnectionListener.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/HttpManager.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/HttpManager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/HttpManagerListener.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/HubEntry.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/HubSettings.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/HubSettings.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/LogManager.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/LogManager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/LogManagerListener.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/MD5Hash.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/Magnet.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/Magnet.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/Mapper.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/Mapper.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/Mapper_MiniUPnPc.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/Mapper_MiniUPnPc.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/Mapper_NATPMP.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/Mapper_NATPMP.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/MappingManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/MappingManager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/MerkleCheckOutputStream.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/MerkleTree.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/MerkleTreeOutputStream.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/NmdcHub.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/NmdcHub.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/OnlineUser.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/PluginApiImpl.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/PluginApiImpl.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/PluginDefs.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/PluginEntity.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/PluginManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/PluginManager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/Pointer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/QueueItem.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/QueueItem.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/QueueManager.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/QueueManager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/QueueManagerListener.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/ResourceManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/ResourceManager.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/SFVReader.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/SFVReader.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/SHA1Hash.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/SSL.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/SSL.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/SSLSocket.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/SSLSocket.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/ScopedFunctor.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/SearchManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/SearchManager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/SearchManagerListener.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/SearchResult.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/SearchResult.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/Segment.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/Semaphore.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/SettingsManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/SettingsManager.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/ShareManager.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/ShareManager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/SimpleBencodeReader.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/SimpleBencodeReader.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/SimpleXML.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/SimpleXML.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/SimpleXMLReader.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/SimpleXMLReader.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/Singleton.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/Socket.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/Socket.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/Speaker.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/Streams.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/StringMatch.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/StringMatch.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/StringSearch.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/StringTokenizer.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/StringTokenizer.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/Style.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/Tagger.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/Tagger.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/Text.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/Text.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/Thread.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/Thread.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/ThrottleManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/ThrottleManager.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/TigerHash.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/TigerHash.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/TimerManager.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/TimerManager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/Torrent.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/Torrent.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/Transfer.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/Transfer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/Upload.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/Upload.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/UploadManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/UploadManager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/UploadManagerListener.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/User.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/User.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/UserCommand.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/UserCommand.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/UserConnection.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/UserConnection.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/UserConnectionListener.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/UserMatch.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/UserMatch.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/UserMatchManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/UserMatchManager.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/Util.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/Util.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/WindowInfo.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/WindowInfo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/WindowManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/WindowManager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/ZUtils.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/ZUtils.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/atomic.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/compiler.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/debug.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/format.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/forward.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/noexcept.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/stdinc.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/stdinc.h" ex="false" tool="3" flavor2="0">
+        <customTool>
+          <customToolCommandline>g++ -march=nocona -mtune=core2 -std=gnu++11 -pipe -mthreads -mwindows -Wall -Wextra -Wno-unused-local-typedefs -Wno-unused-parameter -Wno-unused-value -Wno-missing-field-initializers -Wno-address -Wno-unknown-pragmas -Wno-format -fexceptions -Og -g -DBOOST_ALL_NO_LIB -DBOOST_USE_WINDOWS_H -DBUILDING_DCPP=1 -DCASESENSITIVITYDEFAULT_YES -DNOMINMAX -DNO_VIZ -DSTRICT -DUNICODE -DWIN32_LEAN_AND_MEAN -DWINVER=0x502 -DZLIB_WINAPI -D_DEBUG -D_REENTRANT -D_UNICODE -D_WIN32_IE=0x600 -D_WIN32_WINNT=0x502 -DHAS_PCH -I../../../src -I../../../src/mingw/preload -I../../../src/mingw/include -I../../../src/boost -I../../../src/bzip2 -I../../../src/geoip -I../../../src/zlib -I../../../src/intl -I../../../src/openssl/include -std=c++11 -o ../../../src/dcpp/stdinc.h.gch -c ../../../src/dcpp/stdinc.h</customToolCommandline>
+          <customToolDescription>Performing Custom Build Step - stdinc.h.gch</customToolDescription>
+          <customToolOutputs>stdinc.h.gch</customToolOutputs>
+        </customTool>
+      </item>
+      <item path="../../../src/dcpp/tribool.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/typedefs.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/version.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/version.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/w.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="PCH__Release_x64_-_nocona_core2" type="3">
+      <toolsSet>
+        <compilerSet>MinGW_w64_-_x64|MinGW</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>true</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>0</developmentMode>
+          <standard>8</standard>
+          <incDir>
+            <pElem>../../../src</pElem>
+            <pElem>../../../src/mingw/preload</pElem>
+            <pElem>../../../src/mingw/include</pElem>
+            <pElem>../../../src/boost</pElem>
+            <pElem>../../../src/bzip2</pElem>
+            <pElem>../../../src/geoip</pElem>
+            <pElem>../../../src/zlib</pElem>
+            <pElem>../../../src/intl</pElem>
+            <pElem>../../../src/openssl/include</pElem>
+          </incDir>
+          <commandLine>-std=gnu++11 -pipe -march=nocona -mtune=core2 -mthreads -mwindows -O3 -fno-ipa-cp-clone -g -Wall -Wextra -Wno-unused-local-typedefs -Wno-unused-parameter -Wno-unused-value -Wno-missing-field-initializers -Wno-address -Wno-unknown-pragmas -Wno-format -fexceptions</commandLine>
+          <preprocessorList>
+            <Elem>BOOST_ALL_NO_LIB</Elem>
+            <Elem>BOOST_USE_WINDOWS_H</Elem>
+            <Elem>BUILDING_DCPP=1</Elem>
+            <Elem>CASESENSITIVITYDEFAULT_YES</Elem>
+            <Elem>HAS_PCH</Elem>
+            <Elem>NDEBUG</Elem>
+            <Elem>NOMINMAX</Elem>
+            <Elem>NO_VIZ</Elem>
+            <Elem>STRICT</Elem>
+            <Elem>UNICODE</Elem>
+            <Elem>WIN32_LEAN_AND_MEAN</Elem>
+            <Elem>WINVER=0x502</Elem>
+            <Elem>ZLIB_WINAPI</Elem>
+            <Elem>_REENTRANT</Elem>
+            <Elem>_UNICODE</Elem>
+            <Elem>_WIN32_IE=0x600</Elem>
+            <Elem>_WIN32_WINNT=0x502</Elem>
+          </preprocessorList>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+        <archiverTool>
+          <output>${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/libdcpp.a</output>
+        </archiverTool>
+      </compileType>
+      <item path="../../../src/dcpp/ADLSearch.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/ADLSearch.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/AdcCommand.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/AdcCommand.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/AdcHub.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/AdcHub.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/Archive.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/Archive.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/BZUtils.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/BZUtils.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/BloomFilter.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/BufferedSocket.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/BufferedSocket.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/BufferedSocketListener.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/Bundle.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/Bundle.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/BundleItem.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/CID.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/CID.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/ChatMessage.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/ChatMessage.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/Client.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/Client.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/ClientListener.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/ClientManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/ClientManager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/ClientManagerListener.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/ConnectionManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/ConnectionManager.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/ConnectionManagerListener.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/ConnectionType.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/ConnectivityManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/ConnectivityManager.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/CriticalSection.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/CryptoManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/CryptoManager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/DCPlusPlus.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/DCPlusPlus.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/DirectoryListing.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/DirectoryListing.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/Download.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/Download.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/DownloadManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/DownloadManager.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/DownloadManagerListener.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/Encoder.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/Encoder.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/Exception.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/Exception.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/FastAlloc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/FavHubGroup.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/FavoriteManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/FavoriteManager.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/FavoriteManagerListener.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/FavoriteUser.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/File.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/File.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/FileReader.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/FileReader.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/FilteredFile.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/FinishedItem.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/FinishedItem.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/FinishedManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/FinishedManager.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/FinishedManagerListener.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/Flags.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/GeoIP.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/GeoIP.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/GeoManager.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/GeoManager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/GetSet.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/HashBloom.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/HashBloom.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/HashManager.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/HashManager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/HashManagerListener.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/HashValue.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/HintedUser.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/HttpConnection.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/HttpConnection.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/HttpConnectionListener.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/HttpManager.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/HttpManager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/HttpManagerListener.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/HubEntry.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/HubSettings.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/HubSettings.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/LogManager.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/LogManager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/LogManagerListener.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/MD5Hash.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/Magnet.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/Magnet.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/Mapper.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/Mapper.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/Mapper_MiniUPnPc.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/Mapper_MiniUPnPc.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/Mapper_NATPMP.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/Mapper_NATPMP.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/MappingManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/MappingManager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/MerkleCheckOutputStream.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/MerkleTree.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/MerkleTreeOutputStream.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/NmdcHub.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/NmdcHub.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/OnlineUser.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/PluginApiImpl.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/PluginApiImpl.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/PluginDefs.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/PluginEntity.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/PluginManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/PluginManager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/Pointer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/QueueItem.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/QueueItem.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/QueueManager.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/QueueManager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/QueueManagerListener.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/ResourceManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/ResourceManager.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/SFVReader.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/SFVReader.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/SHA1Hash.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/SSL.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/SSL.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/SSLSocket.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/SSLSocket.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/ScopedFunctor.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/SearchManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/SearchManager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/SearchManagerListener.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/SearchResult.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/SearchResult.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/Segment.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/Semaphore.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/SettingsManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/SettingsManager.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/ShareManager.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/ShareManager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/SimpleBencodeReader.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/SimpleBencodeReader.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/SimpleXML.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/SimpleXML.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/SimpleXMLReader.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/SimpleXMLReader.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/Singleton.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/Socket.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/Socket.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/Speaker.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/Streams.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/StringMatch.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/StringMatch.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/StringSearch.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/StringTokenizer.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/StringTokenizer.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/Style.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/Tagger.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/Tagger.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/Text.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/Text.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/Thread.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/Thread.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/ThrottleManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/ThrottleManager.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/TigerHash.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/TigerHash.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/TimerManager.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/TimerManager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/Torrent.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/Torrent.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/Transfer.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/Transfer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/Upload.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/Upload.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/UploadManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/UploadManager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/UploadManagerListener.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/User.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/User.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/UserCommand.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/UserCommand.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/UserConnection.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/UserConnection.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/UserConnectionListener.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/UserMatch.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/UserMatch.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/UserMatchManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/UserMatchManager.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/Util.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/Util.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/WindowInfo.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/WindowInfo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/WindowManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/WindowManager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/ZUtils.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/ZUtils.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/atomic.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/compiler.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/debug.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/format.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/forward.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/noexcept.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/stdinc.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="../../../src/dcpp/stdinc.h" ex="false" tool="3" flavor2="0">
+        <customTool>
+          <customToolCommandline>g++ -std=gnu++11 -pipe -march=nocona -mtune=core2 -mthreads -mwindows -O3 -fno-ipa-cp-clone -g -Wall -Wextra -Wno-unused-local-typedefs -Wno-unused-parameter -Wno-unused-value -Wno-missing-field-initializers -Wno-address -Wno-unknown-pragmas -Wno-format -fexceptions -DBOOST_ALL_NO_LIB -DBOOST_USE_WINDOWS_H -DBUILDING_DCPP=1 -DCASESENSITIVITYDEFAULT_YES -DNDEBUG -DNOMINMAX -DNO_VIZ -DSTRICT -DUNICODE -DWIN32_LEAN_AND_MEAN -DWINVER=0x502 -DZLIB_WINAPI -D_REENTRANT -D_UNICODE -D_WIN32_IE=0x600 -D_WIN32_WINNT=0x502 -DHAS_PCH -I../../../src -I../../../src/mingw/preload -I../../../src/mingw/include -I../../../src/boost -I../../../src/bzip2 -I../../../src/geoip -I../../../src/zlib -I../../../src/intl -I../../../src/openssl/include -std=c++11 -o ../../../src/dcpp/stdinc.h.gch -c ../../../src/dcpp/stdinc.h</customToolCommandline>
+          <customToolDescription>Performing Custom Build Step - stdinc.h.gch</customToolDescription>
+          <customToolOutputs>stdinc.h.gch</customToolOutputs>
+        </customTool>
+      </item>
+      <item path="../../../src/dcpp/tribool.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/typedefs.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/dcpp/version.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool>
+        </ccTool>
       </item>
       <item path="../../../src/dcpp/version.h" ex="false" tool="3" flavor2="0">
       </item>

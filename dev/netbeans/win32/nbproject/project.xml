@@ -40,6 +40,22 @@
                     <name>Release_x64_-_nocona_core2</name>
                     <type>1</type>
                 </confElem>
+                <confElem>
+                    <name>PCH__Debug_x32_-_i686_generic</name>
+                    <type>1</type>
+                </confElem>
+                <confElem>
+                    <name>PCH__Release_x32_-_i686_generic</name>
+                    <type>1</type>
+                </confElem>
+                <confElem>
+                    <name>PCH__Debug_x64_-_nocona_core2</name>
+                    <type>1</type>
+                </confElem>
+                <confElem>
+                    <name>PCH__Release_x64_-_nocona_core2</name>
+                    <type>1</type>
+                </confElem>
             </confList>
             <formatting>
                 <project-formatting-style>false</project-formatting-style>

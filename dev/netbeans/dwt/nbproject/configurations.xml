@@ -248,8 +248,8 @@
     <conf name="Debug_x32_-_i686_generic" type="3">
       <toolsSet>
         <compilerSet>MinGW_w64_-_x32|MinGW</compilerSet>
-        <dependencyChecking>true</dependencyChecking>
-        <rebuildPropChanged>false</rebuildPropChanged>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>true</rebuildPropChanged>
       </toolsSet>
       <compileType>
         <ccTool>
@@ -289,7 +289,10 @@
             tool="3"
             flavor2="0">
       </item>
-      <item path="../../../src/dwt/include/dwt/Atom.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwt/include/dwt/Atom.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
       <item path="../../../src/dwt/include/dwt/CanvasClasses.h"
             ex="false"
@@ -306,7 +309,10 @@
             tool="3"
             flavor2="0">
       </item>
-      <item path="../../../src/dwt/include/dwt/Cursor.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwt/include/dwt/Cursor.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
       <item path="../../../src/dwt/include/dwt/DWTException.h"
             ex="false"
@@ -323,7 +329,10 @@
             tool="3"
             flavor2="0">
       </item>
-      <item path="../../../src/dwt/include/dwt/Events.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwt/include/dwt/Events.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
       <item path="../../../src/dwt/include/dwt/GCCHeaders.h"
             ex="false"
@@ -335,27 +344,45 @@
             tool="3"
             flavor2="0">
       </item>
-      <item path="../../../src/dwt/include/dwt/Message.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwt/include/dwt/Message.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
-      <item path="../../../src/dwt/include/dwt/Point.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwt/include/dwt/Point.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
       <item path="../../../src/dwt/include/dwt/Rectangle.h"
             ex="false"
             tool="3"
             flavor2="0">
       </item>
-      <item path="../../../src/dwt/include/dwt/Taskbar.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwt/include/dwt/Taskbar.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
-      <item path="../../../src/dwt/include/dwt/Texts.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwt/include/dwt/Texts.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
-      <item path="../../../src/dwt/include/dwt/Theme.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwt/include/dwt/Theme.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
       <item path="../../../src/dwt/include/dwt/VCDesktopHeaders.h"
             ex="false"
             tool="3"
             flavor2="0">
       </item>
-      <item path="../../../src/dwt/include/dwt/Widget.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwt/include/dwt/Widget.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
       <item path="../../../src/dwt/include/dwt/WidgetCreator.h"
             ex="false"
@@ -527,7 +554,10 @@
             tool="3"
             flavor2="0">
       </item>
-      <item path="../../../src/dwt/include/dwt/doxygen.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwt/include/dwt/doxygen.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
       <item path="../../../src/dwt/include/dwt/dwt_dwmapi.h"
             ex="false"
@@ -549,7 +579,10 @@
             tool="3"
             flavor2="0">
       </item>
-      <item path="../../../src/dwt/include/dwt/forward.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwt/include/dwt/forward.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
       <item path="../../../src/dwt/include/dwt/resources/Bitmap.h"
             ex="false"
@@ -591,7 +624,10 @@
             tool="3"
             flavor2="0">
       </item>
-      <item path="../../../src/dwt/include/dwt/tstring.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwt/include/dwt/tstring.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
       <item path="../../../src/dwt/include/dwt/util/DateTimeUtil.h"
             ex="false"
@@ -888,21 +924,36 @@
             tool="3"
             flavor2="0">
       </item>
-      <item path="../../../src/dwt/src/Application.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dwt/src/Application.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
       <item path="../../../src/dwt/src/Bitmap.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="../../../src/dwt/src/Brush.cpp" ex="false" tool="1" flavor2="0">
       </item>
-      <item path="../../../src/dwt/src/CanvasClasses.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dwt/src/CanvasClasses.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
       <item path="../../../src/dwt/src/Clipboard.cpp" ex="false" tool="1" flavor2="0">
       </item>
-      <item path="../../../src/dwt/src/CommandLine.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dwt/src/CommandLine.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
-      <item path="../../../src/dwt/src/DWTException.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dwt/src/DWTException.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
-      <item path="../../../src/dwt/src/Dispatcher.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dwt/src/Dispatcher.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
       <item path="../../../src/dwt/src/Events.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -912,7 +963,10 @@
       </item>
       <item path="../../../src/dwt/src/ImageList.cpp" ex="false" tool="1" flavor2="0">
       </item>
-      <item path="../../../src/dwt/src/LibraryLoader.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dwt/src/LibraryLoader.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
       <item path="../../../src/dwt/src/Message.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -939,14 +993,20 @@
       </item>
       <item path="../../../src/dwt/src/util/GDI.cpp" ex="false" tool="1" flavor2="0">
       </item>
-      <item path="../../../src/dwt/src/util/RegKey.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dwt/src/util/RegKey.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
       <item path="../../../src/dwt/src/util/StringUtils.cpp"
             ex="false"
             tool="1"
             flavor2="0">
       </item>
-      <item path="../../../src/dwt/src/util/TimeSpan.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dwt/src/util/TimeSpan.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
       <item path="../../../src/dwt/src/util/win32/ApiHelpers.cpp"
             ex="false"
@@ -998,7 +1058,10 @@
             tool="1"
             flavor2="0">
       </item>
-      <item path="../../../src/dwt/src/widgets/Grid.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dwt/src/widgets/Grid.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
       <item path="../../../src/dwt/src/widgets/GroupBox.cpp"
             ex="false"
@@ -1010,9 +1073,15 @@
             tool="1"
             flavor2="0">
       </item>
-      <item path="../../../src/dwt/src/widgets/Label.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dwt/src/widgets/Label.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
-      <item path="../../../src/dwt/src/widgets/Link.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dwt/src/widgets/Link.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
       <item path="../../../src/dwt/src/widgets/LoadDialog.cpp"
             ex="false"
@@ -1034,7 +1103,10 @@
             tool="1"
             flavor2="0">
       </item>
-      <item path="../../../src/dwt/src/widgets/Menu.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dwt/src/widgets/Menu.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
       <item path="../../../src/dwt/src/widgets/MessageBox.cpp"
             ex="false"
@@ -1066,7 +1138,10 @@
             tool="1"
             flavor2="0">
       </item>
-      <item path="../../../src/dwt/src/widgets/Rebar.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dwt/src/widgets/Rebar.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
       <item path="../../../src/dwt/src/widgets/RichTextBox.cpp"
             ex="false"
@@ -1113,7 +1188,10 @@
             tool="1"
             flavor2="0">
       </item>
-      <item path="../../../src/dwt/src/widgets/Table.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dwt/src/widgets/Table.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
       <item path="../../../src/dwt/src/widgets/TableTree.cpp"
             ex="false"
@@ -1135,7 +1213,10 @@
             tool="1"
             flavor2="0">
       </item>
-      <item path="../../../src/dwt/src/widgets/Tree.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dwt/src/widgets/Tree.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
       <item path="../../../src/dwt/src/widgets/VirtualTree.cpp"
             ex="false"
@@ -1151,8 +1232,8 @@
     <conf name="Release_x32_-_i686_generic" type="3">
       <toolsSet>
         <compilerSet>MinGW_w64_-_x32|MinGW</compilerSet>
-        <dependencyChecking>true</dependencyChecking>
-        <rebuildPropChanged>false</rebuildPropChanged>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>true</rebuildPropChanged>
       </toolsSet>
       <compileType>
         <cTool>
@@ -1202,7 +1283,10 @@
             tool="3"
             flavor2="0">
       </item>
-      <item path="../../../src/dwt/include/dwt/Atom.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwt/include/dwt/Atom.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
       <item path="../../../src/dwt/include/dwt/CanvasClasses.h"
             ex="false"
@@ -1219,7 +1303,10 @@
             tool="3"
             flavor2="0">
       </item>
-      <item path="../../../src/dwt/include/dwt/Cursor.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwt/include/dwt/Cursor.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
       <item path="../../../src/dwt/include/dwt/DWTException.h"
             ex="false"
@@ -1236,7 +1323,10 @@
             tool="3"
             flavor2="0">
       </item>
-      <item path="../../../src/dwt/include/dwt/Events.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwt/include/dwt/Events.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
       <item path="../../../src/dwt/include/dwt/GCCHeaders.h"
             ex="false"
@@ -1248,27 +1338,45 @@
             tool="3"
             flavor2="0">
       </item>
-      <item path="../../../src/dwt/include/dwt/Message.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwt/include/dwt/Message.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
-      <item path="../../../src/dwt/include/dwt/Point.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwt/include/dwt/Point.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
       <item path="../../../src/dwt/include/dwt/Rectangle.h"
             ex="false"
             tool="3"
             flavor2="0">
       </item>
-      <item path="../../../src/dwt/include/dwt/Taskbar.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwt/include/dwt/Taskbar.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
-      <item path="../../../src/dwt/include/dwt/Texts.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwt/include/dwt/Texts.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
-      <item path="../../../src/dwt/include/dwt/Theme.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwt/include/dwt/Theme.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
       <item path="../../../src/dwt/include/dwt/VCDesktopHeaders.h"
             ex="false"
             tool="3"
             flavor2="0">
       </item>
-      <item path="../../../src/dwt/include/dwt/Widget.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwt/include/dwt/Widget.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
       <item path="../../../src/dwt/include/dwt/WidgetCreator.h"
             ex="false"
@@ -1440,7 +1548,10 @@
             tool="3"
             flavor2="0">
       </item>
-      <item path="../../../src/dwt/include/dwt/doxygen.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwt/include/dwt/doxygen.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
       <item path="../../../src/dwt/include/dwt/dwt_dwmapi.h"
             ex="false"
@@ -1462,7 +1573,10 @@
             tool="3"
             flavor2="0">
       </item>
-      <item path="../../../src/dwt/include/dwt/forward.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwt/include/dwt/forward.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
       <item path="../../../src/dwt/include/dwt/resources/Bitmap.h"
             ex="false"
@@ -1504,7 +1618,10 @@
             tool="3"
             flavor2="0">
       </item>
-      <item path="../../../src/dwt/include/dwt/tstring.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwt/include/dwt/tstring.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
       <item path="../../../src/dwt/include/dwt/util/DateTimeUtil.h"
             ex="false"
@@ -1801,21 +1918,36 @@
             tool="3"
             flavor2="0">
       </item>
-      <item path="../../../src/dwt/src/Application.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dwt/src/Application.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
       <item path="../../../src/dwt/src/Bitmap.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="../../../src/dwt/src/Brush.cpp" ex="false" tool="1" flavor2="0">
       </item>
-      <item path="../../../src/dwt/src/CanvasClasses.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dwt/src/CanvasClasses.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
       <item path="../../../src/dwt/src/Clipboard.cpp" ex="false" tool="1" flavor2="0">
       </item>
-      <item path="../../../src/dwt/src/CommandLine.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dwt/src/CommandLine.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
-      <item path="../../../src/dwt/src/DWTException.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dwt/src/DWTException.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
-      <item path="../../../src/dwt/src/Dispatcher.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dwt/src/Dispatcher.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
       <item path="../../../src/dwt/src/Events.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -1825,7 +1957,10 @@
       </item>
       <item path="../../../src/dwt/src/ImageList.cpp" ex="false" tool="1" flavor2="0">
       </item>
-      <item path="../../../src/dwt/src/LibraryLoader.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dwt/src/LibraryLoader.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
       <item path="../../../src/dwt/src/Message.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -1852,14 +1987,20 @@
       </item>
       <item path="../../../src/dwt/src/util/GDI.cpp" ex="false" tool="1" flavor2="0">
       </item>
-      <item path="../../../src/dwt/src/util/RegKey.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dwt/src/util/RegKey.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
       <item path="../../../src/dwt/src/util/StringUtils.cpp"
             ex="false"
             tool="1"
             flavor2="0">
       </item>
-      <item path="../../../src/dwt/src/util/TimeSpan.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dwt/src/util/TimeSpan.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
       <item path="../../../src/dwt/src/util/win32/ApiHelpers.cpp"
             ex="false"
@@ -1911,7 +2052,10 @@
             tool="1"
             flavor2="0">
       </item>
-      <item path="../../../src/dwt/src/widgets/Grid.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dwt/src/widgets/Grid.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
       <item path="../../../src/dwt/src/widgets/GroupBox.cpp"
             ex="false"
@@ -1923,9 +2067,15 @@
             tool="1"
             flavor2="0">
       </item>
-      <item path="../../../src/dwt/src/widgets/Label.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dwt/src/widgets/Label.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
-      <item path="../../../src/dwt/src/widgets/Link.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dwt/src/widgets/Link.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
       <item path="../../../src/dwt/src/widgets/LoadDialog.cpp"
             ex="false"
@@ -1947,7 +2097,10 @@
             tool="1"
             flavor2="0">
       </item>
-      <item path="../../../src/dwt/src/widgets/Menu.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dwt/src/widgets/Menu.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
       <item path="../../../src/dwt/src/widgets/MessageBox.cpp"
             ex="false"
@@ -1979,7 +2132,10 @@
             tool="1"
             flavor2="0">
       </item>
-      <item path="../../../src/dwt/src/widgets/Rebar.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dwt/src/widgets/Rebar.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
       <item path="../../../src/dwt/src/widgets/RichTextBox.cpp"
             ex="false"
@@ -2026,7 +2182,10 @@
             tool="1"
             flavor2="0">
       </item>
-      <item path="../../../src/dwt/src/widgets/Table.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dwt/src/widgets/Table.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
       <item path="../../../src/dwt/src/widgets/TableTree.cpp"
             ex="false"
@@ -2048,7 +2207,10 @@
             tool="1"
             flavor2="0">
       </item>
-      <item path="../../../src/dwt/src/widgets/Tree.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dwt/src/widgets/Tree.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
       <item path="../../../src/dwt/src/widgets/VirtualTree.cpp"
             ex="false"
@@ -2064,8 +2226,8 @@
     <conf name="Debug_x64_-_nocona_core2" type="3">
       <toolsSet>
         <compilerSet>MinGW_w64_-_x64|MinGW</compilerSet>
-        <dependencyChecking>true</dependencyChecking>
-        <rebuildPropChanged>false</rebuildPropChanged>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>true</rebuildPropChanged>
       </toolsSet>
       <compileType>
         <ccTool>
@@ -2105,7 +2267,10 @@
             tool="3"
             flavor2="0">
       </item>
-      <item path="../../../src/dwt/include/dwt/Atom.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwt/include/dwt/Atom.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
       <item path="../../../src/dwt/include/dwt/CanvasClasses.h"
             ex="false"
@@ -2122,7 +2287,10 @@
             tool="3"
             flavor2="0">
       </item>
-      <item path="../../../src/dwt/include/dwt/Cursor.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwt/include/dwt/Cursor.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
       <item path="../../../src/dwt/include/dwt/DWTException.h"
             ex="false"
@@ -2139,7 +2307,10 @@
             tool="3"
             flavor2="0">
       </item>
-      <item path="../../../src/dwt/include/dwt/Events.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwt/include/dwt/Events.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
       <item path="../../../src/dwt/include/dwt/GCCHeaders.h"
             ex="false"
@@ -2151,27 +2322,45 @@
             tool="3"
             flavor2="0">
       </item>
-      <item path="../../../src/dwt/include/dwt/Message.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwt/include/dwt/Message.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
-      <item path="../../../src/dwt/include/dwt/Point.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwt/include/dwt/Point.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
       <item path="../../../src/dwt/include/dwt/Rectangle.h"
             ex="false"
             tool="3"
             flavor2="0">
       </item>
-      <item path="../../../src/dwt/include/dwt/Taskbar.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwt/include/dwt/Taskbar.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
-      <item path="../../../src/dwt/include/dwt/Texts.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwt/include/dwt/Texts.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
-      <item path="../../../src/dwt/include/dwt/Theme.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwt/include/dwt/Theme.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
       <item path="../../../src/dwt/include/dwt/VCDesktopHeaders.h"
             ex="false"
             tool="3"
             flavor2="0">
       </item>
-      <item path="../../../src/dwt/include/dwt/Widget.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwt/include/dwt/Widget.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
       <item path="../../../src/dwt/include/dwt/WidgetCreator.h"
             ex="false"
@@ -2343,7 +2532,10 @@
             tool="3"
             flavor2="0">
       </item>
-      <item path="../../../src/dwt/include/dwt/doxygen.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwt/include/dwt/doxygen.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
       <item path="../../../src/dwt/include/dwt/dwt_dwmapi.h"
             ex="false"
@@ -2365,7 +2557,10 @@
             tool="3"
             flavor2="0">
       </item>
-      <item path="../../../src/dwt/include/dwt/forward.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwt/include/dwt/forward.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
       <item path="../../../src/dwt/include/dwt/resources/Bitmap.h"
             ex="false"
@@ -2407,7 +2602,10 @@
             tool="3"
             flavor2="0">
       </item>
-      <item path="../../../src/dwt/include/dwt/tstring.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwt/include/dwt/tstring.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
       <item path="../../../src/dwt/include/dwt/util/DateTimeUtil.h"
             ex="false"
@@ -2704,21 +2902,36 @@
             tool="3"
             flavor2="0">
       </item>
-      <item path="../../../src/dwt/src/Application.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dwt/src/Application.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
       <item path="../../../src/dwt/src/Bitmap.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="../../../src/dwt/src/Brush.cpp" ex="false" tool="1" flavor2="0">
       </item>
-      <item path="../../../src/dwt/src/CanvasClasses.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dwt/src/CanvasClasses.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
       <item path="../../../src/dwt/src/Clipboard.cpp" ex="false" tool="1" flavor2="0">
       </item>
-      <item path="../../../src/dwt/src/CommandLine.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dwt/src/CommandLine.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
-      <item path="../../../src/dwt/src/DWTException.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dwt/src/DWTException.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
-      <item path="../../../src/dwt/src/Dispatcher.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dwt/src/Dispatcher.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
       <item path="../../../src/dwt/src/Events.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -2728,7 +2941,10 @@
       </item>
       <item path="../../../src/dwt/src/ImageList.cpp" ex="false" tool="1" flavor2="0">
       </item>
-      <item path="../../../src/dwt/src/LibraryLoader.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dwt/src/LibraryLoader.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
       <item path="../../../src/dwt/src/Message.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -2755,14 +2971,20 @@
       </item>
       <item path="../../../src/dwt/src/util/GDI.cpp" ex="false" tool="1" flavor2="0">
       </item>
-      <item path="../../../src/dwt/src/util/RegKey.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dwt/src/util/RegKey.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
       <item path="../../../src/dwt/src/util/StringUtils.cpp"
             ex="false"
             tool="1"
             flavor2="0">
       </item>
-      <item path="../../../src/dwt/src/util/TimeSpan.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dwt/src/util/TimeSpan.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
       <item path="../../../src/dwt/src/util/win32/ApiHelpers.cpp"
             ex="false"
@@ -2814,7 +3036,10 @@
             tool="1"
             flavor2="0">
       </item>
-      <item path="../../../src/dwt/src/widgets/Grid.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dwt/src/widgets/Grid.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
       <item path="../../../src/dwt/src/widgets/GroupBox.cpp"
             ex="false"
@@ -2826,9 +3051,15 @@
             tool="1"
             flavor2="0">
       </item>
-      <item path="../../../src/dwt/src/widgets/Label.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dwt/src/widgets/Label.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
-      <item path="../../../src/dwt/src/widgets/Link.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dwt/src/widgets/Link.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
       <item path="../../../src/dwt/src/widgets/LoadDialog.cpp"
             ex="false"
@@ -2850,7 +3081,10 @@
             tool="1"
             flavor2="0">
       </item>
-      <item path="../../../src/dwt/src/widgets/Menu.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dwt/src/widgets/Menu.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
       <item path="../../../src/dwt/src/widgets/MessageBox.cpp"
             ex="false"
@@ -2882,7 +3116,10 @@
             tool="1"
             flavor2="0">
       </item>
-      <item path="../../../src/dwt/src/widgets/Rebar.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dwt/src/widgets/Rebar.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
       <item path="../../../src/dwt/src/widgets/RichTextBox.cpp"
             ex="false"
@@ -2929,7 +3166,10 @@
             tool="1"
             flavor2="0">
       </item>
-      <item path="../../../src/dwt/src/widgets/Table.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dwt/src/widgets/Table.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
       <item path="../../../src/dwt/src/widgets/TableTree.cpp"
             ex="false"
@@ -2951,7 +3191,10 @@
             tool="1"
             flavor2="0">
       </item>
-      <item path="../../../src/dwt/src/widgets/Tree.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dwt/src/widgets/Tree.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
       <item path="../../../src/dwt/src/widgets/VirtualTree.cpp"
             ex="false"
@@ -2967,8 +3210,8 @@
     <conf name="Release_x64_-_nocona_core2" type="3">
       <toolsSet>
         <compilerSet>MinGW_w64_-_x64|MinGW</compilerSet>
-        <dependencyChecking>true</dependencyChecking>
-        <rebuildPropChanged>false</rebuildPropChanged>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>true</rebuildPropChanged>
       </toolsSet>
       <compileType>
         <cTool>
@@ -3018,7 +3261,10 @@
             tool="3"
             flavor2="0">
       </item>
-      <item path="../../../src/dwt/include/dwt/Atom.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwt/include/dwt/Atom.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
       <item path="../../../src/dwt/include/dwt/CanvasClasses.h"
             ex="false"
@@ -3035,7 +3281,10 @@
             tool="3"
             flavor2="0">
       </item>
-      <item path="../../../src/dwt/include/dwt/Cursor.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwt/include/dwt/Cursor.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
       <item path="../../../src/dwt/include/dwt/DWTException.h"
             ex="false"
@@ -3052,7 +3301,10 @@
             tool="3"
             flavor2="0">
       </item>
-      <item path="../../../src/dwt/include/dwt/Events.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwt/include/dwt/Events.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
       <item path="../../../src/dwt/include/dwt/GCCHeaders.h"
             ex="false"
@@ -3064,27 +3316,45 @@
             tool="3"
             flavor2="0">
       </item>
-      <item path="../../../src/dwt/include/dwt/Message.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwt/include/dwt/Message.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
-      <item path="../../../src/dwt/include/dwt/Point.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwt/include/dwt/Point.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
       <item path="../../../src/dwt/include/dwt/Rectangle.h"
             ex="false"
             tool="3"
             flavor2="0">
       </item>
-      <item path="../../../src/dwt/include/dwt/Taskbar.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwt/include/dwt/Taskbar.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
-      <item path="../../../src/dwt/include/dwt/Texts.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwt/include/dwt/Texts.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
-      <item path="../../../src/dwt/include/dwt/Theme.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwt/include/dwt/Theme.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
       <item path="../../../src/dwt/include/dwt/VCDesktopHeaders.h"
             ex="false"
             tool="3"
             flavor2="0">
       </item>
-      <item path="../../../src/dwt/include/dwt/Widget.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwt/include/dwt/Widget.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
       <item path="../../../src/dwt/include/dwt/WidgetCreator.h"
             ex="false"
@@ -3256,7 +3526,10 @@
             tool="3"
             flavor2="0">
       </item>
-      <item path="../../../src/dwt/include/dwt/doxygen.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwt/include/dwt/doxygen.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
       <item path="../../../src/dwt/include/dwt/dwt_dwmapi.h"
             ex="false"
@@ -3278,7 +3551,10 @@
             tool="3"
             flavor2="0">
       </item>
-      <item path="../../../src/dwt/include/dwt/forward.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwt/include/dwt/forward.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
       <item path="../../../src/dwt/include/dwt/resources/Bitmap.h"
             ex="false"
@@ -3320,7 +3596,10 @@
             tool="3"
             flavor2="0">
       </item>
-      <item path="../../../src/dwt/include/dwt/tstring.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/dwt/include/dwt/tstring.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
       <item path="../../../src/dwt/include/dwt/util/DateTimeUtil.h"
             ex="false"
@@ -3617,21 +3896,36 @@
             tool="3"
             flavor2="0">
       </item>
-      <item path="../../../src/dwt/src/Application.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dwt/src/Application.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
       <item path="../../../src/dwt/src/Bitmap.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="../../../src/dwt/src/Brush.cpp" ex="false" tool="1" flavor2="0">
       </item>
-      <item path="../../../src/dwt/src/CanvasClasses.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dwt/src/CanvasClasses.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
       <item path="../../../src/dwt/src/Clipboard.cpp" ex="false" tool="1" flavor2="0">
       </item>
-      <item path="../../../src/dwt/src/CommandLine.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dwt/src/CommandLine.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
-      <item path="../../../src/dwt/src/DWTException.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dwt/src/DWTException.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
-      <item path="../../../src/dwt/src/Dispatcher.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dwt/src/Dispatcher.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
       <item path="../../../src/dwt/src/Events.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -3641,7 +3935,10 @@
       </item>
       <item path="../../../src/dwt/src/ImageList.cpp" ex="false" tool="1" flavor2="0">
       </item>
-      <item path="../../../src/dwt/src/LibraryLoader.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dwt/src/LibraryLoader.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
       <item path="../../../src/dwt/src/Message.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -3668,14 +3965,20 @@
       </item>
       <item path="../../../src/dwt/src/util/GDI.cpp" ex="false" tool="1" flavor2="0">
       </item>
-      <item path="../../../src/dwt/src/util/RegKey.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dwt/src/util/RegKey.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
       <item path="../../../src/dwt/src/util/StringUtils.cpp"
             ex="false"
             tool="1"
             flavor2="0">
       </item>
-      <item path="../../../src/dwt/src/util/TimeSpan.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dwt/src/util/TimeSpan.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
       <item path="../../../src/dwt/src/util/win32/ApiHelpers.cpp"
             ex="false"
@@ -3727,7 +4030,10 @@
             tool="1"
             flavor2="0">
       </item>
-      <item path="../../../src/dwt/src/widgets/Grid.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dwt/src/widgets/Grid.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
       <item path="../../../src/dwt/src/widgets/GroupBox.cpp"
             ex="false"
@@ -3739,9 +4045,15 @@
             tool="1"
             flavor2="0">
       </item>
-      <item path="../../../src/dwt/src/widgets/Label.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dwt/src/widgets/Label.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
-      <item path="../../../src/dwt/src/widgets/Link.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dwt/src/widgets/Link.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
       <item path="../../../src/dwt/src/widgets/LoadDialog.cpp"
             ex="false"
@@ -3763,7 +4075,10 @@
             tool="1"
             flavor2="0">
       </item>
-      <item path="../../../src/dwt/src/widgets/Menu.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dwt/src/widgets/Menu.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
       <item path="../../../src/dwt/src/widgets/MessageBox.cpp"
             ex="false"
@@ -3795,7 +4110,10 @@
             tool="1"
             flavor2="0">
       </item>
-      <item path="../../../src/dwt/src/widgets/Rebar.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dwt/src/widgets/Rebar.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
       <item path="../../../src/dwt/src/widgets/RichTextBox.cpp"
             ex="false"
@@ -3842,7 +4160,10 @@
             tool="1"
             flavor2="0">
       </item>
-      <item path="../../../src/dwt/src/widgets/Table.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dwt/src/widgets/Table.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
       <item path="../../../src/dwt/src/widgets/TableTree.cpp"
             ex="false"
@@ -3864,7 +4185,10 @@
             tool="1"
             flavor2="0">
       </item>
-      <item path="../../../src/dwt/src/widgets/Tree.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../../../src/dwt/src/widgets/Tree.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
       <item path="../../../src/dwt/src/widgets/VirtualTree.cpp"
             ex="false"

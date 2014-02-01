@@ -63,7 +63,7 @@ PATH_DEP_CSHELP=../../../src/help/cshelp.h
 # build
 build: .build-post
 
-.build-pre: .check-exist
+.build-pre: .check-exist .gpch
 	
 .check-exist:
 	@if [ ! -f $(PATH_DEP_CSHELP) ]; then \
@@ -73,6 +73,11 @@ build: .build-post
 	    else \
 	        cmd //c start "cshelp.bat"; \
 	    fi; \
+	fi;
+
+.gpch:	
+	@if [ $(shell echo ${CONF} | sed -r 's/(\S{5}).*/\L\1/') = 'pch__' ] ; then \
+	    ${MAKE} -f nbproject/Makefile-${CONF}.mk "stdafx.h.gch"; \
 	fi;
 
 .build-post: .build-impl

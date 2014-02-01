@@ -1,9 +1,13 @@
 /build
-/dev/netbeans/*/nbproject/private
+
 /src/.bzr
 /src/*.bzrignore
 /src/help/cshelp.h
 
+/dev/netbeans/*/nbproject/private
+/dev/netbeans/*/.dep.inc
+
 # NB bug :: should be placed into a nbproject/private folder:
+# .dep.inc - generated from .mk :: dependency checking support
 /dev/netbeans/*/nbproject/*.mk
 /dev/netbeans/*/nbproject/*.bash

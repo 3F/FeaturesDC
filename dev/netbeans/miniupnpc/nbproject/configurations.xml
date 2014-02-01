@@ -58,8 +58,8 @@
     <conf name="Debug_x32_-_i686_generic" type="3">
       <toolsSet>
         <compilerSet>MinGW_w64_-_x32|MinGW</compilerSet>
-        <dependencyChecking>true</dependencyChecking>
-        <rebuildPropChanged>false</rebuildPropChanged>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>true</rebuildPropChanged>
       </toolsSet>
       <compileType>
         <cTool>
@@ -95,7 +95,10 @@
       </compileType>
       <item path="../../../src/miniupnpc/bsdqueue.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../src/miniupnpc/codelength.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/miniupnpc/codelength.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
       <item path="../../../src/miniupnpc/connecthostport.c"
             ex="false"
@@ -159,17 +162,35 @@
             tool="3"
             flavor2="0">
       </item>
-      <item path="../../../src/miniupnpc/receivedata.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/miniupnpc/receivedata.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
       </item>
-      <item path="../../../src/miniupnpc/receivedata.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/miniupnpc/receivedata.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
-      <item path="../../../src/miniupnpc/upnpcommands.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/miniupnpc/upnpcommands.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
       </item>
-      <item path="../../../src/miniupnpc/upnpcommands.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/miniupnpc/upnpcommands.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
-      <item path="../../../src/miniupnpc/upnperrors.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/miniupnpc/upnperrors.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
       </item>
-      <item path="../../../src/miniupnpc/upnperrors.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/miniupnpc/upnperrors.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
       <item path="../../../src/miniupnpc/upnpreplyparse.c"
             ex="false"
@@ -185,8 +206,8 @@
     <conf name="Release_x32_-_i686_generic" type="3">
       <toolsSet>
         <compilerSet>MinGW_w64_-_x32|MinGW</compilerSet>
-        <dependencyChecking>true</dependencyChecking>
-        <rebuildPropChanged>false</rebuildPropChanged>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>true</rebuildPropChanged>
       </toolsSet>
       <compileType>
         <cTool>
@@ -232,7 +253,10 @@
       </compileType>
       <item path="../../../src/miniupnpc/bsdqueue.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../src/miniupnpc/codelength.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/miniupnpc/codelength.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
       <item path="../../../src/miniupnpc/connecthostport.c"
             ex="false"
@@ -296,17 +320,35 @@
             tool="3"
             flavor2="0">
       </item>
-      <item path="../../../src/miniupnpc/receivedata.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/miniupnpc/receivedata.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
       </item>
-      <item path="../../../src/miniupnpc/receivedata.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/miniupnpc/receivedata.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
-      <item path="../../../src/miniupnpc/upnpcommands.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/miniupnpc/upnpcommands.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
       </item>
-      <item path="../../../src/miniupnpc/upnpcommands.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/miniupnpc/upnpcommands.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
-      <item path="../../../src/miniupnpc/upnperrors.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/miniupnpc/upnperrors.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
       </item>
-      <item path="../../../src/miniupnpc/upnperrors.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/miniupnpc/upnperrors.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
       <item path="../../../src/miniupnpc/upnpreplyparse.c"
             ex="false"
@@ -322,8 +364,8 @@
     <conf name="Debug_x64_-_nocona_core2" type="3">
       <toolsSet>
         <compilerSet>MinGW_w64_-_x64|MinGW</compilerSet>
-        <dependencyChecking>true</dependencyChecking>
-        <rebuildPropChanged>false</rebuildPropChanged>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>true</rebuildPropChanged>
       </toolsSet>
       <compileType>
         <cTool>
@@ -359,7 +401,10 @@
       </compileType>
       <item path="../../../src/miniupnpc/bsdqueue.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../src/miniupnpc/codelength.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/miniupnpc/codelength.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
       <item path="../../../src/miniupnpc/connecthostport.c"
             ex="false"
@@ -423,17 +468,35 @@
             tool="3"
             flavor2="0">
       </item>
-      <item path="../../../src/miniupnpc/receivedata.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/miniupnpc/receivedata.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
       </item>
-      <item path="../../../src/miniupnpc/receivedata.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/miniupnpc/receivedata.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
-      <item path="../../../src/miniupnpc/upnpcommands.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/miniupnpc/upnpcommands.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
       </item>
-      <item path="../../../src/miniupnpc/upnpcommands.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/miniupnpc/upnpcommands.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
-      <item path="../../../src/miniupnpc/upnperrors.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/miniupnpc/upnperrors.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
       </item>
-      <item path="../../../src/miniupnpc/upnperrors.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/miniupnpc/upnperrors.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
       <item path="../../../src/miniupnpc/upnpreplyparse.c"
             ex="false"
@@ -449,8 +512,8 @@
     <conf name="Release_x64_-_nocona_core2" type="3">
       <toolsSet>
         <compilerSet>MinGW_w64_-_x64|MinGW</compilerSet>
-        <dependencyChecking>true</dependencyChecking>
-        <rebuildPropChanged>false</rebuildPropChanged>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>true</rebuildPropChanged>
       </toolsSet>
       <compileType>
         <cTool>
@@ -496,7 +559,10 @@
       </compileType>
       <item path="../../../src/miniupnpc/bsdqueue.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="../../../src/miniupnpc/codelength.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/miniupnpc/codelength.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
       <item path="../../../src/miniupnpc/connecthostport.c"
             ex="false"
@@ -560,17 +626,35 @@
             tool="3"
             flavor2="0">
       </item>
-      <item path="../../../src/miniupnpc/receivedata.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/miniupnpc/receivedata.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
       </item>
-      <item path="../../../src/miniupnpc/receivedata.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/miniupnpc/receivedata.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
-      <item path="../../../src/miniupnpc/upnpcommands.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/miniupnpc/upnpcommands.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
       </item>
-      <item path="../../../src/miniupnpc/upnpcommands.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/miniupnpc/upnpcommands.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
-      <item path="../../../src/miniupnpc/upnperrors.c" ex="false" tool="0" flavor2="0">
+      <item path="../../../src/miniupnpc/upnperrors.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
       </item>
-      <item path="../../../src/miniupnpc/upnperrors.h" ex="false" tool="3" flavor2="0">
+      <item path="../../../src/miniupnpc/upnperrors.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
       <item path="../../../src/miniupnpc/upnpreplyparse.c"
             ex="false"

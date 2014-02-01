@@ -59,8 +59,8 @@
     <conf name="Debug_x32_-_i686_generic" type="3">
       <toolsSet>
         <compilerSet>MinGW_w64_-_x32|MinGW</compilerSet>
-        <dependencyChecking>true</dependencyChecking>
-        <rebuildPropChanged>false</rebuildPropChanged>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>true</rebuildPropChanged>
       </toolsSet>
       <compileType>
         <ccTool>
@@ -248,8 +248,8 @@
     <conf name="Release_x32_-_i686_generic" type="3">
       <toolsSet>
         <compilerSet>MinGW_w64_-_x32|MinGW</compilerSet>
-        <dependencyChecking>true</dependencyChecking>
-        <rebuildPropChanged>false</rebuildPropChanged>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>true</rebuildPropChanged>
       </toolsSet>
       <compileType>
         <cTool>
@@ -447,8 +447,8 @@
     <conf name="Debug_x64_-_nocona_core2" type="3">
       <toolsSet>
         <compilerSet>MinGW_w64_-_x64|MinGW</compilerSet>
-        <dependencyChecking>true</dependencyChecking>
-        <rebuildPropChanged>false</rebuildPropChanged>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>true</rebuildPropChanged>
       </toolsSet>
       <compileType>
         <ccTool>
@@ -636,8 +636,8 @@
     <conf name="Release_x64_-_nocona_core2" type="3">
       <toolsSet>
         <compilerSet>MinGW_w64_-_x64|MinGW</compilerSet>
-        <dependencyChecking>true</dependencyChecking>
-        <rebuildPropChanged>false</rebuildPropChanged>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>true</rebuildPropChanged>
       </toolsSet>
       <compileType>
         <cTool>
